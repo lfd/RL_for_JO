@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, movie_keyword AS mk WHERE t.production_year > 2010 AND (t.title LIKE '%murder%' OR t.title LIKE '%Murder%' OR t.title LIKE '%Mord%') AND t.id = mk.movie_id AND mk.movie_id = t.id;

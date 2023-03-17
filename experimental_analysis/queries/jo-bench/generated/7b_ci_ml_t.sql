@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, movie_link AS ml, cast_info AS ci WHERE t.production_year BETWEEN 1980 AND 1984 AND t.id = ci.movie_id AND ci.movie_id = t.id AND ml.linked_movie_id = t.id AND t.id = ml.linked_movie_id AND ci.movie_id = ml.linked_movie_id AND ml.linked_movie_id = ci.movie_id;

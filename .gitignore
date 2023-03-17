@@ -1,0 +1,10 @@
+logs/
+__pycache__/
+queries/
+.venv/
+JOB/
+.python-version
+postgres
+paper/build/
+plots/img-tikz/
+plots/img-pdf/

@@ -1,0 +1,1 @@
+SELECT * FROM comp_cast_type AS cct2, complete_cast AS cc, movie_keyword AS mk, keyword AS k WHERE cct2.kind = 'complete' AND k.keyword = 'sequel' AND mk.keyword_id = k.id AND k.id = mk.keyword_id AND cct2.id = cc.status_id AND cc.status_id = cct2.id AND mk.movie_id = cc.movie_id AND cc.movie_id = mk.movie_id;

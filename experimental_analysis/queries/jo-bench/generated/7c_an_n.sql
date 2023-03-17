@@ -1,0 +1,1 @@
+SELECT * FROM aka_name AS an, name AS n WHERE an.name IS NOT NULL AND (an.name LIKE '%a%' OR an.name LIKE 'A%') AND n.name_pcode_cf BETWEEN 'A' AND 'F' AND (n.gender = 'm') AND n.id = an.person_id AND an.person_id = n.id;

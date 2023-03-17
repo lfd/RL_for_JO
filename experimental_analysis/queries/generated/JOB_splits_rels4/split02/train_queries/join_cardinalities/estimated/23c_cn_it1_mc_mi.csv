@@ -1,0 +1,4 @@
+aliases,cardinality
+"('it1', 'mi')",3
+"('it1', 'mc', 'mi')",16
+"('cn', 'it1', 'mc', 'mi')",6

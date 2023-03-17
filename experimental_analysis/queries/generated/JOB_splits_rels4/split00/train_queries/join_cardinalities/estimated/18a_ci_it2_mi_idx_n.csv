@@ -1,0 +1,10 @@
+aliases,cardinality
+"('it2', 'mi_idx')",12213
+"('ci', 'it2', 'mi_idx')",31399
+"('ci', 'it2', 'mi_idx', 'n')",133
+"('it2', 'mi_idx')",12213
+"('it2', 'mi_idx')",12213
+"('ci', 'it2', 'mi_idx')",31399
+"('ci', 'it2', 'mi_idx')",31399
+"('ci', 'it2', 'mi_idx', 'n')",133
+"('ci', 'it2', 'mi_idx', 'n')",133

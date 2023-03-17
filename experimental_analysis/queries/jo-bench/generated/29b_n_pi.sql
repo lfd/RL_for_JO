@@ -1,0 +1,1 @@
+SELECT * FROM person_info AS pi, name AS n WHERE n.gender = 'f' AND n.name LIKE '%An%' AND n.id = pi.person_id AND pi.person_id = n.id;

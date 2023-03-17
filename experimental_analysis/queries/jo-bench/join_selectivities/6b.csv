@@ -1,0 +1,16 @@
+table_left,alias_left,attr_left,table_right,alias_right,attr_right,selectivity
+keyword,k,id,movie_keyword,mk,keyword_id,7.453230975627935e-06
+title,t,id,movie_keyword,mk,movie_id,3.955208059764776e-07
+title,t,id,movie_keyword,mk,movie_id,3.955208059764776e-07
+title,t,id,cast_info,ci,movie_id,3.955208059764776e-07
+title,t,id,cast_info,ci,movie_id,3.955208059764776e-07
+cast_info,ci,movie_id,movie_keyword,mk,movie_id,1.3159089407545708e-06
+cast_info,ci,movie_id,movie_keyword,mk,movie_id,1.3159089407545708e-06
+name,n,id,cast_info,ci,person_id,2.4000936996580346e-07
+name,n,id,cast_info,ci,person_id,2.4000936996580346e-07
+name,n,id,cast_info,ci,person_id,2.4000936996580346e-07
+name,n,id,cast_info,ci,person_id,2.4000936996580346e-07
+name,n,id,cast_info,ci,person_id,2.4000936996580346e-07
+name,n,id,cast_info,ci,person_id,2.4000936996580346e-07
+cast_info,ci,movie_id,movie_keyword,mk,movie_id,1.3159089407545708e-06
+name,n,id,cast_info,ci,person_id,2.4000936996580346e-07

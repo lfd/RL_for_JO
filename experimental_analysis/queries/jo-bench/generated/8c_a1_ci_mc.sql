@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, cast_info AS ci, aka_name AS a1 WHERE a1.person_id = ci.person_id AND ci.person_id = a1.person_id AND ci.movie_id = mc.movie_id AND mc.movie_id = ci.movie_id;

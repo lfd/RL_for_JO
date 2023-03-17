@@ -1,0 +1,1 @@
+SELECT * FROM name AS n, title AS t, cast_info AS ci WHERE t.episode_nr >= 5 AND t.episode_nr < 100 AND n.id = ci.person_id AND ci.person_id = n.id AND ci.movie_id = t.id AND t.id = ci.movie_id;

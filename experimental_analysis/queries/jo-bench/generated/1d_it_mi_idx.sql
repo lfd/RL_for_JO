@@ -1,0 +1,1 @@
+SELECT * FROM movie_info_idx AS mi_idx, info_type AS it WHERE it.info = 'bottom 10 rank' AND it.id = mi_idx.info_type_id AND mi_idx.info_type_id = it.id;

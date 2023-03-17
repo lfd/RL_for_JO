@@ -1,0 +1,1 @@
+SELECT * FROM kind_type AS kt1, movie_companies AS mc1, title AS t1, company_name AS cn1 WHERE cn1.country_code != '[us]' AND kt1.kind IN ('tv series', 'episode') AND kt1.id = t1.kind_id AND t1.kind_id = kt1.id AND cn1.id = mc1.company_id AND mc1.company_id = cn1.id AND t1.id = mc1.movie_id AND mc1.movie_id = t1.id;

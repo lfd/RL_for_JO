@@ -1,0 +1,1 @@
+SELECT * FROM name AS n, movie_info AS mi, cast_info AS ci WHERE ci.note IN ('(writer)', '(head writer)', '(written by)', '(story)', '(story editor)') AND mi.info IN ('Horror', 'Thriller') AND n.gender = 'm' AND ci.movie_id = mi.movie_id AND mi.movie_id = ci.movie_id AND n.id = ci.person_id AND ci.person_id = n.id;

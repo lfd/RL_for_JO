@@ -1,0 +1,10 @@
+tensorflow==2.7.0
+tensorflow-probability==0.15.0
+tensorflow-quantum==0.7.2
+psycopg2==2.9.9
+scipy==1.11.3
+moz-sql-parser==4.40.21126
+qiskit==1.0.1
+qiskit-aer==0.13.3
+qiskit-algorithms==0.3.0
+protobuf==3.17.3

@@ -1,0 +1,1 @@
+SELECT * FROM movie_link AS ml, title AS t WHERE t.production_year BETWEEN 2000 AND 2010 AND ml.movie_id = t.id AND t.id = ml.movie_id;

@@ -1,0 +1,1 @@
+SELECT * FROM movie_info AS mi, title AS t WHERE mi.info IN ('Horror', 'Thriller') AND t.production_year > 2000 AND (t.title LIKE '%Freddy%' OR t.title LIKE '%Jason%' OR t.title LIKE 'Saw%') AND t.id = mi.movie_id AND mi.movie_id = t.id;

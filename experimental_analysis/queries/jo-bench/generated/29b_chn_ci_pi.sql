@@ -1,0 +1,1 @@
+SELECT * FROM char_name AS chn, person_info AS pi, cast_info AS ci WHERE chn.name = 'Queen' AND ci.note IN ('(voice)', '(voice) (uncredited)', '(voice: English version)') AND chn.id = ci.person_role_id AND ci.person_role_id = chn.id AND ci.person_id = pi.person_id AND pi.person_id = ci.person_id;

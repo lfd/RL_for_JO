@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, complete_cast AS cc, comp_cast_type AS cct1 WHERE cct1.kind = 'crew' AND mc.note NOT LIKE '%(USA)%' AND mc.note LIKE '%(200%)%' AND mc.movie_id = cc.movie_id AND cc.movie_id = mc.movie_id AND cct1.id = cc.subject_id AND cc.subject_id = cct1.id;

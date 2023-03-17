@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, company_type AS ct WHERE mc.note NOT LIKE '%(USA)%' AND mc.note LIKE '%(200%)%' AND ct.id = mc.company_type_id AND mc.company_type_id = ct.id;

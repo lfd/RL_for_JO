@@ -1,0 +1,1 @@
+SELECT * FROM movie_info_idx AS mi_idx, info_type AS it, title AS t WHERE it.info = 'rating' AND mi_idx.info > '9.0' AND t.production_year > 2010 AND t.id = mi_idx.movie_id AND mi_idx.movie_id = t.id AND it.id = mi_idx.info_type_id AND mi_idx.info_type_id = it.id;

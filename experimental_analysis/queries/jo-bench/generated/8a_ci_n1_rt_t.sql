@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, cast_info AS ci, role_type AS rt, name AS n1 WHERE ci.note = '(voice: English version)' AND n1.name LIKE '%Yo%' AND n1.name NOT LIKE '%Yu%' AND rt.role = 'actress' AND n1.id = ci.person_id AND ci.person_id = n1.id AND ci.movie_id = t.id AND t.id = ci.movie_id AND ci.role_id = rt.id AND rt.id = ci.role_id;

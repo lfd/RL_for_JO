@@ -1,0 +1,1 @@
+SELECT * FROM comp_cast_type AS cct2, complete_cast AS cc WHERE cct2.kind LIKE '%complete%' AND cct2.id = cc.status_id AND cc.status_id = cct2.id;

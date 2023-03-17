@@ -1,0 +1,62 @@
+\input{tikz-figs/dimensions.tex}
+
+\tikzset{block/.style={rectangle, draw, very thin, minimum width=2.6cm,
+                       align=center, fill=bggray}}
+\def\postLabSep{0.75em}
+
+\begin{tikzpicture}
+  \renewcommand{\tabcolsep}{0.25em}
+
+  \node[block, anchor=west] (a) at (0, 0) {
+     \textbf{\color{black}Agent:}\\
+     ML model\\
+     (\emph{black box})
+  };
+
+  \node[block, anchor=east] (e) at (\linewidth, 0) {
+     \textbf{\textcolor{black}{Environment:}}\\
+     Inputs to join\\
+     (\emph{observation})
+  };
+
+  \draw[infoStyle] ($(e.south) + (0.125cm, 0)$) -- 
+                   ($(e.south) + (0.125cm, -1.25cm)$) -- 
+                   ($(a.south) + (-0.125cm, -1.25cm)$) 
+                   node[midway, below, align=center] {
+                      Inputs to join \textcolor{lfd4}{(state)}\\[\postLabSep]
+                      {\small\begin{tabular}{rl}
+                         \textcolor{black}{Multi-Step} & $\mathcolor{lfd4}{A, B\bowtie C, 
+                                                                 D\bowtie E, F}$\\
+                         \textcolor{black}{Single-Step} & $\mathcolor{lfd4}{A, B, C, D, E, F}$
+                      \end{tabular}}
+                    } -- ($(a.south) + (-0.125cm, 0)$);
+
+  \draw[infoStyle] ($(e.south) + (-0.125cm, 0)$) -- 
+                   ($(e.south) + (-0.125cm, -1cm)$) -- 
+                   ($(a.south) + (0.125cm, -1cm)$) 
+                   node[midway,above,align=center]{
+                      Quality of Join Order (reward)
+                   } -- ($(a.south) + (0.125cm, 0)$);
+
+  \draw[infoStyle] (a) -- ($(a.north) + (0, 0.5cm)$) -- ($(e.north) + (0, 0.5cm)$) 
+                   node[midway,above,align=center] {
+                   Join \textcolor{lfd2}{(action)}\\[\postLabSep]
+                      {\small\begin{tabular}{rl}
+                         \textcolor{black}{Multi-Step} & %Next join step 
+                                               \(\color{gray}A\mathcolor{lfd2} 
+                                               {\bowtie}\color{gray}(B\bowtie C), 
+                                               D\bowtie E, F\)\\
+                         \textcolor{black}{Single-Step} & %Join order
+                         \(\mathcolor{lfd2}{(A\bowtie 
+                                                (B\bowtie C))\bowtie((D\bowtie E)\bowtie F)}\)
+                      \end{tabular}}
+                   } -- (e);
+
+  \node[align=center, anchor=center] (middle) at (\linewidth/2, 0) { 
+       \begin{tabular}{rl}
+         Multi-Step  & $n\times\circlearrowright$\\
+         Single-Step & $1\times\circlearrowright$
+       \end{tabular}
+  };
+\end{tikzpicture}
+%}

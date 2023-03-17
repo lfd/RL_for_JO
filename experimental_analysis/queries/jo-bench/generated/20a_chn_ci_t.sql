@@ -1,0 +1,1 @@
+SELECT * FROM cast_info AS ci, char_name AS chn, title AS t WHERE chn.name NOT LIKE '%Sherlock%' AND (chn.name LIKE '%Tony%Stark%' OR chn.name LIKE '%Iron%Man%') AND t.production_year > 1950 AND t.id = ci.movie_id AND ci.movie_id = t.id AND chn.id = ci.person_role_id AND ci.person_role_id = chn.id;

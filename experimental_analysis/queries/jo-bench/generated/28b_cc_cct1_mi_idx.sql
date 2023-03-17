@@ -1,0 +1,1 @@
+SELECT * FROM movie_info_idx AS mi_idx, comp_cast_type AS cct1, complete_cast AS cc WHERE cct1.kind = 'crew' AND mi_idx.info > '6.5' AND mi_idx.movie_id = cc.movie_id AND cc.movie_id = mi_idx.movie_id AND cct1.id = cc.subject_id AND cc.subject_id = cct1.id;

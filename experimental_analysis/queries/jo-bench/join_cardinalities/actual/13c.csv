@@ -1,0 +1,131 @@
+aliases,cardinality
+"('it', 'miidx')",459925
+"('it', 'miidx', 't')",66
+"('it', 'kt', 'miidx', 't')",29
+"('it', 'kt', 'mc', 'miidx', 't')",95
+"('ct', 'it', 'kt', 'mc', 'miidx', 't')",32
+"('cn', 'ct', 'it', 'kt', 'mc', 'miidx', 't')",14
+"('cn', 'ct', 'it', 'kt', 'mc', 'mi', 'miidx', 't')",218
+"('cn', 'ct', 'it', 'it2', 'kt', 'mc', 'mi', 'miidx', 't')",53
+"('miidx', 't')",198
+"('mi', 'miidx', 't')",2316
+"('mc', 'mi', 'miidx', 't')",12240
+"('kt', 'mc', 'mi', 'miidx', 't')",10347
+"('it2', 'kt', 'mc', 'mi', 'miidx', 't')",1845
+"('it', 'it2', 'kt', 'mc', 'mi', 'miidx', 't')",615
+"('ct', 'it', 'it2', 'kt', 'mc', 'mi', 'miidx', 't')",162
+"('mi', 't')",1800
+"('mi', 'miidx')",20885030
+"('mc', 'miidx', 't')",477
+"('mc', 't')",367
+"('mc', 'miidx')",4073078
+"('mc', 'mi', 't')",5575
+"('mc', 'mi')",67371414
+"('mc', 'mi', 'miidx')",177388547
+"('kt', 'mi', 'miidx', 't')",1497
+"('kt', 'miidx', 't')",87
+"('kt', 't')",89
+"('kt', 'mi', 't')",978
+"('kt', 'mc', 'miidx', 't')",285
+"('kt', 'mc', 't')",181
+"('kt', 'mc', 'mi', 't')",4217
+"('it2', 'mc', 'mi', 'miidx', 't')",2088
+"('it2', 'mi', 'miidx', 't')",387
+"('it2', 'mi', 't')",323
+"('it2', 'mi')",3036719
+"('it2', 'mi', 'miidx')",3367474
+"('it2', 'mc', 'mi', 't')",899
+"('it2', 'mc', 'mi')",10905021
+"('it2', 'mc', 'mi', 'miidx')",29157386
+"('it2', 'kt', 'mi', 'miidx', 't')",270
+"('it2', 'kt', 'mi', 't')",127
+"('it2', 'kt', 'mc', 'mi', 't')",690
+"('it', 'kt', 'mc', 'mi', 'miidx', 't')",3449
+"('it', 'mc', 'mi', 'miidx', 't')",4080
+"('it', 'mi', 'miidx', 't')",772
+"('it', 'mi', 'miidx')",6930334
+"('it', 'mc', 'miidx', 't')",159
+"('it', 'mc', 'miidx')",1354883
+"('it', 'mc', 'mi', 'miidx')",57984052
+"('it', 'kt', 'mi', 'miidx', 't')",499
+"('it', 'it2', 'mc', 'mi', 'miidx', 't')",696
+"('it', 'it2', 'mi', 'miidx', 't')",129
+"('it', 'it2', 'mi', 'miidx')",1118984
+"('it', 'it2', 'mc', 'mi', 'miidx')",9595757
+"('it', 'it2', 'kt', 'mi', 'miidx', 't')",90
+"('ct', 'it2', 'kt', 'mc', 'mi', 'miidx', 't')",486
+"('ct', 'kt', 'mc', 'mi', 'miidx', 't')",2301
+"('ct', 'mc', 'mi', 'miidx', 't')",3180
+"('ct', 'mc', 'miidx', 't')",195
+"('ct', 'mc', 't')",175
+"('ct', 'mc')",1334883
+"('ct', 'mc', 'miidx')",1753403
+"('ct', 'mc', 'mi', 't')",1838
+"('ct', 'mc', 'mi')",19468013
+"('ct', 'mc', 'mi', 'miidx')",42553106
+"('ct', 'kt', 'mc', 'miidx', 't')",96
+"('ct', 'kt', 'mc', 't')",81
+"('ct', 'kt', 'mc', 'mi', 't')",1182
+"('ct', 'it2', 'mc', 'mi', 'miidx', 't')",600
+"('ct', 'it2', 'mc', 'mi', 't')",299
+"('ct', 'it2', 'mc', 'mi')",3243070
+"('ct', 'it2', 'mc', 'mi', 'miidx')",7548645
+"('ct', 'it2', 'kt', 'mc', 'mi', 't')",199
+"('ct', 'it', 'kt', 'mc', 'mi', 'miidx', 't')",767
+"('ct', 'it', 'mc', 'mi', 'miidx', 't')",1060
+"('ct', 'it', 'mc', 'miidx', 't')",65
+"('ct', 'it', 'mc', 'miidx')",584222
+"('ct', 'it', 'mc', 'mi', 'miidx')",14091607
+"('ct', 'it', 'it2', 'mc', 'mi', 'miidx', 't')",200
+"('ct', 'it', 'it2', 'mc', 'mi', 'miidx')",2504990
+"('cn', 'it', 'it2', 'kt', 'mc', 'mi', 'miidx', 't')",213
+"('cn', 'it2', 'kt', 'mc', 'mi', 'miidx', 't')",639
+"('cn', 'kt', 'mc', 'mi', 'miidx', 't')",3426
+"('cn', 'mc', 'mi', 'miidx', 't')",4830
+"('cn', 'mc', 'miidx', 't')",264
+"('cn', 'mc', 't')",201
+"('cn', 'mc')",1153798
+"('cn', 'mc', 'miidx')",1742698
+"('cn', 'mc', 'mi', 't')",2379
+"('cn', 'mc', 'mi')",24420867
+"('cn', 'mc', 'mi', 'miidx')",60276938
+"('cn', 'kt', 'mc', 'miidx', 't')",141
+"('cn', 'kt', 'mc', 't')",88
+"('cn', 'kt', 'mc', 'mi', 't')",1461
+"('cn', 'it2', 'mc', 'mi', 'miidx', 't')",810
+"('cn', 'it2', 'mc', 'mi', 't')",383
+"('cn', 'it2', 'mc', 'mi')",3437396
+"('cn', 'it2', 'mc', 'mi', 'miidx')",8622189
+"('cn', 'it2', 'kt', 'mc', 'mi', 't')",246
+"('cn', 'it', 'kt', 'mc', 'mi', 'miidx', 't')",1142
+"('cn', 'it', 'mc', 'mi', 'miidx', 't')",1610
+"('cn', 'it', 'mc', 'miidx', 't')",88
+"('cn', 'it', 'mc', 'miidx')",580109
+"('cn', 'it', 'mc', 'mi', 'miidx')",19786302
+"('cn', 'it', 'kt', 'mc', 'miidx', 't')",47
+"('cn', 'it', 'it2', 'mc', 'mi', 'miidx', 't')",270
+"('cn', 'it', 'it2', 'mc', 'mi', 'miidx')",2843104
+"('cn', 'ct', 'it2', 'kt', 'mc', 'mi', 'miidx', 't')",159
+"('cn', 'ct', 'kt', 'mc', 'mi', 'miidx', 't')",654
+"('cn', 'ct', 'mc', 'mi', 'miidx', 't')",1245
+"('cn', 'ct', 'mc', 'miidx', 't')",96
+"('cn', 'ct', 'mc', 't')",92
+"('cn', 'ct', 'mc')",552328
+"('cn', 'ct', 'mc', 'miidx')",746064
+"('cn', 'ct', 'mc', 'mi', 't')",796
+"('cn', 'ct', 'mc', 'mi')",9128700
+"('cn', 'ct', 'mc', 'mi', 'miidx')",20338636
+"('cn', 'ct', 'kt', 'mc', 'miidx', 't')",42
+"('cn', 'ct', 'kt', 'mc', 't')",36
+"('cn', 'ct', 'kt', 'mc', 'mi', 't')",372
+"('cn', 'ct', 'it2', 'mc', 'mi', 'miidx', 't')",234
+"('cn', 'ct', 'it2', 'mc', 'mi', 't')",134
+"('cn', 'ct', 'it2', 'mc', 'mi')",1355560
+"('cn', 'ct', 'it2', 'mc', 'mi', 'miidx')",3173906
+"('cn', 'ct', 'it2', 'kt', 'mc', 'mi', 't')",68
+"('cn', 'ct', 'it', 'mc', 'mi', 'miidx', 't')",415
+"('cn', 'ct', 'it', 'mc', 'miidx', 't')",32
+"('cn', 'ct', 'it', 'mc', 'miidx')",248554
+"('cn', 'ct', 'it', 'mc', 'mi', 'miidx')",6722560
+"('cn', 'ct', 'it', 'it2', 'mc', 'mi', 'miidx', 't')",78
+"('cn', 'ct', 'it', 'it2', 'mc', 'mi', 'miidx')",1051802

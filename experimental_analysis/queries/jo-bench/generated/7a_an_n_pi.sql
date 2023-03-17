@@ -1,0 +1,1 @@
+SELECT * FROM aka_name AS an, person_info AS pi, name AS n WHERE an.name LIKE '%a%' AND n.name_pcode_cf BETWEEN 'A' AND 'F' AND (n.gender = 'm') AND pi.note = 'Volker Boehm' AND n.id = an.person_id AND an.person_id = n.id AND n.id = pi.person_id AND pi.person_id = n.id AND pi.person_id = an.person_id AND an.person_id = pi.person_id;

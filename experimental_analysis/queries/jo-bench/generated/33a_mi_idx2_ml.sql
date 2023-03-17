@@ -1,0 +1,1 @@
+SELECT * FROM movie_link AS ml, movie_info_idx AS mi_idx2 WHERE mi_idx2.info < '3.0' AND ml.linked_movie_id = mi_idx2.movie_id AND mi_idx2.movie_id = ml.linked_movie_id;

@@ -1,0 +1,1 @@
+SELECT * FROM title AS t2, title AS t1, link_type AS lt, movie_link AS ml WHERE ml.movie_id = t1.id AND t1.id = ml.movie_id AND ml.linked_movie_id = t2.id AND t2.id = ml.linked_movie_id AND lt.id = ml.link_type_id AND ml.link_type_id = lt.id;

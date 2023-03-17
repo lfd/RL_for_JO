@@ -1,0 +1,141 @@
+\input{tikz-figs/dimensions.tex}
+
+\begin{tikzpicture}[remember picture]
+  %\draw[help lines, lightgray] (0,0) grid (\WIDTH, \HEIGHT);
+  \coordinate (tl) at (0, \HEIGHT);
+  \coordinate (tr) at (\WIDTH, \HEIGHT);
+  \coordinate (bl) at (0, 0);
+  \coordinate (br) at (\WIDTH, 0);
+
+%  \fill[red] (tl) circle (2pt);
+%  \fill[red] (br) circle (2pt);
+
+  \draw (0,\HEIGHT) node (qbox) [inner sep=0pt, rotate=90, anchor=north east] {
+    \begin{minipage}{0.8\HEIGHT}
+      \begin{querybox}{Query}
+        \begin{lstlisting}[style=query]
+SELECT * FROM A as a1, A as a2, D
+WHERE a1.a=D.a AND a2.b=D.b
+               AND D.c > 5;
+        \end{lstlisting}
+      \end{querybox}
+    \end{minipage} 
+  };
+
+\coordinate (tstart) at (qbox.south east);
+\calcLength(tstart,tr){tspace}
+\newlength{\dist}\setlength{\dist}{\tspace pt}
+\newlength{\dbwidth}
+% -2mm: WTFF???? -> Must be some innersep or something, but I have no 
+% idea where I could have missed that
+\pgfmathsetmacro{\tmp}{(\dist-(\facc\linewidth+\wd\stepa+\wd\stepb))/3-2mm}
+\setlength{\dist}{\tmp pt}
+\pgfmathsetmacro{\tmp}{\dist+0.5*(\faca\linewidth+\facb\linewidth)}
+\setlength{\dbwidth}{\tmp pt}
+
+  \node[anchor=north west, fill=bggray, minimum width=\dbwidth] (db)
+        at ($(tstart)+(\dist, 0)$) { 
+        \begin{tabular}{ll}
+          Tables &\(\{A, B, C, D\}\)\\
+           Aliases &\(\{a_{1}, a_{2}, B, C, D\}\)\\
+        Attributes &\(a_{1}.a, a_{1}.b,\ldots, D.c, D.d\)
+        \end{tabular}
+        };
+  
+  \node[very thin, anchor=north west, fill=bggray, inner sep=0pt] (data1) at 
+       (db.south west) { \usebox{\stepa} };
+%
+  \node[very thin, anchor=north east, fill=bggray, inner sep=0pt] (data2) at
+       (db.south east) { \usebox{\stepb} };
+%
+   % Zeilenweise Linearisierung
+  % Join Graph, Tree Structure, Table Indices, Table Selectivities
+  \newcommand{\ca}[1]{\mathcolor{lfd1}{#1}}
+  \newcommand{\cb}[1]{\mathcolor{lfd2}{#1}}
+  \newcommand{\cc}[1]{\mathcolor{lfd4}{#1}}
+  \node[anchor=north west, inner sep=0pt] (data3) at 
+                                ($(db.north east) + (\dist, 0)$) { 
+       \begin{minipage}{\facc\WIDTH}
+         \begin{displaymath}
+           \footnotesize\begin{bNiceMatrix}
+           \ca0\\\ca0\\\ca3\\\ca{1.0}\\\ca{1.0}\\\ca{0.75}\\\ca1\\\ca0\\\cb0\\\cb0\\\cb1\\\cb0\\\cb0\\\cb0\\\cb1\\\cb0\\\cc0\\\cc1\\\cc0\\\cc0\\\cc1\\\cc1\\\cc1\\\cc0
+           \end{bNiceMatrix}
+         \end{displaymath}
+       \end{minipage}
+  };
+
+  \coordinate (m1) at ($(data3.south east)!0.85!(data3.north east)$);
+  \coordinate (m2) at ($(data3.south east)!0.50!(data3.north east)$);
+  \coordinate (m3) at ($(data3.south east)!0.15!(data3.north east)$);
+
+  %%%%%%%%%%%%%%%%%%%%%%%%% Arrows between elements %%%%%%%%%%%%%%%%%
+    \path[infoStyle] ([xshift=\lineDist]qbox.south) -- +(\dist-\lineDist, 0) 
+                         node[above, midway]{ Baseline } 
+                         node[below, midway]{ Encoding };
+
+  \coordinate (sarrow) at ($(data1.north east)!(qbox.south)!(data1.south east)$);      
+  \path[infoStyle] ([xshift=\lineDist]sarrow) -- +(\dist-\lineDist, 0) 
+                         node[above, midway]{ Feature } 
+                         node[below, midway]{ Reduction };                         
+
+  \coordinate (sarrow) at ($(data2.north east)!(qbox.south)!(data2.south east)$);      
+  \path[infoStyle] ([xshift=\lineDist]sarrow) -- +(\dist-\lineDist, 0) 
+                         node[above, midway]{ Flattening \& } 
+                         node[below, midway]{ Concatenation };                         
+  
+
+\yquantdefinebox{dots}[inner sep=0pt]{$\dots$}
+\hspace*{\circShift}\input{tikz-figs/circuit.tex}
+\end{tikzpicture}
+
+
+\begin{tikzpicture}[remember picture, overlay]
+%%%%%%%%%%%%%% Aditional TikZ elements for the circuit %%%%%%%%%%%%%%
+
+%%%%%%%%% Feed variational parameters from measurement into circuit %%%%%%%%%
+\coordinate (start_var) at ($(sc1-var1.south) - (0,\varCtrlDist)$);
+\coordinate (tmp) at ($(pp.north east)!(meas1.east)!(pp.north east)$);
+\coordinate (tr_var) at ($(tmp) + (\varCtrlDist, 0)$);
+\coordinate (corner_var) at (start_var -| tr_var);
+%\fill[blue] (corner_var) circle (2pt);
+%\fill[blue] (tr_var) circle (2pt);
+\path[varStyle] (start_var) -| (tr_var);
+
+\foreach \n in {1,4} { 
+    \path[varStyle] (meas\n.east) -- ($(pp.north west)!(meas\n.east)!(pp.south west)$)
+                    ($(pp.north east)!(meas\n.east)!(pp.north east)$) -- 
+                   +(\varCtrlDist, 0);
+}
+
+\foreach \n in {1,2,3} { 
+  \foreach \m in {1,2,3} { 
+    \path[varStyle, -Stealth] ($(sc\n-var\m.south) - (0, \varCtrlDist)$) -- 
+                              (sc\n-var\m.south);
+  }
+}
+
+%%%%%%%%%%% Encode input parameters into circuit %%%%%%%%%%%%%%%
+\coordinate (l1) at ($(m1) + (\varCtrlDist, 0)$);
+\coordinate (l2) at ($(m3) + (\varCtrlDist, 0)$);
+\coordinate (prj) at ($(sc1-enc1.north) + (0, \varCtrlDist)$);
+\coordinate (corner_enc) at ($(corner_var)!(prj)!(tr_var)$);
+\coordinate (start_enc) at (m1 -| corner_enc);
+
+%\fill[red] (start_enc) circle (2pt);
+
+\foreach \n in {1,2,3} { 
+    \path[thick, dataStyle] ([xshift=-\circShift]m\n) -- 
+                           ($(start_enc)!(m\n)!(corner_enc)$);
+}
+\path[dataStyle] (start_enc) -- (corner_enc);
+
+\foreach \n in {1,2,3} { 
+  \foreach \m in {1,2,3} { 
+    \path[dataStyle, -Stealth] (corner_enc) -| (sc\m-enc\n.north);
+  }
+}
+
+
+\node[anchor=south east] at (corner_var.north west) { \textbf{\(\circlearrowright\)} };
+%%%%%%%%%%%%%%%%%%%%%%%
+\end{tikzpicture}

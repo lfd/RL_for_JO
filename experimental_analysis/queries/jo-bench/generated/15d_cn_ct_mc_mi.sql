@@ -1,0 +1,1 @@
+SELECT * FROM movie_info AS mi, movie_companies AS mc, company_name AS cn, company_type AS ct WHERE cn.country_code = '[us]' AND mi.note LIKE '%internet%' AND mi.movie_id = mc.movie_id AND mc.movie_id = mi.movie_id AND cn.id = mc.company_id AND mc.company_id = cn.id AND ct.id = mc.company_type_id AND mc.company_type_id = ct.id;

@@ -1,0 +1,4 @@
+aliases,cardinality
+"('k', 'mk')",34
+"('cc', 'k', 'mk')",46
+"('cc', 'cct1', 'k', 'mk')",11

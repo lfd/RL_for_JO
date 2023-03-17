@@ -1,0 +1,4 @@
+aliases,cardinality
+"('it1', 'mi')",131290
+"('it1', 'mc', 'mi')",696143
+"('it1', 'mc', 'mi', 'mi_idx')",2129109

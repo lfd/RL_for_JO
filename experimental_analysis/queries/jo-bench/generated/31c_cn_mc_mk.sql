@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, movie_keyword AS mk, company_name AS cn WHERE cn.name LIKE 'Lionsgate%' AND mk.movie_id = mc.movie_id AND mc.movie_id = mk.movie_id AND cn.id = mc.company_id AND mc.company_id = cn.id;

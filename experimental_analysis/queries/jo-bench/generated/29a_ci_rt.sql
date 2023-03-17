@@ -1,0 +1,1 @@
+SELECT * FROM cast_info AS ci, role_type AS rt WHERE ci.note IN ('(voice)', '(voice) (uncredited)', '(voice: English version)') AND rt.role = 'actress' AND rt.id = ci.role_id AND ci.role_id = rt.id;

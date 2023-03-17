@@ -1,0 +1,1 @@
+SELECT * FROM company_type AS ct, movie_companies AS mc, movie_info_idx AS mi_idx WHERE mi_idx.info < '8.5' AND mc.movie_id = mi_idx.movie_id AND mi_idx.movie_id = mc.movie_id AND ct.id = mc.company_type_id AND mc.company_type_id = ct.id;

@@ -1,0 +1,4 @@
+aliases,cardinality
+"('ci', 'n')",20
+"('ci', 'mc', 'n')",6
+"('ci', 'cn', 'mc', 'n')",2

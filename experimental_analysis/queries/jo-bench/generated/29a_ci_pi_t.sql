@@ -1,0 +1,1 @@
+SELECT * FROM cast_info AS ci, person_info AS pi, title AS t WHERE ci.note IN ('(voice)', '(voice) (uncredited)', '(voice: English version)') AND t.title = 'Shrek 2' AND t.production_year BETWEEN 2000 AND 2010 AND t.id = ci.movie_id AND ci.movie_id = t.id AND ci.person_id = pi.person_id AND pi.person_id = ci.person_id;

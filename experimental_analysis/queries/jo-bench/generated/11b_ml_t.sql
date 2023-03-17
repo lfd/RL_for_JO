@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, movie_link AS ml WHERE t.production_year = 1998 AND t.title LIKE '%Money%' AND ml.movie_id = t.id AND t.id = ml.movie_id;

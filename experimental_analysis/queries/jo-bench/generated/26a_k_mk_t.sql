@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, movie_keyword AS mk, keyword AS k WHERE k.keyword IN ('superhero', 'marvel-comics', 'based-on-comic', 'tv-special', 'fight', 'violence', 'magnet', 'web', 'claw', 'laser') AND t.production_year > 2000 AND t.id = mk.movie_id AND mk.movie_id = t.id AND k.id = mk.keyword_id AND mk.keyword_id = k.id;

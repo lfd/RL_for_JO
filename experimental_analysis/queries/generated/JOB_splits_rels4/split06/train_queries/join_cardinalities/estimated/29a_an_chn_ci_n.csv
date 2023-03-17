@@ -1,0 +1,5 @@
+aliases,cardinality
+"('chn', 'ci')",1
+"('an', 'chn', 'ci')",2
+"('an', 'chn', 'ci', 'n')",1
+"('chn', 'ci', 'n')",1

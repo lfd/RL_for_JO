@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, aka_title AS at WHERE mc.movie_id = at.movie_id AND at.movie_id = mc.movie_id;

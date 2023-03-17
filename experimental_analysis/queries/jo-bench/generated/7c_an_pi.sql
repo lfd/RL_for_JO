@@ -1,0 +1,1 @@
+SELECT * FROM aka_name AS an, person_info AS pi WHERE an.name IS NOT NULL AND (an.name LIKE '%a%' OR an.name LIKE 'A%') AND pi.note IS NOT NULL AND pi.person_id = an.person_id AND an.person_id = pi.person_id;

@@ -1,0 +1,9 @@
+table_left,alias_left,attr_left,table_right,alias_right,attr_right,selectivity
+company_name,cn,id,movie_companies,mc,company_id,4.255373472852845e-06
+movie_companies,mc,movie_id,title,t,id,3.955208059764776e-07
+title,t,id,movie_keyword,mk,movie_id,3.955208059764776e-07
+movie_keyword,mk,keyword_id,keyword,k,id,7.453230975627935e-06
+movie_keyword,mk,keyword_id,keyword,k,id,7.453230975627935e-06
+movie_companies,mc,movie_id,movie_keyword,mk,movie_id,2.9536652615568914e-06
+movie_companies,mc,movie_id,movie_keyword,mk,movie_id,2.9536652615568914e-06
+movie_companies,mc,movie_id,movie_keyword,mk,movie_id,2.9536652615568914e-06

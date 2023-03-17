@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, complete_cast AS cc, movie_keyword AS mk WHERE mc.note NOT LIKE '%(USA)%' AND mc.note LIKE '%(200%)%' AND mk.movie_id = mc.movie_id AND mc.movie_id = mk.movie_id AND mk.movie_id = cc.movie_id AND cc.movie_id = mk.movie_id AND mc.movie_id = cc.movie_id AND cc.movie_id = mc.movie_id;

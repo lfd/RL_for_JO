@@ -1,0 +1,1 @@
+SELECT * FROM info_type AS it1, movie_info_idx AS mi_idx1, movie_link AS ml WHERE it1.info = 'rating' AND it1.id = mi_idx1.info_type_id AND mi_idx1.info_type_id = it1.id AND ml.movie_id = mi_idx1.movie_id AND mi_idx1.movie_id = ml.movie_id;

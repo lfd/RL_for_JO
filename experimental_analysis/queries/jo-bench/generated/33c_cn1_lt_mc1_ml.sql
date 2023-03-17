@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc1, link_type AS lt, movie_link AS ml, company_name AS cn1 WHERE cn1.country_code != '[us]' AND lt.link IN ('sequel', 'follows', 'followed by') AND lt.id = ml.link_type_id AND ml.link_type_id = lt.id AND cn1.id = mc1.company_id AND mc1.company_id = cn1.id AND ml.movie_id = mc1.movie_id AND mc1.movie_id = ml.movie_id;

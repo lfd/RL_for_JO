@@ -1,0 +1,1 @@
+SELECT * FROM keyword AS k, movie_keyword AS mk, movie_info_idx AS mi_idx WHERE k.keyword LIKE '%sequel%' AND mi_idx.info > '5.0' AND mk.movie_id = mi_idx.movie_id AND mi_idx.movie_id = mk.movie_id AND k.id = mk.keyword_id AND mk.keyword_id = k.id;

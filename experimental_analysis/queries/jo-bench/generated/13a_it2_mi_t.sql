@@ -1,0 +1,1 @@
+SELECT * FROM info_type AS it2, movie_info AS mi, title AS t WHERE it2.info = 'release dates' AND mi.movie_id = t.id AND t.id = mi.movie_id AND it2.id = mi.info_type_id AND mi.info_type_id = it2.id;

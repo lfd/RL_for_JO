@@ -1,0 +1,1 @@
+SELECT * FROM name AS n1, aka_name AS an1 WHERE n1.name LIKE '%Yo%' AND n1.name NOT LIKE '%Yu%' AND an1.person_id = n1.id AND n1.id = an1.person_id;

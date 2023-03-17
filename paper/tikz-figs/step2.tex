@@ -1,0 +1,40 @@
+\begin{center}
+\begin{tikzpicture}
+\setlength{\arraycolsep}{0.5pt}
+\node[anchor=south west] (mtx) at (0,0) { \(
+       \footnotesize\begin{bNiceMatrix}[
+          first-row,code-for-first-row=\tiny,
+          first-col,code-for-first-col=\tiny,
+        ]
+              & a_{1} & a_{2} & D \\
+        a_{1} & 0 & 0 & 1 \\
+        a_{2} & 0 & 0 & 1 \\
+        D     & 1 & 1 & 0
+        \end{bNiceMatrix}\)};
+ % Matrix has 6 columns, one is top -> we move label 0.5 columns down
+ % from center to achieve optical symmetry
+  \node[rotate=90,anchor=south,align=center] at ($(mtx.south west)!2.5/6!(mtx.north west)$) { \emph{Join}\\\emph{Structure} };
+  \end{tikzpicture}\vspace*{\boxSkip}
+
+      \emph{Selection Predicates}\\
+       Indices: \((0,0,3)\)\\
+       Selectivities: \((1,1,0.75)\)\vspace*{\boxSkip}
+
+\begin{tikzpicture}
+\setlength{\arraycolsep}{0.5pt}
+\node[anchor=south west] (mtx) at (0,0) { \(
+       \footnotesize\begin{bNiceMatrix}[
+          first-row,code-for-first-row=\tiny,
+          first-col,code-for-first-col=\tiny,
+        ]
+        & a_{1} & a_{2} & D \\
+        a_{1} & 1 & 0 & 0 \\
+        a_{2} & 0 & 1 & 0 \\
+        D     & 0 & 0 & 1
+        \end{bNiceMatrix}\)};
+ % Matrix has 6 columns, one is top -> we move label 0.5 columns down
+ % from center to achieve optical symmetry
+  \node[rotate=90,anchor=south,align=center] at ($(mtx.south west)!2.5/6!(mtx.north west)$) { \emph{Tree}\\\emph{Structure} };
+\end{tikzpicture}
+
+    \end{center}

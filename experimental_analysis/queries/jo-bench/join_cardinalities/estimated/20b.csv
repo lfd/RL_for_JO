@@ -1,0 +1,28 @@
+aliases,cardinality
+"('k', 'mk')",270
+"('k', 'mk', 't')",148
+"('k', 'mk')",270
+"('k', 'kt', 'mk', 't')",21
+"('cc', 'k', 'kt', 'mk', 't')",1
+"('k', 'mk', 't')",148
+"('k', 'kt', 'mk', 't')",21
+"('cc', 'cct1', 'k', 'kt', 'mk', 't')",7
+"('cc', 'k', 'kt', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'k', 'kt', 'mk', 't')",2
+"('k', 'mk')",270
+"('cc', 'cct1', 'k', 'kt', 'mk', 't')",7
+"('k', 'mk', 't')",148
+"('k', 'kt', 'mk', 't')",21
+"('cc', 'k', 'kt', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'k', 'kt', 'mk', 't')",2
+"('cc', 'cct1', 'k', 'kt', 'mk', 't')",7
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'kt', 'mk', 't')",29
+"('cc', 'cct1', 'cct2', 'k', 'kt', 'mk', 't')",2
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'kt', 'mk', 't')",29
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'kt', 'mk', 't')",29
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'kt', 'mk', 'n', 't')",1
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'kt', 'mk', 'n', 't')",1
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'kt', 'mk', 'n', 't')",1
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'k', 'kt', 'mk', 'n', 't')",1
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'k', 'kt', 'mk', 'n', 't')",1
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'k', 'kt', 'mk', 'n', 't')",1

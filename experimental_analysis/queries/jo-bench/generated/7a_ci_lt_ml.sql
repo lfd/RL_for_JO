@@ -1,0 +1,1 @@
+SELECT * FROM cast_info AS ci, link_type AS lt, movie_link AS ml WHERE lt.link = 'features' AND lt.id = ml.link_type_id AND ml.link_type_id = lt.id AND ci.movie_id = ml.linked_movie_id AND ml.linked_movie_id = ci.movie_id;

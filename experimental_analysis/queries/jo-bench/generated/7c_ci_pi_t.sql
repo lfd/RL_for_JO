@@ -1,0 +1,1 @@
+SELECT * FROM person_info AS pi, cast_info AS ci, title AS t WHERE pi.note IS NOT NULL AND t.production_year BETWEEN 1980 AND 2010 AND t.id = ci.movie_id AND ci.movie_id = t.id AND pi.person_id = ci.person_id AND ci.person_id = pi.person_id;

@@ -1,0 +1,1 @@
+SELECT * FROM comp_cast_type AS cct1, complete_cast AS cc, movie_info AS mi WHERE cct1.kind = 'cast' AND mi.info IN ('Horror', 'Action', 'Sci-Fi', 'Thriller', 'Crime', 'War') AND mi.movie_id = cc.movie_id AND cc.movie_id = mi.movie_id AND cct1.id = cc.subject_id AND cc.subject_id = cct1.id;

@@ -1,0 +1,1 @@
+SELECT * FROM comp_cast_type AS cct1, complete_cast AS cc, cast_info AS ci WHERE cct1.kind = 'cast' AND ci.note IN ('(voice)', '(voice) (uncredited)', '(voice: English version)') AND ci.movie_id = cc.movie_id AND cc.movie_id = ci.movie_id AND cct1.id = cc.subject_id AND cc.subject_id = cct1.id;

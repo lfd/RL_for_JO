@@ -1,0 +1,1 @@
+SELECT * FROM name AS n1, cast_info AS ci WHERE n1.id = ci.person_id AND ci.person_id = n1.id;

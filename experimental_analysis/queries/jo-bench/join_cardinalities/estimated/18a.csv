@@ -1,0 +1,27 @@
+aliases,cardinality
+"('it2', 'mi_idx')",12213
+"('it2', 'mi', 'mi_idx')",406552
+"('it1', 'it2', 'mi', 'mi_idx')",3598
+"('ci', 'it1', 'it2', 'mi', 'mi_idx')",9250
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 'n')",39
+"('it2', 'mi_idx')",12213
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 'n', 't')",39
+"('it2', 'mi', 'mi_idx')",406552
+"('it1', 'it2', 'mi', 'mi_idx')",3598
+"('ci', 'it1', 'it2', 'mi', 'mi_idx')",9250
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 'n')",39
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 'n', 't')",39
+"('it2', 'mi_idx', 't')",12213
+"('it2', 'mi', 'mi_idx', 't')",71664
+"('it1', 'it2', 'mi', 'mi_idx', 't')",634
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 't')",623
+"('it2', 'mi_idx')",12213
+"('it2', 'mi_idx', 't')",12213
+"('it2', 'mi', 'mi_idx', 't')",71664
+"('it1', 'it2', 'mi', 'mi_idx', 't')",634
+"('it2', 'mi_idx', 't')",12213
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 't')",623
+"('it2', 'mi', 'mi_idx', 't')",71664
+"('it1', 'it2', 'mi', 'mi_idx', 't')",634
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 't')",623
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 'n', 't')",3

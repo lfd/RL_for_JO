@@ -1,0 +1,4 @@
+aliases,cardinality
+"('mi', 't')",129818
+"('mc', 'mi', 't')",133968
+"('mc', 'mi', 'mk', 't')",3558564

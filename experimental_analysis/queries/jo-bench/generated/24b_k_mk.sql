@@ -1,0 +1,1 @@
+SELECT * FROM keyword AS k, movie_keyword AS mk WHERE k.keyword IN ('hero', 'martial-arts', 'hand-to-hand-combat', 'computer-animated-movie') AND k.id = mk.keyword_id AND mk.keyword_id = k.id;

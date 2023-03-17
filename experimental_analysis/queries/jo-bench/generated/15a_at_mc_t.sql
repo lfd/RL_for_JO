@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, title AS t, aka_title AS at WHERE mc.note LIKE '%(200%)%' AND mc.note LIKE '%(worldwide)%' AND t.production_year > 2000 AND t.id = at.movie_id AND at.movie_id = t.id AND t.id = mc.movie_id AND mc.movie_id = t.id AND mc.movie_id = at.movie_id AND at.movie_id = mc.movie_id;

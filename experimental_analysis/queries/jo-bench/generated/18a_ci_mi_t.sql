@@ -1,0 +1,1 @@
+SELECT * FROM movie_info AS mi, cast_info AS ci, title AS t WHERE ci.note IN ('(producer)', '(executive producer)') AND t.id = mi.movie_id AND mi.movie_id = t.id AND t.id = ci.movie_id AND ci.movie_id = t.id AND ci.movie_id = mi.movie_id AND mi.movie_id = ci.movie_id;

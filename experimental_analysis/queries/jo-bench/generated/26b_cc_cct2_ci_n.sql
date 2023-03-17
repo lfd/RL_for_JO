@@ -1,0 +1,1 @@
+SELECT * FROM name AS n, complete_cast AS cc, comp_cast_type AS cct2, cast_info AS ci WHERE cct2.kind LIKE '%complete%' AND ci.movie_id = cc.movie_id AND cc.movie_id = ci.movie_id AND n.id = ci.person_id AND ci.person_id = n.id AND cct2.id = cc.status_id AND cc.status_id = cct2.id;

@@ -1,0 +1,1 @@
+SELECT * FROM movie_info AS mi, complete_cast AS cc WHERE mi.info IN ('Horror', 'Action', 'Sci-Fi', 'Thriller', 'Crime', 'War') AND mi.movie_id = cc.movie_id AND cc.movie_id = mi.movie_id;

@@ -1,0 +1,1 @@
+SELECT * FROM role_type AS rt, char_name AS chn, cast_info AS ci WHERE ci.note LIKE '%(producer)%' AND rt.role = 'actor' AND chn.id = ci.person_role_id AND ci.person_role_id = chn.id AND rt.id = ci.role_id AND ci.role_id = rt.id;

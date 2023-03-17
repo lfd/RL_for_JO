@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, title AS t, movie_link AS ml WHERE mc.note IS NULL AND t.production_year BETWEEN 1950 AND 2000 AND ml.movie_id = t.id AND t.id = ml.movie_id AND t.id = mc.movie_id AND mc.movie_id = t.id AND ml.movie_id = mc.movie_id AND mc.movie_id = ml.movie_id;

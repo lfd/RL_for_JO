@@ -1,0 +1,4 @@
+aliases,cardinality
+"('it', 'miidx')",12213
+"('it', 'miidx', 't')",2
+"('it', 'kt', 'miidx', 't')",1

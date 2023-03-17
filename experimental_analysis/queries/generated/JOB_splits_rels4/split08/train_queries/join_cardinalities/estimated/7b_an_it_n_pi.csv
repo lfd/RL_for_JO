@@ -1,0 +1,4 @@
+aliases,cardinality
+"('it', 'pi')",1
+"('it', 'n', 'pi')",1
+"('an', 'it', 'n', 'pi')",1

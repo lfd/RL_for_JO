@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, movie_info AS mi WHERE mc.note NOT LIKE '%(TV)%' AND mc.note LIKE '%(USA)%' AND mi.info IN ('Sweden', 'Norway', 'Germany', 'Denmark', 'Swedish', 'Denish', 'Norwegian', 'German', 'USA', 'American') AND mc.movie_id = mi.movie_id AND mi.movie_id = mc.movie_id;

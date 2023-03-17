@@ -1,0 +1,1 @@
+SELECT * FROM movie_info_idx AS miidx, title AS t WHERE t.title != '' AND (t.title LIKE '%Champion%' OR t.title LIKE '%Loser%') AND miidx.movie_id = t.id AND t.id = miidx.movie_id;

@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, company_name AS cn, cast_info AS ci, role_type AS rt, aka_name AS a1 WHERE cn.country_code = '[us]' AND rt.role = 'writer' AND mc.company_id = cn.id AND cn.id = mc.company_id AND ci.role_id = rt.id AND rt.id = ci.role_id AND a1.person_id = ci.person_id AND ci.person_id = a1.person_id AND ci.movie_id = mc.movie_id AND mc.movie_id = ci.movie_id;

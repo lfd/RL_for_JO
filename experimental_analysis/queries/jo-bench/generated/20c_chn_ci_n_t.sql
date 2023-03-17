@@ -1,0 +1,1 @@
+SELECT * FROM char_name AS chn, cast_info AS ci, name AS n, title AS t WHERE chn.name IS NOT NULL AND (chn.name LIKE '%man%' OR chn.name LIKE '%Man%') AND t.production_year > 2000 AND t.id = ci.movie_id AND ci.movie_id = t.id AND chn.id = ci.person_role_id AND ci.person_role_id = chn.id AND n.id = ci.person_id AND ci.person_id = n.id;

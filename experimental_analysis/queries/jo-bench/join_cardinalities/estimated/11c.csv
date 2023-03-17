@@ -1,0 +1,17 @@
+aliases,cardinality
+"('k', 'mk')",101
+"('k', 'mk', 'ml')",31
+"('k', 'mc', 'mk', 'ml')",86
+"('ct', 'k', 'mc', 'mk', 'ml')",64
+"('cn', 'ct', 'k', 'mc', 'mk', 'ml')",1
+"('cn', 'ct', 'k', 'lt', 'mc', 'mk', 'ml')",1
+"('k', 'mk')",101
+"('k', 'mk', 'ml')",31
+"('k', 'mc', 'mk', 'ml')",86
+"('cn', 'ct', 'k', 'lt', 'mc', 'mk', 'ml', 't')",1
+"('ct', 'k', 'mc', 'mk', 'ml')",64
+"('cn', 'ct', 'k', 'mc', 'mk', 'ml')",1
+"('cn', 'ct', 'k', 'lt', 'mc', 'mk', 'ml')",1
+"('cn', 'ct', 'k', 'lt', 'mc', 'mk', 'ml', 't')",1
+"('cn', 'ct', 'k', 'mc', 'mk', 'ml', 't')",1
+"('cn', 'ct', 'k', 'mc', 'mk', 'ml', 't')",1

@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc2, movie_link AS ml WHERE ml.linked_movie_id = mc2.movie_id AND mc2.movie_id = ml.linked_movie_id;

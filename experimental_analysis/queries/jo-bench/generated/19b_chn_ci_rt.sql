@@ -1,0 +1,1 @@
+SELECT * FROM char_name AS chn, cast_info AS ci, role_type AS rt WHERE ci.note = '(voice)' AND rt.role = 'actress' AND rt.id = ci.role_id AND ci.role_id = rt.id AND chn.id = ci.person_role_id AND ci.person_role_id = chn.id;

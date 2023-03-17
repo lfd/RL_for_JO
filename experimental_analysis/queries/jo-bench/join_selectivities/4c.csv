@@ -1,0 +1,10 @@
+table_left,alias_left,attr_left,table_right,alias_right,attr_right,selectivity
+title,t,id,movie_info_idx,mi_idx,movie_id,3.955208059764776e-07
+title,t,id,movie_keyword,mk,movie_id,3.955208059764776e-07
+title,t,id,movie_keyword,mk,movie_id,3.955208059764776e-07
+movie_keyword,mk,movie_id,movie_info_idx,mi_idx,movie_id,1.6697617398033516e-06
+movie_keyword,mk,movie_id,movie_info_idx,mi_idx,movie_id,1.6697617398033516e-06
+keyword,k,id,movie_keyword,mk,keyword_id,7.453230975627935e-06
+info_type,it,id,movie_info_idx,mi_idx,info_type_id,0.008849557522123894
+keyword,k,id,movie_keyword,mk,keyword_id,7.453230975627935e-06
+info_type,it,id,movie_info_idx,mi_idx,info_type_id,0.008849557522123894

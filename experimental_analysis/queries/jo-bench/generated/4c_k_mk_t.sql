@@ -1,0 +1,1 @@
+SELECT * FROM movie_keyword AS mk, title AS t, keyword AS k WHERE k.keyword LIKE '%sequel%' AND t.production_year > 1990 AND t.id = mk.movie_id AND mk.movie_id = t.id AND k.id = mk.keyword_id AND mk.keyword_id = k.id;

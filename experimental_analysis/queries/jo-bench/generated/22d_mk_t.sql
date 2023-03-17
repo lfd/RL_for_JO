@@ -1,0 +1,1 @@
+SELECT * FROM movie_keyword AS mk, title AS t WHERE t.production_year > 2005 AND t.id = mk.movie_id AND mk.movie_id = t.id;

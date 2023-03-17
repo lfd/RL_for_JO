@@ -1,0 +1,1 @@
+SELECT * FROM person_info AS pi, cast_info AS ci, name AS n WHERE n.name_pcode_cf BETWEEN 'A' AND 'F' AND (n.gender = 'm') AND pi.note IS NOT NULL AND n.id = pi.person_id AND pi.person_id = n.id AND ci.person_id = n.id AND n.id = ci.person_id AND pi.person_id = ci.person_id AND ci.person_id = pi.person_id;

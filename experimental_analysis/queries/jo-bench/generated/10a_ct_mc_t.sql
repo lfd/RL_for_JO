@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, movie_companies AS mc, company_type AS ct WHERE t.production_year > 2005 AND t.id = mc.movie_id AND mc.movie_id = t.id AND ct.id = mc.company_type_id AND mc.company_type_id = ct.id;

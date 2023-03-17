@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, movie_companies AS mc, company_name AS cn WHERE cn.country_code = '[us]' AND t.production_year BETWEEN 2000 AND 2010 AND t.id = mc.movie_id AND mc.movie_id = t.id AND cn.id = mc.company_id AND mc.company_id = cn.id;

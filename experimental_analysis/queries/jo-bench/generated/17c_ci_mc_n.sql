@@ -1,0 +1,1 @@
+SELECT * FROM name AS n, movie_companies AS mc, cast_info AS ci WHERE n.name LIKE 'X%' AND n.id = ci.person_id AND ci.person_id = n.id AND ci.movie_id = mc.movie_id AND mc.movie_id = ci.movie_id;

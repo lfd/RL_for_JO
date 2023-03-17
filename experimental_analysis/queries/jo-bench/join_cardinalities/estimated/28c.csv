@@ -1,0 +1,73 @@
+aliases,cardinality
+"('k', 'mk')",135
+"('cc', 'k', 'mk')",184
+"('cc', 'cct1', 'k', 'mk')",46
+"('cc', 'cct1', 'cct2', 'k', 'mk')",12
+"('cc', 'cct1', 'cct2', 'k', 'mk', 't')",5
+"('cc', 'cct1', 'cct2', 'k', 'kt', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'k', 'kt', 'mc', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'k', 'kt', 'mc', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'k', 'kt', 'mc', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'k', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'it1', 'k', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('k', 'mk')",135
+"('cc', 'k', 'mk')",184
+"('cc', 'cct1', 'k', 'mk')",46
+"('cc', 'cct1', 'cct2', 'k', 'mk')",12
+"('cc', 'cct1', 'cct2', 'k', 'mk', 't')",5
+"('cc', 'cct1', 'cct2', 'k', 'kt', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'k', 'kt', 'mc', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'k', 'kt', 'mc', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'k', 'kt', 'mc', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'k', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'it1', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'it1', 'k', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('k', 'mk')",135
+"('cc', 'k', 'mk')",184
+"('cc', 'cct1', 'k', 'mk')",46
+"('cc', 'cct1', 'cct2', 'k', 'mk')",12
+"('cc', 'cct1', 'cct2', 'k', 'mk', 't')",5
+"('cc', 'cct1', 'cct2', 'k', 'kt', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'k', 'kt', 'mc', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'k', 'kt', 'mc', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'k', 'kt', 'mc', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'k', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'it1', 'k', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'it1', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'it1', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('k', 'mk', 't')",55
+"('k', 'kt', 'mk', 't')",16
+"('k', 'kt', 'mi_idx', 'mk', 't')",9
+"('it2', 'k', 'kt', 'mi_idx', 'mk', 't')",1
+"('it2', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'it2', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('cn', 'ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('cc', 'cn', 'ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('k', 'mk', 't')",55
+"('k', 'kt', 'mk', 't')",16
+"('k', 'kt', 'mi_idx', 'mk', 't')",9
+"('it2', 'k', 'kt', 'mi_idx', 'mk', 't')",1
+"('it2', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'it2', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('cn', 'ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('cc', 'cct1', 'cn', 'ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('k', 'mk', 't')",55
+"('k', 'kt', 'mk', 't')",16
+"('k', 'kt', 'mi_idx', 'mk', 't')",9
+"('it2', 'k', 'kt', 'mi_idx', 'mk', 't')",1
+"('it2', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'it2', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('cc', 'cn', 'ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('cn', 'ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('cc', 'cn', 'ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('cc', 'cct1', 'cn', 'ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1
+"('cc', 'cct1', 'cn', 'ct', 'it1', 'it2', 'k', 'kt', 'mc', 'mi', 'mi_idx', 'mk', 't')",1

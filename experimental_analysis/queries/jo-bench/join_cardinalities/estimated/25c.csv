@@ -1,0 +1,31 @@
+aliases,cardinality
+"('k', 'mk')",236
+"('k', 'mi_idx', 'mk')",731
+"('it2', 'k', 'mi_idx', 'mk')",6
+"('it2', 'k', 'mi', 'mi_idx', 'mk')",3
+"('k', 'mk')",236
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",1
+"('k', 'mi_idx', 'mk')",731
+"('it2', 'k', 'mi_idx', 'mk')",6
+"('it2', 'k', 'mi', 'mi_idx', 'mk')",3
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",1
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",1
+"('k', 'mk')",236
+"('k', 'mi_idx', 'mk')",731
+"('it2', 'k', 'mi_idx', 'mk')",6
+"('it2', 'k', 'mi', 'mi_idx', 'mk')",3
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",1
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",1
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",1

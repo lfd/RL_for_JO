@@ -1,0 +1,1 @@
+SELECT * FROM cast_info AS ci, aka_name AS an WHERE an.name IS NOT NULL AND (an.name LIKE '%a%' OR an.name LIKE 'A%') AND an.person_id = ci.person_id AND ci.person_id = an.person_id;

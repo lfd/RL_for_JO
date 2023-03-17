@@ -1,0 +1,1 @@
+SELECT * FROM aka_name AS a1, cast_info AS ci WHERE a1.person_id = ci.person_id AND ci.person_id = a1.person_id;

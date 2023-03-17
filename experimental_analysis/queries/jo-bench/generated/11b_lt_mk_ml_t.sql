@@ -1,0 +1,1 @@
+SELECT * FROM movie_link AS ml, title AS t, link_type AS lt, movie_keyword AS mk WHERE lt.link LIKE '%follows%' AND t.production_year = 1998 AND t.title LIKE '%Money%' AND lt.id = ml.link_type_id AND ml.link_type_id = lt.id AND ml.movie_id = t.id AND t.id = ml.movie_id AND t.id = mk.movie_id AND mk.movie_id = t.id AND ml.movie_id = mk.movie_id AND mk.movie_id = ml.movie_id;

@@ -1,0 +1,1 @@
+SELECT * FROM name AS n, cast_info AS ci WHERE ci.note = '(voice)' AND n.gender = 'f' AND n.name LIKE '%Angel%' AND n.id = ci.person_id AND ci.person_id = n.id;

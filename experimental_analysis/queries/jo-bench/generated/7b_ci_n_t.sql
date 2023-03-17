@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, name AS n, cast_info AS ci WHERE n.name_pcode_cf LIKE 'D%' AND n.gender = 'm' AND t.production_year BETWEEN 1980 AND 1984 AND ci.person_id = n.id AND n.id = ci.person_id AND t.id = ci.movie_id AND ci.movie_id = t.id;

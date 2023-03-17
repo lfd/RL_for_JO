@@ -1,0 +1,135 @@
+\input{tikz-figs/dimensions.tex}
+
+\newcommand{\enclose}[3]{%
+    \draw[densely dotted, thin] ([xshift=0.1em,yshift=-0.1em]#1.north west) -| 
+                        ([xshift=-0.15em]#2.south east) -| cycle;
+    \node[anchor=north,align=center,font=\footnotesize] at 
+                        ($(#1.south)!0.5!(#2.south)$) { #3 };
+}
+
+\tikzset{joNode/.style={}}
+\tikzset{joEdge/.style={draw}}
+                          
+\begin{tikzpicture}[remember picture]
+\pgfdeclarelayer{background}\pgfsetlayers{background,main}
+\setcounter{MaxMatrixCols}{20}
+      \node[anchor=south west] (state) at (0,0) {
+         \(\begin{bmatrix} &
+            \subnode{istart}{0} & 0 & \subnode{iend}{3} & 
+            \subnode{sstart}{1.0} & 1.0 & \subnode{send}{0.75} &
+            \subnode{tstart}{\hspace{3cm}\vphantom{0}}  \subnode{tmid}{\cdots} &
+            \subnode{tend}{\hspace{3cm}\vphantom{0}}\strut & \subnode{jstart}{0} &
+            0 & 1 & 0 & 0 & 1 & 1 & 1 & \subnode{jend}{0} & \end{bmatrix}\)
+      };
+
+      \enclose{istart}{iend}{Table\\Indices}
+      \enclose{sstart}{send}{Table\\Selectivities}
+      \enclose{tstart}{tend}{Tree Structure}
+      \enclose{jstart}{jend}{Join Graph}
+
+      \node[rotate=90, align=center, font=\itshape, anchor=south east] (svlabel) at (state.north west) { State\\vector };
+
+
+%%%%%%%%%%%%%%%%%% Tree matrices and join graphs %%%%%%%%%%%%%%%%%%%%
+    \node[anchor=west] (j1) at ([yshift=3cm]state.west) { \(
+    \footnotesize\begin{bNiceMatrix}[first-col,code-for-first-col=\tiny]
+        a_{1} & 1 & 0 & 0 \\
+        a_{2} & 0 & 1 & 0 \\
+        D     & 0 & 0 & 1
+                 \end{bNiceMatrix}\)
+    };
+    
+    \node[anchor=center] (j2) at ([yshift=3cm]tmid) { \(
+    \footnotesize\begin{bNiceMatrix}[first-col,code-for-first-col=\tiny]
+        a_{1}           & 1 & 0 & 0 \\
+        a_{2} \Join D   & 0 & 1/2 & 1/2
+                 \end{bNiceMatrix}\)
+    };
+
+   \node[anchor=east] (j3) at ([yshift=3cm]state.east) { \(
+    \footnotesize\begin{bNiceMatrix}[first-col,code-for-first-col=\tiny]
+        a_{1} \Join (a_{2} \Join D) & 1/2 & 1/4 & 1/4
+                 \end{bNiceMatrix}\)
+    };
+
+  \node[joNode, anchor=south] (j1_a2) at ([yshift=\varCtrlDist]j1.north) { \(a_{2}\) };
+  \node[joNode] (j1_a1) at ([xshift=-\joNodeDist]j1_a2) { \(a_{1}\) };
+  \node[joNode] (j1_D) at  ([xshift=\joNodeDist]j1_a2) { \(D\) };
+
+%  \node[joNode] (j2_a2) at ($(j1_a2.west)!(j2.north)!(j1_a2.east)$) { \(a_{2}\) };
+  \node[joNode] (j2_a2) at ([yshift=\varCtrlDist]j2.north) { \(a_{2}\) };
+  \node[joNode] (j2_a1) at ([xshift=-\joNodeDist]j2_a2) { \(a_{1}\) };
+  \node[joNode] (j2_D) at  ([xshift=\joNodeDist]j2_a2) { \(D\) };  
+  \node[joNode] (j2_j1) at  ($(j2_a2)!0.5!(j2_D) + (0, \varCtrlDist)$) { \(\Join\) };  
+  \path[draw] (j2_a2) -- (j2_j1) (j2_D) -- (j2_j1);
+
+%  \node[joNode] (j3_a2) at ($(j1_a2.west)!(j3.north)!(j1_a2.east)$) { \(a_{2}\) };
+  \node[joNode] (j3_a2) at ([yshift=\varCtrlDist]j3.north) { \(a_{2}\) };
+  \node[joNode] (j3_a1) at ([xshift=-\joNodeDist, yshift=\varCtrlDist]j3_a2) { \(a_{1}\) };
+  \node[joNode] (j3_D) at  ([xshift=\joNodeDist]j3_a2) { \(D\) };  
+  \node[joNode] (j3_j1) at ($(j3_a2)!0.5!(j3_D) + (0, \varCtrlDist)$) 
+                           { \(\Join\) };  
+  \node[joNode] (j3_j2) at ($(j3_a1)!0.5!(j3_j1) + (0, \varCtrlDist)$) 
+                           { \(\Join\) };                             
+  \path[draw] (j3_a2) -- (j3_j1) (j3_D) -- (j3_j1);
+  \path[draw] (j3_a1) -- (j3_j2) (j3_j1) -- (j3_j2);
+
+
+  %%%%%%%%%%% Vector representation of tree structures %%%%%%%%%%%%%%%%%%
+  \node[anchor=north] (j1_vec) at ([yshift=-\varCtrlDist]j1.south) {
+    \setlength{\arraycolsep}{1.5pt}
+    \footnotesize\(\begin{bmatrix}
+        1 & 0 & 0 && 0 & 1 & 0 && 0 & 0 & 1
+    \end{bmatrix}\)
+  };
+
+  \node[anchor=north] (j2_vec) at ($(j2.north)!(j1_vec.north)!(j2.south)$) {
+    \setlength{\arraycolsep}{1.5pt}
+    \footnotesize\(\begin{bmatrix}
+        1 & 0 & 0 && 0 & 1/2 & 1/2
+    \end{bmatrix}\)
+  };  
+
+  \node[anchor=north] (j3_vec) at ($(j3.north)!(j1_vec.north)!(j3.south)$) {
+    \setlength{\arraycolsep}{1.5pt}
+    \footnotesize\(\begin{bmatrix}
+        1/2 & 1/4 & 1/4
+    \end{bmatrix}\)
+  };  
+
+
+  %%%%%%%%%%%%%%%% Background boxes %%%%%%%%%%%%%%%%%%%%
+  \begin{pgfonlayer}{background}
+      \node[fill=bggray, inner sep=0pt,
+            fit=(j1) (j1_vec)] (bg1) { };
+      \node[fill=bggray, inner sep=0pt,
+            fit=(j2) (j2_vec)] (bg2) { };  
+      \node[fill=bggray, inner sep=0pt,
+            fit=(j3) (j3_vec)] (bg3) { };
+  \end{pgfonlayer}
+
+  
+  %%%%%%%%%%%%%%%%%% Data flow arrows %%%%%%%%%%%%%%%%%%
+  \coordinate (trgt) at ([yshift=\varCtrlDist]tmid.north);
+
+  \path[dataStyle, -Stealth] (trgt) -- (tmid.north);
+  \path[dataStyle, -Stealth] (j3.south) -- (j3_vec.north) ;
+  
+  \foreach \n in {1,2} {
+     \path[dataStyle, -Stealth] (j\n.south) -- (j\n_vec.north) ;
+     \path[dataStyle] (j\n_vec.south) |- (trgt) ;
+  }
+                   
+  \path[infoStyle] ($(bg1.south east)!(j1.east)!(bg1.north east)$) -- (j2.west) 
+                   node[below, midway]{ \(a_{2}\Join D\) };
+  \path[infoStyle] ($(bg2.south east)!(j2.east)!(bg2.north east)$) -- (j3.west) 
+                   node[below, midway]{ \(a_{1} \Join (a_{2}\Join D)\) };
+
+  %%%%%%%%%%%%%%%%% A few more labels %%%%%%%%%%%%%%%%%%%    
+  \coordinate(tmp) at ($(j1_vec.south)!0.5!(j1.north)$);
+  \node[anchor=north, rotate=90, font=\itshape] at 
+                ($(svlabel.north west)!(tmp)!(svlabel.north east)$)
+                { Tree Structure } ;
+
+
+\end{tikzpicture}

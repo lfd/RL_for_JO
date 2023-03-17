@@ -1,0 +1,8 @@
+table_left,alias_left,attr_left,table_right,alias_right,attr_right,selectivity
+company_type,ct,id,movie_companies,mc,company_type_id,0.25
+title,t,id,movie_companies,mc,movie_id,3.955208059764776e-07
+title,t,id,movie_info_idx,mi_idx,movie_id,3.955208059764776e-07
+movie_companies,mc,movie_id,movie_info_idx,mi_idx,movie_id,1.131193950919584e-06
+info_type,it,id,movie_info_idx,mi_idx,info_type_id,0.008849557522123894
+movie_companies,mc,movie_id,movie_info_idx,mi_idx,movie_id,1.131193950919584e-06
+info_type,it,id,movie_info_idx,mi_idx,info_type_id,0.008849557522123894

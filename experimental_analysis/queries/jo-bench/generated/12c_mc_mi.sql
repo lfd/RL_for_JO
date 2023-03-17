@@ -1,0 +1,1 @@
+SELECT * FROM movie_info AS mi, movie_companies AS mc WHERE mi.info IN ('Drama', 'Horror', 'Western', 'Family') AND mc.movie_id = mi.movie_id AND mi.movie_id = mc.movie_id;

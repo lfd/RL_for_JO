@@ -1,0 +1,1 @@
+SELECT * FROM name AS n, cast_info AS ci, title AS t WHERE ci.note IN ('(producer)', '(executive producer)') AND n.gender = 'm' AND n.name LIKE '%Tim%' AND t.id = ci.movie_id AND ci.movie_id = t.id AND n.id = ci.person_id AND ci.person_id = n.id;

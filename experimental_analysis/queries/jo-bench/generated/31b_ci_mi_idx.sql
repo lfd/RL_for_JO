@@ -1,0 +1,1 @@
+SELECT * FROM cast_info AS ci, movie_info_idx AS mi_idx WHERE ci.note IN ('(writer)', '(head writer)', '(written by)', '(story)', '(story editor)') AND ci.movie_id = mi_idx.movie_id AND mi_idx.movie_id = ci.movie_id;

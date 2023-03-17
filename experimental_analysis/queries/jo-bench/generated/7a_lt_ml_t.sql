@@ -1,0 +1,1 @@
+SELECT * FROM link_type AS lt, movie_link AS ml, title AS t WHERE lt.link = 'features' AND t.production_year BETWEEN 1980 AND 1995 AND ml.linked_movie_id = t.id AND t.id = ml.linked_movie_id AND lt.id = ml.link_type_id AND ml.link_type_id = lt.id;

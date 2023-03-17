@@ -1,0 +1,303 @@
+aliases,cardinality
+"('mi', 't')",6
+"('mc', 'mi', 't')",4
+"('ci', 'mc', 'mi', 't')",100
+"('an', 'ci', 'mc', 'mi', 't')",275
+"('an', 'chn', 'ci', 'mc', 'mi', 't')",275
+"('an', 'chn', 'ci', 'cn', 'mc', 'mi', 't')",275
+"('an', 'chn', 'ci', 'cn', 'it', 'mc', 'mi', 't')",275
+"('an', 'chn', 'ci', 'cn', 'it', 'mc', 'mi', 'n', 't')",15
+"('an', 'chn', 'ci', 'cn', 'it', 'mc', 'mi', 'n', 'rt', 't')",15
+"('ci', 't')",71
+"('ci', 'rt', 't')",17
+"('ci', 'n', 'rt', 't')",1
+"('ci', 'mi', 'n', 'rt', 't')",1
+"('ci', 'mc', 'mi', 'n', 'rt', 't')",3
+"('ci', 'it', 'mc', 'mi', 'n', 'rt', 't')",3
+"('ci', 'cn', 'it', 'mc', 'mi', 'n', 'rt', 't')",3
+"('chn', 'ci', 'cn', 'it', 'mc', 'mi', 'n', 'rt', 't')",3
+"('ci', 'rt')",222686
+"('ci', 'n', 't')",1
+"('ci', 'n')",453
+"('ci', 'n', 'rt')",453
+"('ci', 'mi', 'rt', 't')",17
+"('ci', 'mi', 't')",69
+"('ci', 'mi')",38392
+"('ci', 'mi', 'rt')",14051
+"('ci', 'mi', 'n', 't')",1
+"('ci', 'mi', 'n')",27
+"('ci', 'mi', 'n', 'rt')",27
+"('ci', 'mc', 'n', 'rt', 't')",3
+"('ci', 'mc', 'rt', 't')",24
+"('mc', 't')",4
+"('ci', 'mc', 't')",100
+"('ci', 'mc')",107035
+"('ci', 'mc', 'rt')",29100
+"('ci', 'mc', 'n', 't')",3
+"('ci', 'mc', 'n')",87
+"('ci', 'mc', 'n', 'rt')",87
+"('ci', 'mc', 'mi', 'rt', 't')",24
+"('mc', 'mi')",25503
+"('ci', 'mc', 'mi')",25272
+"('ci', 'mc', 'mi', 'rt')",7579
+"('ci', 'mc', 'mi', 'n', 't')",3
+"('ci', 'mc', 'mi', 'n')",47
+"('ci', 'mc', 'mi', 'n', 'rt')",47
+"('ci', 'it', 'mi', 'n', 'rt', 't')",1
+"('ci', 'it', 'mi', 'rt', 't')",17
+"('it', 'mi', 't')",6
+"('ci', 'it', 'mi', 't')",69
+"('it', 'mi')",69478
+"('ci', 'it', 'mi')",38392
+"('ci', 'it', 'mi', 'rt')",14051
+"('ci', 'it', 'mi', 'n', 't')",1
+"('ci', 'it', 'mi', 'n')",27
+"('ci', 'it', 'mi', 'n', 'rt')",27
+"('ci', 'it', 'mc', 'mi', 'rt', 't')",24
+"('it', 'mc', 'mi', 't')",4
+"('ci', 'it', 'mc', 'mi', 't')",100
+"('it', 'mc', 'mi')",25503
+"('ci', 'it', 'mc', 'mi')",25272
+"('ci', 'it', 'mc', 'mi', 'rt')",7579
+"('ci', 'it', 'mc', 'mi', 'n', 't')",3
+"('ci', 'it', 'mc', 'mi', 'n')",47
+"('ci', 'it', 'mc', 'mi', 'n', 'rt')",47
+"('ci', 'cn', 'mc', 'mi', 'n', 'rt', 't')",3
+"('ci', 'cn', 'mc', 'n', 'rt', 't')",3
+"('ci', 'cn', 'mc', 'rt', 't')",24
+"('cn', 'mc', 't')",4
+"('ci', 'cn', 'mc', 't')",100
+"('cn', 'mc')",177065
+"('ci', 'cn', 'mc')",98199
+"('ci', 'cn', 'mc', 'rt')",26447
+"('ci', 'cn', 'mc', 'n', 't')",3
+"('ci', 'cn', 'mc', 'n')",82
+"('ci', 'cn', 'mc', 'n', 'rt')",82
+"('ci', 'cn', 'mc', 'mi', 'rt', 't')",24
+"('cn', 'mc', 'mi', 't')",4
+"('ci', 'cn', 'mc', 'mi', 't')",100
+"('cn', 'mc', 'mi')",23630
+"('ci', 'cn', 'mc', 'mi')",23025
+"('ci', 'cn', 'mc', 'mi', 'rt')",6867
+"('ci', 'cn', 'mc', 'mi', 'n', 't')",3
+"('ci', 'cn', 'mc', 'mi', 'n')",47
+"('ci', 'cn', 'mc', 'mi', 'n', 'rt')",47
+"('ci', 'cn', 'it', 'mc', 'mi', 'rt', 't')",24
+"('cn', 'it', 'mc', 'mi', 't')",4
+"('ci', 'cn', 'it', 'mc', 'mi', 't')",100
+"('cn', 'it', 'mc', 'mi')",23630
+"('ci', 'cn', 'it', 'mc', 'mi')",23025
+"('ci', 'cn', 'it', 'mc', 'mi', 'rt')",6867
+"('ci', 'cn', 'it', 'mc', 'mi', 'n', 't')",3
+"('ci', 'cn', 'it', 'mc', 'mi', 'n')",47
+"('ci', 'cn', 'it', 'mc', 'mi', 'n', 'rt')",47
+"('chn', 'ci', 'it', 'mc', 'mi', 'n', 'rt', 't')",3
+"('chn', 'ci', 'mc', 'mi', 'n', 'rt', 't')",3
+"('chn', 'ci', 'mi', 'n', 'rt', 't')",1
+"('chn', 'ci', 'n', 'rt', 't')",1
+"('chn', 'ci', 'rt', 't')",15
+"('chn', 'ci', 't')",61
+"('chn', 'ci')",650505
+"('chn', 'ci', 'rt')",203229
+"('chn', 'ci', 'n', 't')",1
+"('chn', 'ci', 'n')",367
+"('chn', 'ci', 'n', 'rt')",367
+"('chn', 'ci', 'mi', 'rt', 't')",15
+"('chn', 'ci', 'mi', 't')",60
+"('chn', 'ci', 'mi')",36325
+"('chn', 'ci', 'mi', 'rt')",13472
+"('chn', 'ci', 'mi', 'n', 't')",1
+"('chn', 'ci', 'mi', 'n')",27
+"('chn', 'ci', 'mi', 'n', 'rt')",27
+"('chn', 'ci', 'mc', 'n', 'rt', 't')",3
+"('chn', 'ci', 'mc', 'rt', 't')",24
+"('chn', 'ci', 'mc', 't')",99
+"('chn', 'ci', 'mc')",97395
+"('chn', 'ci', 'mc', 'rt')",26053
+"('chn', 'ci', 'mc', 'n', 't')",3
+"('chn', 'ci', 'mc', 'n')",76
+"('chn', 'ci', 'mc', 'n', 'rt')",76
+"('chn', 'ci', 'mc', 'mi', 'rt', 't')",24
+"('chn', 'ci', 'mc', 'mi', 't')",99
+"('chn', 'ci', 'mc', 'mi')",22875
+"('chn', 'ci', 'mc', 'mi', 'rt')",6742
+"('chn', 'ci', 'mc', 'mi', 'n', 't')",3
+"('chn', 'ci', 'mc', 'mi', 'n')",47
+"('chn', 'ci', 'mc', 'mi', 'n', 'rt')",47
+"('chn', 'ci', 'it', 'mi', 'n', 'rt', 't')",1
+"('chn', 'ci', 'it', 'mi', 'rt', 't')",15
+"('chn', 'ci', 'it', 'mi', 't')",60
+"('chn', 'ci', 'it', 'mi')",36325
+"('chn', 'ci', 'it', 'mi', 'rt')",13472
+"('chn', 'ci', 'it', 'mi', 'n', 't')",1
+"('chn', 'ci', 'it', 'mi', 'n')",27
+"('chn', 'ci', 'it', 'mi', 'n', 'rt')",27
+"('chn', 'ci', 'it', 'mc', 'mi', 'rt', 't')",24
+"('chn', 'ci', 'it', 'mc', 'mi', 't')",99
+"('chn', 'ci', 'it', 'mc', 'mi')",22875
+"('chn', 'ci', 'it', 'mc', 'mi', 'rt')",6742
+"('chn', 'ci', 'it', 'mc', 'mi', 'n', 't')",3
+"('chn', 'ci', 'it', 'mc', 'mi', 'n')",47
+"('chn', 'ci', 'it', 'mc', 'mi', 'n', 'rt')",47
+"('chn', 'ci', 'cn', 'mc', 'mi', 'n', 'rt', 't')",3
+"('chn', 'ci', 'cn', 'mc', 'n', 'rt', 't')",3
+"('chn', 'ci', 'cn', 'mc', 'rt', 't')",24
+"('chn', 'ci', 'cn', 'mc', 't')",99
+"('chn', 'ci', 'cn', 'mc')",89939
+"('chn', 'ci', 'cn', 'mc', 'rt')",23829
+"('chn', 'ci', 'cn', 'mc', 'n', 't')",3
+"('chn', 'ci', 'cn', 'mc', 'n')",75
+"('chn', 'ci', 'cn', 'mc', 'n', 'rt')",75
+"('chn', 'ci', 'cn', 'mc', 'mi', 'rt', 't')",24
+"('chn', 'ci', 'cn', 'mc', 'mi', 't')",99
+"('chn', 'ci', 'cn', 'mc', 'mi')",20809
+"('chn', 'ci', 'cn', 'mc', 'mi', 'rt')",6094
+"('chn', 'ci', 'cn', 'mc', 'mi', 'n', 't')",3
+"('chn', 'ci', 'cn', 'mc', 'mi', 'n')",47
+"('chn', 'ci', 'cn', 'mc', 'mi', 'n', 'rt')",47
+"('chn', 'ci', 'cn', 'it', 'mc', 'mi', 'rt', 't')",24
+"('chn', 'ci', 'cn', 'it', 'mc', 'mi', 't')",99
+"('chn', 'ci', 'cn', 'it', 'mc', 'mi')",20809
+"('chn', 'ci', 'cn', 'it', 'mc', 'mi', 'rt')",6094
+"('chn', 'ci', 'cn', 'it', 'mc', 'mi', 'n', 't')",3
+"('chn', 'ci', 'cn', 'it', 'mc', 'mi', 'n')",47
+"('chn', 'ci', 'cn', 'it', 'mc', 'mi', 'n', 'rt')",47
+"('an', 'ci', 'cn', 'it', 'mc', 'mi', 'n', 'rt', 't')",15
+"('an', 'ci', 'it', 'mc', 'mi', 'n', 'rt', 't')",15
+"('an', 'ci', 'mc', 'mi', 'n', 'rt', 't')",15
+"('an', 'ci', 'mi', 'n', 'rt', 't')",5
+"('an', 'ci', 'n', 'rt', 't')",5
+"('an', 'ci', 'rt', 't')",28
+"('an', 'ci', 't')",170
+"('an', 'ci')",1504297
+"('an', 'ci', 'rt')",408470
+"('an', 'ci', 'n', 't')",5
+"('an', 'ci', 'n')",265
+"('an', 'n')",1296
+"('an', 'ci', 'n', 'rt')",265
+"('an', 'ci', 'mi', 'rt', 't')",28
+"('an', 'ci', 'mi', 't')",170
+"('an', 'ci', 'mi')",72288
+"('an', 'ci', 'mi', 'rt')",22027
+"('an', 'ci', 'mi', 'n', 't')",5
+"('an', 'ci', 'mi', 'n')",30
+"('an', 'ci', 'mi', 'n', 'rt')",30
+"('an', 'ci', 'mc', 'n', 'rt', 't')",15
+"('an', 'ci', 'mc', 'rt', 't')",36
+"('an', 'ci', 'mc', 't')",275
+"('an', 'ci', 'mc')",255384
+"('an', 'ci', 'mc', 'rt')",63726
+"('an', 'ci', 'mc', 'n', 't')",15
+"('an', 'ci', 'mc', 'n')",103
+"('an', 'ci', 'mc', 'n', 'rt')",103
+"('an', 'ci', 'mc', 'mi', 'rt', 't')",36
+"('an', 'ci', 'mc', 'mi')",47451
+"('an', 'ci', 'mc', 'mi', 'rt')",11835
+"('an', 'ci', 'mc', 'mi', 'n', 't')",15
+"('an', 'ci', 'mc', 'mi', 'n')",64
+"('an', 'ci', 'mc', 'mi', 'n', 'rt')",64
+"('an', 'ci', 'it', 'mi', 'n', 'rt', 't')",5
+"('an', 'ci', 'it', 'mi', 'rt', 't')",28
+"('an', 'ci', 'it', 'mi', 't')",170
+"('an', 'ci', 'it', 'mi')",72288
+"('an', 'ci', 'it', 'mi', 'rt')",22027
+"('an', 'ci', 'it', 'mi', 'n', 't')",5
+"('an', 'ci', 'it', 'mi', 'n')",30
+"('an', 'ci', 'it', 'mi', 'n', 'rt')",30
+"('an', 'ci', 'it', 'mc', 'mi', 'rt', 't')",36
+"('an', 'ci', 'it', 'mc', 'mi', 't')",275
+"('an', 'ci', 'it', 'mc', 'mi')",47451
+"('an', 'ci', 'it', 'mc', 'mi', 'rt')",11835
+"('an', 'ci', 'it', 'mc', 'mi', 'n', 't')",15
+"('an', 'ci', 'it', 'mc', 'mi', 'n')",64
+"('an', 'ci', 'it', 'mc', 'mi', 'n', 'rt')",64
+"('an', 'ci', 'cn', 'mc', 'mi', 'n', 'rt', 't')",15
+"('an', 'ci', 'cn', 'mc', 'n', 'rt', 't')",15
+"('an', 'ci', 'cn', 'mc', 'rt', 't')",36
+"('an', 'ci', 'cn', 'mc', 't')",275
+"('an', 'ci', 'cn', 'mc')",244577
+"('an', 'ci', 'cn', 'mc', 'rt')",60283
+"('an', 'ci', 'cn', 'mc', 'n', 't')",15
+"('an', 'ci', 'cn', 'mc', 'n')",97
+"('an', 'ci', 'cn', 'mc', 'n', 'rt')",97
+"('an', 'ci', 'cn', 'mc', 'mi', 'rt', 't')",36
+"('an', 'ci', 'cn', 'mc', 'mi', 't')",275
+"('an', 'ci', 'cn', 'mc', 'mi')",45772
+"('an', 'ci', 'cn', 'mc', 'mi', 'rt')",11600
+"('an', 'ci', 'cn', 'mc', 'mi', 'n', 't')",15
+"('an', 'ci', 'cn', 'mc', 'mi', 'n')",64
+"('an', 'ci', 'cn', 'mc', 'mi', 'n', 'rt')",64
+"('an', 'ci', 'cn', 'it', 'mc', 'mi', 'rt', 't')",36
+"('an', 'ci', 'cn', 'it', 'mc', 'mi', 't')",275
+"('an', 'ci', 'cn', 'it', 'mc', 'mi')",45772
+"('an', 'ci', 'cn', 'it', 'mc', 'mi', 'rt')",11600
+"('an', 'ci', 'cn', 'it', 'mc', 'mi', 'n', 't')",15
+"('an', 'ci', 'cn', 'it', 'mc', 'mi', 'n')",64
+"('an', 'ci', 'cn', 'it', 'mc', 'mi', 'n', 'rt')",64
+"('an', 'chn', 'ci', 'it', 'mc', 'mi', 'n', 'rt', 't')",15
+"('an', 'chn', 'ci', 'mc', 'mi', 'n', 'rt', 't')",15
+"('an', 'chn', 'ci', 'mi', 'n', 'rt', 't')",5
+"('an', 'chn', 'ci', 'n', 'rt', 't')",5
+"('an', 'chn', 'ci', 'rt', 't')",27
+"('an', 'chn', 'ci', 't')",161
+"('an', 'chn', 'ci')",1433780
+"('an', 'chn', 'ci', 'rt')",389487
+"('an', 'chn', 'ci', 'n', 't')",5
+"('an', 'chn', 'ci', 'n')",237
+"('an', 'chn', 'ci', 'n', 'rt')",237
+"('an', 'chn', 'ci', 'mi', 'rt', 't')",27
+"('an', 'chn', 'ci', 'mi', 't')",161
+"('an', 'chn', 'ci', 'mi')",69483
+"('an', 'chn', 'ci', 'mi', 'rt')",21370
+"('an', 'chn', 'ci', 'mi', 'n', 't')",5
+"('an', 'chn', 'ci', 'mi', 'n')",30
+"('an', 'chn', 'ci', 'mi', 'n', 'rt')",30
+"('an', 'chn', 'ci', 'mc', 'n', 'rt', 't')",15
+"('an', 'chn', 'ci', 'mc', 'rt', 't')",36
+"('an', 'chn', 'ci', 'mc', 't')",275
+"('an', 'chn', 'ci', 'mc')",242391
+"('an', 'chn', 'ci', 'mc', 'rt')",59976
+"('an', 'chn', 'ci', 'mc', 'n', 't')",15
+"('an', 'chn', 'ci', 'mc', 'n')",94
+"('an', 'chn', 'ci', 'mc', 'n', 'rt')",94
+"('an', 'chn', 'ci', 'mc', 'mi', 'rt', 't')",36
+"('an', 'chn', 'ci', 'mc', 'mi')",44784
+"('an', 'chn', 'ci', 'mc', 'mi', 'rt')",11104
+"('an', 'chn', 'ci', 'mc', 'mi', 'n', 't')",15
+"('an', 'chn', 'ci', 'mc', 'mi', 'n')",64
+"('an', 'chn', 'ci', 'mc', 'mi', 'n', 'rt')",64
+"('an', 'chn', 'ci', 'it', 'mi', 'n', 'rt', 't')",5
+"('an', 'chn', 'ci', 'it', 'mi', 'rt', 't')",27
+"('an', 'chn', 'ci', 'it', 'mi', 't')",161
+"('an', 'chn', 'ci', 'it', 'mi')",69483
+"('an', 'chn', 'ci', 'it', 'mi', 'rt')",21370
+"('an', 'chn', 'ci', 'it', 'mi', 'n', 't')",5
+"('an', 'chn', 'ci', 'it', 'mi', 'n')",30
+"('an', 'chn', 'ci', 'it', 'mi', 'n', 'rt')",30
+"('an', 'chn', 'ci', 'it', 'mc', 'mi', 'rt', 't')",36
+"('an', 'chn', 'ci', 'it', 'mc', 'mi', 't')",275
+"('an', 'chn', 'ci', 'it', 'mc', 'mi')",44784
+"('an', 'chn', 'ci', 'it', 'mc', 'mi', 'rt')",11104
+"('an', 'chn', 'ci', 'it', 'mc', 'mi', 'n', 't')",15
+"('an', 'chn', 'ci', 'it', 'mc', 'mi', 'n')",64
+"('an', 'chn', 'ci', 'it', 'mc', 'mi', 'n', 'rt')",64
+"('an', 'chn', 'ci', 'cn', 'mc', 'mi', 'n', 'rt', 't')",15
+"('an', 'chn', 'ci', 'cn', 'mc', 'n', 'rt', 't')",15
+"('an', 'chn', 'ci', 'cn', 'mc', 'rt', 't')",36
+"('an', 'chn', 'ci', 'cn', 'mc', 't')",275
+"('an', 'chn', 'ci', 'cn', 'mc')",233057
+"('an', 'chn', 'ci', 'cn', 'mc', 'rt')",56938
+"('an', 'chn', 'ci', 'cn', 'mc', 'n', 't')",15
+"('an', 'chn', 'ci', 'cn', 'mc', 'n')",94
+"('an', 'chn', 'ci', 'cn', 'mc', 'n', 'rt')",94
+"('an', 'chn', 'ci', 'cn', 'mc', 'mi', 'rt', 't')",36
+"('an', 'chn', 'ci', 'cn', 'mc', 'mi')",43223
+"('an', 'chn', 'ci', 'cn', 'mc', 'mi', 'rt')",10903
+"('an', 'chn', 'ci', 'cn', 'mc', 'mi', 'n', 't')",15
+"('an', 'chn', 'ci', 'cn', 'mc', 'mi', 'n')",64
+"('an', 'chn', 'ci', 'cn', 'mc', 'mi', 'n', 'rt')",64
+"('an', 'chn', 'ci', 'cn', 'it', 'mc', 'mi', 'rt', 't')",36
+"('an', 'chn', 'ci', 'cn', 'it', 'mc', 'mi')",43223
+"('an', 'chn', 'ci', 'cn', 'it', 'mc', 'mi', 'rt')",10903
+"('an', 'chn', 'ci', 'cn', 'it', 'mc', 'mi', 'n')",64
+"('an', 'chn', 'ci', 'cn', 'it', 'mc', 'mi', 'n', 'rt')",64

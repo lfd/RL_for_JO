@@ -1,0 +1,1 @@
+SELECT * FROM link_type AS lt, movie_link AS ml, title AS t2 WHERE lt.link IN ('sequel', 'follows', 'followed by') AND t2.production_year BETWEEN 2000 AND 2010 AND lt.id = ml.link_type_id AND ml.link_type_id = lt.id AND t2.id = ml.linked_movie_id AND ml.linked_movie_id = t2.id;

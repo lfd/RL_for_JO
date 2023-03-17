@@ -1,0 +1,108 @@
+\newcommand{\TODO}[1]{\textcolor{red}{TODO: #1}}
+
+\def\chapterautorefname{Chapter}%
+\def\sectionautorefname{Sec.}%
+\def\subsectionautorefname{Sec.}%
+\def\subsubsectionautorefname{Sec.}%
+\def\paragraphautorefname{Par.}%
+\def\tableautorefname{Tab.}%
+\def\equationautorefname{Eq.}%
+\def\figureautorefname{Fig.}%
+
+\newcommand{\reprolink}{https://doi.org/10.5281/zenodo.13132521}
+\newcommand{\ie}{\emph{i.e.}\xspace}
+\newcommand{\eg}{\emph{e.g.}\xspace}
+\newcommand{\etal}{\emph{et al.}\xspace}
+\newcommand{\rj}{\emph{ReJoin}\xspace}
+\newcommand{\repro}{\href{\reprolink}{reproduction package}\xspace}
+\newcommand{\mapa}{Marcus and Papaemmanouil\xspace}
+
+\newcommand{\atUL}[1]{\textcolor{blue}{@UL: #1}}
+\newcommand{\atOTH}[1]{\textcolor{magenta}{@OTH: #1}}
+
+\newcommand{\Ket}[1]{$\ket{#1}$}
+\newcommand{\Bra}[1]{$\bra{#1}$}
+\newcommand{\BraKet}[2]{$\braket{#1}{#2}$}
+
+\makeatletter
+\def\calcLength(#1,#2)#3{%
+\pgfpointdiff{\pgfpointanchor{#1}{center}}%
+             {\pgfpointanchor{#2}{center}}%
+\pgf@xa=\pgf@x%
+\pgf@ya=\pgf@y%
+\FPeval\@temp@a{\pgfmath@tonumber{\pgf@xa}}%
+\FPeval\@temp@b{\pgfmath@tonumber{\pgf@ya}}%
+\FPeval\@temp@sum{(\@temp@a*\@temp@a+\@temp@b*\@temp@b)}%
+\FProot{\FPMathLen}{\@temp@sum}{2}%
+\FPround\FPMathLen\FPMathLen5\relax
+\global\expandafter\edef\csname #3\endcsname{\FPMathLen}
+}
+\makeatother
+
+\lstdefinestyle{query}{
+  language=SQL,
+  %numbers=left,
+  stepnumber=1,
+  numbersep=10pt,
+  tabsize=4,
+  showspaces=false,
+  showstringspaces=false,
+  basicstyle=\linespread{1}\fontfamily{lmtt}\selectfont\small,
+  keywordstyle=\color{blue},
+  stringstyle=\color{purple},
+  upquote=true,
+  breaklines=true,
+  commentstyle=\color{CadetBlue}
+}
+
+\definecolor{mygray}{rgb}{0.643,0.643,0.643}
+\newtcolorbox{querybox}[2][]{%
+  sidebyside align=top,
+  enhanced,
+  boxsep=2pt,
+  arc=0pt,
+  top=-3pt, bottom=-3pt,
+  left=2pt, right=0pt,
+  colback=white,
+  colframe=mygray,
+  boxrule=0.5pt,
+  leftrule=12pt,
+  overlay unbroken and first ={%
+    \node[rotate=90,
+          minimum width=0.5cm,
+          anchor=south,
+          %font=\small\rmfamily,
+          yshift=-11pt,
+          white]
+    at (frame.west) {#2};
+  }
+}
+
+\newtcolorbox{matrixbox}[2][]{%
+  sidebyside align=top,
+  enhanced,
+  boxsep=0pt,
+  arc=0pt,
+  left=-1em,
+  top=-0.8em,
+  boxrule=0pt,
+  colframe=bggray,
+  colback=bggray,
+  leftrule=12pt,
+  overlay unbroken and first ={%
+    \node[rotate=90,
+          minimum width=0.5cm,
+          anchor=south west,
+          font=\itshape,
+          yshift=0pt, %-14pt,
+          xshift=0.5em,
+          black]
+    at (frame.south west) {#2};
+  }
+}
+
+\newcommand{\CXgate}{\ensuremath{\text{C\raisebox{0.08em}{--}}\!\hat{X}}\xspace}
+\newcommand{\CYgate}{\ensuremath{\text{C\raisebox{0.08em}{--}}\!\hat{Y}}\xspace}
+\newcommand{\CZgate}{\ensuremath{\text{C\raisebox{0.08em}{--}}\!\hat{Z}}\xspace}
+
+\newcommand{\nop}[1]{}

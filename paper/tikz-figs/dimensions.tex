@@ -1,0 +1,19 @@
+% Base dimensions (essentially, everything is derived from WIDTH)
+\setlength{\WIDTH}{\linewidth}
+\setlength{\HEIGHT}{0.5\WIDTH}
+
+% Visual aesthetic dimensions
+\newcommand{\innerSep}{4pt}
+\newcommand{\lineDist}{2pt}
+
+\tikzset{subCirc/.style={fill=bggray, draw=gray!20}}
+\tikzset{dataStyle/.style={draw, semithick, dashed}}
+\tikzset{varStyle/.style={draw, thin, solid, double}}
+\tikzset{infoStyle/.style={draw, lfd3, very thick, -Stealth}}
+\tikzset{stepArrow/.style={line width=2mm, gray!50,
+                           -{Triangle Cap []. Fast Triangle[] Fast Triangle[]}}}
+
+\def\circShift{1.5em}
+\def\varCtrlDist{0.5cm}
+\def\joNodeDist{1.0cm}
+\def\vcont{\raisebox{0.5em}{\(\vdots\)}}

@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, complete_cast AS cc WHERE mc.note IS NULL AND mc.movie_id = cc.movie_id AND cc.movie_id = mc.movie_id;

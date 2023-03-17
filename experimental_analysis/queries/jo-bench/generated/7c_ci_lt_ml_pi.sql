@@ -1,0 +1,1 @@
+SELECT * FROM person_info AS pi, cast_info AS ci, movie_link AS ml, link_type AS lt WHERE lt.link IN ('references', 'referenced in', 'features', 'featured in') AND pi.note IS NOT NULL AND lt.id = ml.link_type_id AND ml.link_type_id = lt.id AND pi.person_id = ci.person_id AND ci.person_id = pi.person_id AND ci.movie_id = ml.linked_movie_id AND ml.linked_movie_id = ci.movie_id;

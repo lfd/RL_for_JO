@@ -1,0 +1,1 @@
+SELECT * FROM info_type AS it, person_info AS pi, name AS n WHERE it.info = 'mini biography' AND n.name_pcode_cf BETWEEN 'A' AND 'F' AND (n.gender = 'm') AND pi.note = 'Volker Boehm' AND n.id = pi.person_id AND pi.person_id = n.id AND it.id = pi.info_type_id AND pi.info_type_id = it.id;

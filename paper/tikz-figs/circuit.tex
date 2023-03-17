@@ -1,0 +1,72 @@
+\begin{yquant}
+      qubit {\(\ket{0}\)} q;
+      qubit {\raisebox{0.5em}{\(\vdots\)}\hspace{0.5em}} sep;
+      qubit {\(\ket{0}\)} p;
+ 
+      [this subcircuit box style={subCirc}, name=sc1]
+      subcircuit {
+        qubit {} q;
+        qubit {} sep;
+        qubit {} p;
+
+        [style={draw=lfd1},name=enc1] box {
+                    $\mathcolor{lfd1}{\hat{U}_{\text{enc}}}$} (q, sep, p) ;
+        [style={draw=lfd1},name=var1] box {
+                    $\mathcolor{lfd1}{\hat{U}_{\text{var}}}$} (q, sep, p) ;
+        [style={draw=lfd2},name=enc2] box {
+                    $\mathcolor{lfd2}{\hat{U}_{\text{enc}}}$} (q, sep, p) ;
+        [style={draw=lfd2},name=var2] box {
+                    $\mathcolor{lfd2}{\hat{U}_{\text{var}}}$} (q, sep, p) ;
+        [style={draw=lfd4},name=enc3] box {
+                    $\mathcolor{lfd4}{\hat{U}_{\text{enc}}}$} (q, sep, p) ;
+        [style={draw=lfd4},name=var3] box {
+                    $\mathcolor{lfd4}{\hat{U}_{\text{var}}}$} (q, sep, p) ;
+      } (q, sep, p);
+      
+%      [ultra thin] barrier (-);
+      [value=7mm] hspace q;
+      [value=7mm] hspace sep;
+      [value=7mm] hspace p;
+
+      [this subcircuit box style={subCirc}, name=sc2]
+      subcircuit {
+        qubit {} q;
+        qubit {} sep;
+        qubit {} p;
+
+        [style={draw=lfd1},name=enc1] box {} (q, sep, p) ;
+        [style={draw=lfd1},name=var1] box {} (q, sep, p) ;
+        [style={draw=lfd2},name=enc2] box {} (q, sep, p) ;
+        [style={draw=lfd2},name=var2] box {} (q, sep, p) ;
+        [style={draw=lfd4},name=enc3] box {} (q, sep, p) ;
+        [style={draw=lfd4},name=var3] box {} (q, sep, p) ;
+      } (q, sep, p);
+
+      text { \textbf{\(\cdots\)} } (q, sep, p);
+    
+      [this subcircuit box style={subCirc}, name=sc3]
+      subcircuit {
+        qubit {} q;
+        qubit {} sep;
+        qubit {} p;
+
+        [style={draw=lfd1},name=enc1] box {} (q, sep, p) ;
+        [style={draw=lfd1},name=var1] box {} (q, sep, p) ;
+        [style={draw=lfd2},name=enc2] box {} (q, sep, p) ;
+        [style={draw=lfd2},name=var2] box {} (q, sep, p) ;
+        [style={draw=lfd4},name=enc3] box {} (q, sep, p) ;
+        [style={draw=lfd4},name=var3] box {} (q, sep, p) ;
+      } (q, sep, p);
+
+      [name=meas1] measure q;
+      text { \vcont } sep;
+      [name=meas4] measure p;
+      discard q; discard sep; discard p;
+
+      [value=0.25cm] hspace q;
+      [value=0.25cm] hspace sep;
+      [value=0.25cm] hspace p;
+      
+      [style={draw=black},name=pp] box { \rotatebox{90}{Post-Processing}} (q, sep, p);
+      text { \vcont } sep;
+\end{yquant}

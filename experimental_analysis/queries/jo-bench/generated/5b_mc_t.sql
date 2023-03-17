@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, title AS t WHERE mc.note LIKE '%(VHS)%' AND mc.note LIKE '%(USA)%' AND mc.note LIKE '%(1994)%' AND t.production_year > 2010 AND t.id = mc.movie_id AND mc.movie_id = t.id;

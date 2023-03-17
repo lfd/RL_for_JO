@@ -1,0 +1,1 @@
+SELECT * FROM complete_cast AS cc, link_type AS lt, movie_link AS ml, comp_cast_type AS cct2 WHERE cct2.kind LIKE 'complete%' AND lt.link LIKE '%follow%' AND lt.id = ml.link_type_id AND ml.link_type_id = lt.id AND cct2.id = cc.status_id AND cc.status_id = cct2.id AND ml.movie_id = cc.movie_id AND cc.movie_id = ml.movie_id;

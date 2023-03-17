@@ -1,0 +1,37 @@
+aliases,cardinality
+"('an', 'n')",20
+"('an', 'ci', 'n')",4
+"('an', 'ci', 'n', 'rt')",1
+"('an', 'chn', 'ci', 'n', 'rt')",1
+"('an', 'chn', 'ci', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'mc', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'cn', 'mc', 'n', 'rt', 't')",1
+"('an', 'n')",20
+"('an', 'ci', 'n')",4
+"('an', 'ci', 'n', 'rt')",1
+"('an', 'chn', 'ci', 'n', 'rt')",1
+"('an', 'chn', 'ci', 'n', 'rt', 't')",1
+"('an', 'n')",20
+"('an', 'chn', 'ci', 'mc', 'n', 'rt', 't')",1
+"('an', 'ci', 'n')",4
+"('an', 'chn', 'ci', 'cn', 'mc', 'mi', 'n', 'rt', 't')",1
+"('an', 'ci', 'n', 'rt')",1
+"('an', 'chn', 'ci', 'n', 'rt')",1
+"('an', 'chn', 'ci', 'cn', 'mc', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'mc', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'cn', 'mc', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'cn', 'mc', 'mi', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'cn', 'it', 'mc', 'mi', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'cn', 'mc', 'mi', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'cn', 'it', 'mc', 'mi', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'cn', 'it', 'mc', 'mi', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'mi', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'it', 'mi', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'it', 'mc', 'mi', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'mi', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'it', 'mi', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'mi', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'it', 'mi', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'it', 'mc', 'mi', 'n', 'rt', 't')",1
+"('an', 'chn', 'ci', 'it', 'mc', 'mi', 'n', 'rt', 't')",1

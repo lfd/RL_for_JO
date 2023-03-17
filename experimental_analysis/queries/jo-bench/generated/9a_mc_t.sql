@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, title AS t WHERE mc.note IS NOT NULL AND (mc.note LIKE '%(USA)%' OR mc.note LIKE '%(worldwide)%') AND t.production_year BETWEEN 2005 AND 2015 AND t.id = mc.movie_id AND mc.movie_id = t.id;

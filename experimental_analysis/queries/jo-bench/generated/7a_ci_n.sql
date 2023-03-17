@@ -1,0 +1,1 @@
+SELECT * FROM name AS n, cast_info AS ci WHERE n.name_pcode_cf BETWEEN 'A' AND 'F' AND (n.gender = 'm') AND ci.person_id = n.id AND n.id = ci.person_id;

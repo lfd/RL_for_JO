@@ -1,0 +1,50 @@
+\begin{tikzpicture}
+  \pgfdeclarelayer{background}\pgfsetlayers{background,main}
+%
+  \begin{yquant}
+    qubit {} q[4];
+
+    [value=5mm] hspace q[0];
+    [value=5mm] hspace q[1];
+    [value=5mm] hspace q[2];
+    [value=5mm] hspace q[3];
+    
+    [name=enc0, value=\(\hat{R}_{x}(\theta_{0})\)] box q[0];
+    [value=\(\hat{R}_{x}(\theta_{1})\)] box q[1];
+    [value=\(\hat{R}_{x}(\theta_{2})\)] box q[2];
+    [name=enc1, value=\(\hat{R}_{x}(\theta_{3})\)] box q[3];
+
+    [value=5mm] hspace q[0];
+    [value=5mm] hspace q[1];
+    [value=5mm] hspace q[2];
+    [value=5mm] hspace q[3];
+
+    [name=var0, value=\(\hat{R}_{y}(\gamma_{0})\)] box q[0];
+    [value=\(\hat{R}_{y}(\gamma_{1})\)] box q[1];
+    [value=\(\hat{R}_{y}(\gamma_{2})\)] box q[2];
+    [value=\(\hat{R}_{y}(\gamma_{3})\)] box q[3];
+
+    [value=\(\hat{R}_{z}(\delta_{0})\)] box q[0];
+    [value=\(\hat{R}_{z}(\delta_{1})\)] box q[1];
+    [value=\(\hat{R}_{z}(\delta_{2})\)] box q[2];
+    [name=var1, value=\(\hat{R}_{z}(\delta_{3})\)] box q[3];
+    
+    [name=ent0] zz (q[0,1]);
+    [name=ent1] zz (q[1,2]);
+    [name=ent2] zz (q[2,3]);
+    [name=ent3] zz (q[3,0]);
+    
+    [value=5mm] hspace q[0];
+    [value=5mm] hspace q[1];
+    [value=5mm] hspace q[2];
+    [value=5mm] hspace q[3];
+  \end{yquant}
+%
+  \begin{pgfonlayer}{background}
+    \node[draw, dashed, fit=(enc0) (enc1)] (enc) { }; 
+    \node[draw, dashed, fit=(var0) (var1) (ent3)] (var) { };
+  \end{pgfonlayer}
+%
+  \node[anchor=north] (enc_label) at (enc.south) { Encoding \(\hat{U}_{\text{enc}}\)};
+  \node[anchor=north] (var_label) at (var.south) { Variational \& Entangling  \(\hat{U}_{\text{var}}\)};
+\end{tikzpicture}

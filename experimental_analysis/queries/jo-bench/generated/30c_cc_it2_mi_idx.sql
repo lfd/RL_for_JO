@@ -1,0 +1,1 @@
+SELECT * FROM info_type AS it2, complete_cast AS cc, movie_info_idx AS mi_idx WHERE it2.info = 'votes' AND mi_idx.movie_id = cc.movie_id AND cc.movie_id = mi_idx.movie_id AND it2.id = mi_idx.info_type_id AND mi_idx.info_type_id = it2.id;
