@@ -1,0 +1,1 @@
+SELECT * FROM movie_info_idx AS mi_idx, title AS t, info_type AS it2 WHERE it2.info = 'votes' AND t.production_year > 2000 AND (t.title LIKE '%Freddy%' OR t.title LIKE '%Jason%' OR t.title LIKE 'Saw%') AND t.id = mi_idx.movie_id AND mi_idx.movie_id = t.id AND it2.id = mi_idx.info_type_id AND mi_idx.info_type_id = it2.id;

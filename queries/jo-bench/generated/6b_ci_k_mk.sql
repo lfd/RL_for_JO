@@ -1,0 +1,1 @@
+SELECT * FROM movie_keyword AS mk, keyword AS k, cast_info AS ci WHERE k.keyword IN ('superhero', 'sequel', 'second-part', 'marvel-comics', 'based-on-comic', 'tv-special', 'fight', 'violence') AND k.id = mk.keyword_id AND mk.keyword_id = k.id AND ci.movie_id = mk.movie_id AND mk.movie_id = ci.movie_id;

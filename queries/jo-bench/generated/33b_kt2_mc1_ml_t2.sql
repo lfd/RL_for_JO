@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc1, title AS t2, movie_link AS ml, kind_type AS kt2 WHERE kt2.kind IN ('tv series') AND t2.production_year = 2007 AND t2.id = ml.linked_movie_id AND ml.linked_movie_id = t2.id AND ml.movie_id = mc1.movie_id AND mc1.movie_id = ml.movie_id AND kt2.id = t2.kind_id AND t2.kind_id = kt2.id;

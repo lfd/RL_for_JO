@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, title AS t, company_name AS cn WHERE t.id = mc.movie_id AND mc.movie_id = t.id AND mc.company_id = cn.id AND cn.id = mc.company_id;

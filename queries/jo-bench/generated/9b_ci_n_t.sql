@@ -1,0 +1,1 @@
+SELECT * FROM cast_info AS ci, title AS t, name AS n WHERE ci.note = '(voice)' AND n.gender = 'f' AND n.name LIKE '%Angel%' AND t.production_year BETWEEN 2007 AND 2010 AND ci.movie_id = t.id AND t.id = ci.movie_id AND n.id = ci.person_id AND ci.person_id = n.id;

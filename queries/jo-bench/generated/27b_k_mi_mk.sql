@@ -1,0 +1,1 @@
+SELECT * FROM keyword AS k, movie_info AS mi, movie_keyword AS mk WHERE k.keyword = 'sequel' AND mi.info IN ('Sweden', 'Germany', 'Swedish', 'German') AND mk.keyword_id = k.id AND k.id = mk.keyword_id AND mk.movie_id = mi.movie_id AND mi.movie_id = mk.movie_id;

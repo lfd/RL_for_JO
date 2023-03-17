@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, cast_info AS ci, aka_name AS an WHERE t.episode_nr < 100 AND ci.movie_id = t.id AND t.id = ci.movie_id AND an.person_id = ci.person_id AND ci.person_id = an.person_id;

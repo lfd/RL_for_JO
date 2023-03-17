@@ -1,0 +1,42 @@
+aliases,cardinality
+"('cc', 'cct1')",33772
+"('cc', 'cct1', 't')",18495
+"('cc', 'cct1', 'kt', 't')",2642
+"('cc', 'cct1', 'kt', 'mi', 't')",1
+"('cc', 'cct1', 'it1', 'kt', 'mi', 't')",1
+"('cc', 'cct1', 'it1', 'kt', 'mi', 'mk', 't')",2
+"('cc', 'cct1', 'it1', 'kt', 'mc', 'mi', 'mk', 't')",2
+"('cc', 'cct1', 'cn', 'it1', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('cc', 'cct1', 'cn', 'ct', 'it1', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('cc', 'cct1')",33772
+"('cc', 'cct1', 't')",18495
+"('cc', 'cct1', 'kt', 't')",2642
+"('cc', 'cct1', 'kt', 'mi', 't')",1
+"('cc', 'cct1', 'it1', 'kt', 'mi', 't')",1
+"('cc', 'cct1', 'it1', 'kt', 'mi', 'mk', 't')",2
+"('cc', 'cct1', 'it1', 'kt', 'mc', 'mi', 'mk', 't')",2
+"('cc', 'cct1', 'it1', 'kt', 'mi', 't')",1
+"('cc', 'cct1', 'cn', 'ct', 'it1', 'k', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('cc', 'cct1', 'it1', 'kt', 'mi', 'mk', 't')",2
+"('cc', 'cct1', 'cn', 'it1', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('cc', 'cct1', 'it1', 'kt', 'mc', 'mi', 'mk', 't')",2
+"('cc', 'cct1', 'cn', 'it1', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('cc', 'cct1', 'cn', 'ct', 'it1', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('cc', 'cct1', 'cn', 'ct', 'it1', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('cc', 'cct1', 'cn', 'ct', 'it1', 'k', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('cc', 'cct1', 'kt', 'mc', 't')",2726
+"('cc', 'cct1', 'cn', 'ct', 'it1', 'k', 'kt', 'mc', 'mi', 'mk', 't')",1
+"('cc', 'cct1', 'ct', 'kt', 'mc', 't')",2726
+"('cc', 'cct1', 'cn', 'ct', 'kt', 'mc', 't')",974
+"('cc', 'cct1', 'cn', 'ct', 'kt', 'mc', 'mi', 't')",1
+"('cc', 'cct1', 'cn', 'ct', 'it1', 'kt', 'mc', 'mi', 't')",1
+"('cc', 'cct1', 'kt', 'mc', 't')",2726
+"('cc', 'cct1', 'ct', 'kt', 'mc', 't')",2726
+"('cc', 'cct1', 'cn', 'ct', 'kt', 'mc', 't')",974
+"('cc', 'cct1', 'cn', 'ct', 'kt', 'mc', 'mi', 't')",1
+"('cc', 'cct1', 'cn', 'ct', 'it1', 'kt', 'mc', 'mi', 't')",1
+"('cc', 'cct1', 'kt', 'mc', 't')",2726
+"('cc', 'cct1', 'ct', 'kt', 'mc', 't')",2726
+"('cc', 'cct1', 'cn', 'ct', 'kt', 'mc', 't')",974
+"('cc', 'cct1', 'cn', 'ct', 'kt', 'mc', 'mi', 't')",1
+"('cc', 'cct1', 'cn', 'ct', 'it1', 'kt', 'mc', 'mi', 't')",1

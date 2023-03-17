@@ -1,0 +1,1 @@
+SELECT * FROM company_type AS ct, movie_companies AS mc WHERE ct.kind IS NOT NULL AND (ct.kind = 'production companies' OR ct.kind = 'distributors') AND ct.id = mc.company_type_id AND mc.company_type_id = ct.id;

@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc1, company_name AS cn1 WHERE cn1.country_code = '[us]' AND cn1.id = mc1.company_id AND mc1.company_id = cn1.id;

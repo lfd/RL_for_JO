@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, movie_info AS mi WHERE mi.info IN ('Drama', 'Horror') AND t.production_year BETWEEN 2005 AND 2008 AND t.id = mi.movie_id AND mi.movie_id = t.id;

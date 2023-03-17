@@ -1,0 +1,1 @@
+SELECT * FROM aka_title AS at, movie_info AS mi, title AS t WHERE mi.note LIKE '%internet%' AND t.production_year > 1990 AND t.id = at.movie_id AND at.movie_id = t.id AND t.id = mi.movie_id AND mi.movie_id = t.id AND mi.movie_id = at.movie_id AND at.movie_id = mi.movie_id;

@@ -1,0 +1,4 @@
+aliases,cardinality
+"('mc2', 'ml')",159054
+"('cn2', 'mc2', 'ml')",159054
+"('cn2', 'mc1', 'mc2', 'ml')",843357

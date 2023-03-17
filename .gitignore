@@ -1,0 +1,7 @@
+logs/
+__pycache__/
+queries/
+.venv/
+JOB/
+.python-version
+postgres

@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, movie_companies AS mc WHERE t.title = 'Shrek 2' AND t.production_year BETWEEN 2000 AND 2005 AND t.id = mc.movie_id AND mc.movie_id = t.id;

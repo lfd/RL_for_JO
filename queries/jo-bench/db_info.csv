@@ -1,0 +1,217 @@
+table,attribute,num_distinct,data_type,cardinality,min,max
+aka_title,id,-1.0,integer,361472.0,1,377960
+aka_title,movie_id,-0.385922,integer,361472.0,0,2525672
+aka_title,id,-1.0,integer,361472.0,1,377960
+aka_title,movie_id,-0.385922,integer,361472.0,0,2525672
+aka_title,title,-0.6874862,text,361472.0,,
+aka_title,title,-0.6874862,text,361472.0,,
+aka_title,imdb_index,8.0,character varying,361472.0,,
+aka_title,imdb_index,8.0,character varying,361472.0,,
+aka_title,kind_id,6.0,integer,361472.0,1,7
+aka_title,kind_id,6.0,integer,361472.0,1,7
+aka_title,production_year,123.0,integer,361472.0,1888,2016
+aka_title,production_year,123.0,integer,361472.0,1888,2016
+aka_title,phonetic_code,12181.0,character varying,361472.0,,
+aka_title,phonetic_code,12181.0,character varying,361472.0,,
+aka_title,episode_of_id,241.0,integer,361472.0,10,25391
+aka_title,episode_of_id,241.0,integer,361472.0,10,25391
+aka_title,season_nr,23.0,integer,361472.0,1,63
+aka_title,season_nr,23.0,integer,361472.0,1,63
+aka_title,episode_nr,52.0,integer,361472.0,1,4315
+aka_title,note,1260.0,text,361472.0,,
+aka_title,episode_nr,52.0,integer,361472.0,1,4315
+aka_title,md5sum,-0.9105823,character varying,361472.0,,
+aka_title,note,1260.0,text,361472.0,,
+role_type,id,-1.0,integer,12.0,1,12
+aka_title,md5sum,-0.9105823,character varying,361472.0,,
+role_type,role,-1.0,character varying,12.0,,
+role_type,id,-1.0,integer,12.0,1,12
+role_type,role,-1.0,character varying,12.0,,
+title,id,-1.0,integer,2528312.0,1,2528312
+title,title,140606.0,text,2528312.0,,
+title,id,-1.0,integer,2528312.0,1,2528312
+title,imdb_index,9.0,character varying,2528312.0,,
+title,kind_id,6.0,integer,2528312.0,1,7
+title,title,140606.0,text,2528312.0,,
+title,imdb_index,9.0,character varying,2528312.0,,
+title,kind_id,6.0,integer,2528312.0,1,7
+title,production_year,121.0,integer,2528312.0,1880,2019
+title,production_year,121.0,integer,2528312.0,1880,2019
+title,imdb_id,0.0,integer,2528312.0,,
+title,phonetic_code,11743.0,character varying,2528312.0,,
+title,imdb_id,0.0,integer,2528312.0,,
+title,phonetic_code,11743.0,character varying,2528312.0,,
+title,episode_of_id,13947.0,integer,2528312.0,2,2528186
+title,episode_of_id,13947.0,integer,2528312.0,2,2528186
+title,season_nr,59.0,integer,2528312.0,1,2013
+title,season_nr,59.0,integer,2528312.0,1,2013
+title,episode_nr,1192.0,integer,2528312.0,1,91821
+title,episode_nr,1192.0,integer,2528312.0,1,91821
+title,series_years,224.0,character varying,2528312.0,,
+title,series_years,224.0,character varying,2528312.0,,
+title,md5sum,-1.0,character varying,2528312.0,,
+title,md5sum,-1.0,character varying,2528312.0,,
+char_name,id,-1.0,integer,3140191.0,1,3140339
+char_name,id,-1.0,integer,3140191.0,1,3140339
+char_name,name,-1.0,text,3140191.0,,
+char_name,name,-1.0,text,3140191.0,,
+char_name,imdb_index,0.0,character varying,3140191.0,,
+char_name,imdb_index,0.0,character varying,3140191.0,,
+char_name,imdb_id,0.0,integer,3140191.0,,
+char_name,imdb_id,0.0,integer,3140191.0,,
+char_name,name_pcode_nf,12200.0,character varying,3140191.0,,
+char_name,name_pcode_nf,12200.0,character varying,3140191.0,,
+char_name,surname_pcode,4925.0,character varying,3140191.0,,
+char_name,md5sum,-1.0,character varying,3140191.0,,
+char_name,surname_pcode,4925.0,character varying,3140191.0,,
+cast_info,id,-1.0,integer,36244344.0,1,36244344
+char_name,md5sum,-1.0,character varying,3140191.0,,
+cast_info,person_id,70252.0,integer,36244344.0,1,4061926
+cast_info,movie_id,1079940.0,integer,36244344.0,1,2525975
+cast_info,id,-1.0,integer,36244344.0,1,36244344
+cast_info,person_role_id,22491.0,integer,36244344.0,1,3140339
+cast_info,person_id,70252.0,integer,36244344.0,1,4061926
+cast_info,note,3826.0,text,36244344.0,,
+cast_info,movie_id,1079940.0,integer,36244344.0,1,2525975
+cast_info,person_role_id,22491.0,integer,36244344.0,1,3140339
+cast_info,note,3826.0,text,36244344.0,,
+cast_info,nr_order,146.0,integer,36244344.0,0,1115798165
+cast_info,nr_order,146.0,integer,36244344.0,0,1115798165
+cast_info,role_id,11.0,integer,36244344.0,1,11
+aka_name,id,-1.0,integer,901343.0,1,901343
+cast_info,role_id,11.0,integer,36244344.0,1,11
+aka_name,person_id,-0.41507396,integer,901343.0,4,4167489
+aka_name,name,-0.5446295,text,901343.0,,
+aka_name,id,-1.0,integer,901343.0,1,901343
+aka_name,imdb_index,-3.3318996e-05,character varying,901343.0,,
+aka_name,name_pcode_cf,12220.0,character varying,901343.0,,
+aka_name,person_id,-0.41507396,integer,901343.0,4,4167489
+aka_name,name_pcode_nf,10484.0,character varying,901343.0,,
+aka_name,name,-0.5446295,text,901343.0,,
+aka_name,surname_pcode,2573.0,character varying,901343.0,,
+aka_name,md5sum,-0.5446295,character varying,901343.0,,
+aka_name,imdb_index,-3.3318996e-05,character varying,901343.0,,
+comp_cast_type,id,-1.0,integer,4.0,1,4
+aka_name,name_pcode_cf,12220.0,character varying,901343.0,,
+comp_cast_type,kind,-1.0,character varying,4.0,,
+aka_name,name_pcode_nf,10484.0,character varying,901343.0,,
+company_name,id,-1.0,integer,234997.0,1,234997
+aka_name,surname_pcode,2573.0,character varying,901343.0,,
+company_name,name,-0.8867475,text,234997.0,,
+aka_name,md5sum,-0.5446295,character varying,901343.0,,
+company_name,country_code,169.0,character varying,234997.0,,
+comp_cast_type,id,-1.0,integer,4.0,1,4
+comp_cast_type,kind,-1.0,character varying,4.0,,
+company_name,id,-1.0,integer,234997.0,1,234997
+company_name,name,-0.8867475,text,234997.0,,
+company_name,country_code,169.0,character varying,234997.0,,
+company_name,imdb_id,0.0,integer,234997.0,,
+company_name,name_pcode_nf,11462.0,character varying,234997.0,,
+company_name,name_pcode_sf,10729.0,character varying,234997.0,,
+company_name,md5sum,-1.0,character varying,234997.0,,
+company_type,id,-1.0,integer,4.0,1,4
+company_name,imdb_id,0.0,integer,234997.0,,
+company_type,kind,-1.0,character varying,4.0,,
+company_name,name_pcode_nf,11462.0,character varying,234997.0,,
+complete_cast,id,-1.0,integer,135086.0,1,135086
+company_name,name_pcode_sf,10729.0,character varying,234997.0,,
+company_name,md5sum,-1.0,character varying,234997.0,,
+complete_cast,movie_id,-0.62773347,integer,135086.0,285,2528312
+company_type,id,-1.0,integer,4.0,1,4
+company_type,kind,-1.0,character varying,4.0,,
+complete_cast,id,-1.0,integer,135086.0,1,135086
+complete_cast,movie_id,-0.62773347,integer,135086.0,285,2528312
+complete_cast,subject_id,2.0,integer,135086.0,1,2
+complete_cast,subject_id,2.0,integer,135086.0,1,2
+complete_cast,status_id,2.0,integer,135086.0,3,4
+info_type,id,-1.0,integer,113.0,1,113
+info_type,info,-1.0,character varying,113.0,,
+keyword,id,-1.0,integer,134170.0,1,134170
+complete_cast,status_id,2.0,integer,135086.0,3,4
+keyword,keyword,-1.0,text,134170.0,,
+info_type,id,-1.0,integer,113.0,1,113
+keyword,phonetic_code,10554.0,character varying,134170.0,,
+info_type,info,-1.0,character varying,113.0,,
+kind_type,id,-1.0,integer,7.0,1,7
+keyword,id,-1.0,integer,134170.0,1,134170
+kind_type,kind,-1.0,character varying,7.0,,
+keyword,keyword,-1.0,text,134170.0,,
+link_type,id,-1.0,integer,18.0,1,18
+keyword,phonetic_code,10554.0,character varying,134170.0,,
+link_type,link,-1.0,character varying,18.0,,
+kind_type,id,-1.0,integer,7.0,1,7
+movie_companies,id,-1.0,integer,2609129.0,1,2609129
+kind_type,kind,-1.0,character varying,7.0,,
+movie_companies,movie_id,-0.18925817,integer,2609129.0,2,2525745
+link_type,id,-1.0,integer,18.0,1,18
+link_type,link,-1.0,character varying,18.0,,
+movie_companies,company_id,19872.0,integer,2609129.0,1,234997
+movie_companies,id,-1.0,integer,2609129.0,1,2609129
+movie_companies,company_type_id,2.0,integer,2609129.0,1,2
+movie_companies,movie_id,-0.18925817,integer,2609129.0,2,2525745
+movie_companies,note,5821.0,text,2609129.0,,
+movie_companies,company_id,19872.0,integer,2609129.0,1,234997
+movie_info_idx,id,-1.0,integer,1380035.0,1,1380035
+movie_companies,company_type_id,2.0,integer,2609129.0,1,2
+movie_info_idx,movie_id,-0.31565937,integer,1380035.0,2,2525793
+movie_companies,note,5821.0,text,2609129.0,,
+movie_info_idx,info_type_id,4.0,integer,1380035.0,99,113
+movie_info_idx,id,-1.0,integer,1380035.0,1,1380035
+movie_info_idx,info,10788.0,text,1380035.0,,
+movie_info_idx,movie_id,-0.31565937,integer,1380035.0,2,2525793
+movie_info_idx,note,0.0,text,1380035.0,,
+movie_info_idx,info_type_id,4.0,integer,1380035.0,99,113
+movie_keyword,id,-1.0,integer,4523930.0,1,4523930
+movie_info_idx,info,10788.0,text,1380035.0,,
+movie_keyword,movie_id,100798.0,integer,4523930.0,2,2525971
+movie_info_idx,note,0.0,text,1380035.0,,
+movie_keyword,keyword_id,14992.0,integer,4523930.0,1,134170
+movie_keyword,id,-1.0,integer,4523930.0,1,4523930
+movie_link,id,-1.0,integer,29997.0,1,29997
+movie_keyword,movie_id,100798.0,integer,4523930.0,2,2525971
+movie_link,movie_id,-0.21372136,integer,29997.0,2,186175
+movie_keyword,keyword_id,14992.0,integer,4523930.0,1,134170
+movie_link,linked_movie_id,-0.5390206,integer,29997.0,284,2524994
+movie_link,id,-1.0,integer,29997.0,1,29997
+movie_link,link_type_id,16.0,integer,29997.0,1,17
+movie_info,id,-1.0,integer,14835720.0,1,14835720
+movie_link,movie_id,-0.21372136,integer,29997.0,2,186175
+movie_info,movie_id,182928.0,integer,14835720.0,1,2526430
+movie_link,linked_movie_id,-0.5390206,integer,29997.0,284,2524994
+movie_info,info_type_id,69.0,integer,14835720.0,1,110
+movie_link,link_type_id,16.0,integer,29997.0,1,17
+movie_info,info,20324.0,text,14835720.0,,
+movie_info,id,-1.0,integer,14835720.0,1,14835720
+movie_info,note,2027.0,text,14835720.0,,
+movie_info,movie_id,182928.0,integer,14835720.0,1,2526430
+person_info,id,-1.0,integer,2963664.0,1,2963664
+movie_info,info_type_id,69.0,integer,14835720.0,1,110
+person_info,person_id,115412.0,integer,2963664.0,4,4167491
+movie_info,info,20324.0,text,14835720.0,,
+movie_info,note,2027.0,text,14835720.0,,
+person_info,info_type_id,22.0,integer,2963664.0,15,39
+person_info,info,147532.0,text,2963664.0,,
+person_info,id,-1.0,integer,2963664.0,1,2963664
+person_info,note,2403.0,text,2963664.0,,
+person_info,person_id,115412.0,integer,2963664.0,4,4167491
+person_info,info_type_id,22.0,integer,2963664.0,15,39
+name,id,-1.0,integer,4166504.0,1,4167491
+person_info,info,147532.0,text,2963664.0,,
+name,name,-0.39367992,text,4166504.0,,
+person_info,note,2403.0,text,2963664.0,,
+name,id,-1.0,integer,4166504.0,1,4167491
+name,imdb_index,84.0,character varying,4166504.0,,
+name,name,-0.39367992,text,4166504.0,,
+name,imdb_index,84.0,character varying,4166504.0,,
+name,imdb_id,0.0,integer,4166504.0,,
+name,imdb_id,0.0,integer,4166504.0,,
+name,gender,2.0,character varying,4166504.0,,
+name,gender,2.0,character varying,4166504.0,,
+name,name_pcode_cf,12236.0,character varying,4166504.0,,
+name,name_pcode_nf,10673.0,character varying,4166504.0,,
+name,name_pcode_cf,12236.0,character varying,4166504.0,,
+name,surname_pcode,2718.0,character varying,4166504.0,,
+name,name_pcode_nf,10673.0,character varying,4166504.0,,
+name,md5sum,-1.0,character varying,4166504.0,,
+name,surname_pcode,2718.0,character varying,4166504.0,,
+name,md5sum,-1.0,character varying,4166504.0,,

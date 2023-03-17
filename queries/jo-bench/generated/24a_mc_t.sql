@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, title AS t WHERE t.production_year > 2010 AND t.id = mc.movie_id AND mc.movie_id = t.id;

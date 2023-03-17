@@ -1,0 +1,1 @@
+SELECT * FROM movie_link AS ml, movie_companies AS mc, movie_keyword AS mk WHERE mc.note IS NOT NULL AND ml.movie_id = mk.movie_id AND mk.movie_id = ml.movie_id AND ml.movie_id = mc.movie_id AND mc.movie_id = ml.movie_id AND mk.movie_id = mc.movie_id AND mc.movie_id = mk.movie_id;

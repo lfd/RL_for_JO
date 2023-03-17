@@ -1,0 +1,1 @@
+SELECT * FROM kind_type AS kt2, title AS t2 WHERE kt2.kind IN ('tv series') AND t2.production_year BETWEEN 2005 AND 2008 AND kt2.id = t2.kind_id AND t2.kind_id = kt2.id;

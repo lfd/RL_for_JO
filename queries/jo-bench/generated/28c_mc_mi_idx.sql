@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, movie_info_idx AS mi_idx WHERE mc.note NOT LIKE '%(USA)%' AND mc.note LIKE '%(200%)%' AND mi_idx.info < '8.5' AND mc.movie_id = mi_idx.movie_id AND mi_idx.movie_id = mc.movie_id;

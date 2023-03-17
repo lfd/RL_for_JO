@@ -1,0 +1,1 @@
+SELECT * FROM cast_info AS ci, movie_keyword AS mk, title AS t, keyword AS k WHERE k.keyword = 'character-name-in-title' AND ci.movie_id = t.id AND t.id = ci.movie_id AND t.id = mk.movie_id AND mk.movie_id = t.id AND mk.keyword_id = k.id AND k.id = mk.keyword_id AND ci.movie_id = mk.movie_id AND mk.movie_id = ci.movie_id;

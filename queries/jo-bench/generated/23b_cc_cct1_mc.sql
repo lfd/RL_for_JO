@@ -1,0 +1,1 @@
+SELECT * FROM comp_cast_type AS cct1, movie_companies AS mc, complete_cast AS cc WHERE cct1.kind = 'complete+verified' AND mc.movie_id = cc.movie_id AND cc.movie_id = mc.movie_id AND cct1.id = cc.status_id AND cc.status_id = cct1.id;

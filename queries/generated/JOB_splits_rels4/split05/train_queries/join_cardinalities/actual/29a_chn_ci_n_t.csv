@@ -1,0 +1,8 @@
+aliases,cardinality
+"('ci', 't')",66
+"('chn', 'ci', 't')",1
+"('chn', 'ci', 'n', 't')",1
+"('ci', 'n', 't')",1
+"('ci', 'n')",6544
+"('chn', 'ci')",76
+"('chn', 'ci', 'n')",6

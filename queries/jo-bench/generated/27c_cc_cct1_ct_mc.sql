@@ -1,0 +1,1 @@
+SELECT * FROM company_type AS ct, comp_cast_type AS cct1, movie_companies AS mc, complete_cast AS cc WHERE cct1.kind = 'cast' AND ct.kind = 'production companies' AND mc.note IS NULL AND mc.company_type_id = ct.id AND ct.id = mc.company_type_id AND cct1.id = cc.subject_id AND cc.subject_id = cct1.id AND mc.movie_id = cc.movie_id AND cc.movie_id = mc.movie_id;

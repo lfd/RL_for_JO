@@ -1,0 +1,1 @@
+SELECT * FROM role_type AS rt, cast_info AS ci, movie_info AS mi WHERE ci.note = '(voice)' AND mi.info IS NOT NULL AND (mi.info LIKE 'Japan:%2007%' OR mi.info LIKE 'USA:%2008%') AND rt.role = 'actress' AND mi.movie_id = ci.movie_id AND ci.movie_id = mi.movie_id AND rt.id = ci.role_id AND ci.role_id = rt.id;

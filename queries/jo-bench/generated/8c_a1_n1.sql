@@ -1,0 +1,1 @@
+SELECT * FROM aka_name AS a1, name AS n1 WHERE a1.person_id = n1.id AND n1.id = a1.person_id;

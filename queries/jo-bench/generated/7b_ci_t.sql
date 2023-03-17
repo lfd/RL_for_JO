@@ -1,0 +1,1 @@
+SELECT * FROM cast_info AS ci, title AS t WHERE t.production_year BETWEEN 1980 AND 1984 AND t.id = ci.movie_id AND ci.movie_id = t.id;

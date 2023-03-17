@@ -1,0 +1,10 @@
+aliases,cardinality
+"('k', 'mk')",67
+"('k', 'mi_idx', 'mk')",54
+"('k', 'mi', 'mi_idx', 'mk')",221
+"('k', 'mk')",67
+"('k', 'mk')",67
+"('k', 'mi_idx', 'mk')",54
+"('k', 'mi_idx', 'mk')",54
+"('k', 'mi', 'mi_idx', 'mk')",221
+"('k', 'mi', 'mi_idx', 'mk')",221

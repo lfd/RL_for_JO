@@ -1,0 +1,46 @@
+aliases,cardinality
+"('cc', 'cct1')",33772
+"('cc', 'cct1', 'cct2')",8443
+"('cc', 'cct1', 'cct2', 'mi_idx')",26144
+"('cc', 'cct1', 'cct2', 'it2', 'mi_idx')",231
+"('cc', 'cct1', 'cct2', 'it2', 'mi_idx', 't')",127
+"('cc', 'cct1', 'cct2', 'it2', 'kt', 'mi_idx', 't')",3
+"('cc', 'cct1')",33772
+"('cc', 'cct1', 'cct2')",8443
+"('cc', 'cct1', 'cct2', 'mi_idx')",26144
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'kt', 'mi_idx', 't')",43
+"('cc', 'cct1', 'cct2', 'it2', 'mi_idx')",231
+"('cc', 'cct1', 'cct2', 'it2', 'mi_idx', 't')",127
+"('cc', 'cct1', 'cct2', 'it2', 'kt', 'mi_idx', 't')",3
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'it2', 'kt', 'mi_idx', 't')",1
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'kt', 'mi_idx', 't')",43
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'it2', 'kt', 'mi_idx', 't')",1
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'it2', 'kt', 'mi_idx', 'mk', 't')",2
+"('cc', 'cct1')",33772
+"('cc', 'cct1', 'cct2')",8443
+"('cc', 'cct1', 'cct2', 'mi_idx')",26144
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'it2', 'kt', 'mi_idx', 'mk', 't')",2
+"('cc', 'cct1', 'cct2', 'it2', 'mi_idx')",231
+"('cc', 'cct1', 'cct2', 'it2', 'mi_idx', 't')",127
+"('cc', 'cct1', 'cct2', 'it2', 'kt', 'mi_idx', 't')",3
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'kt', 'mi_idx', 't')",43
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'it2', 'k', 'kt', 'mi_idx', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'it2', 'kt', 'mi_idx', 't')",1
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'it2', 'k', 'kt', 'mi_idx', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'it2', 'kt', 'mi_idx', 'mk', 't')",2
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'it2', 'k', 'kt', 'mi_idx', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'it2', 'k', 'kt', 'mi_idx', 'mk', 'n', 't')",1
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'it2', 'k', 'kt', 'mi_idx', 'mk', 'n', 't')",1
+"('cc', 'cct1', 'cct2', 'chn', 'ci', 'it2', 'k', 'kt', 'mi_idx', 'mk', 'n', 't')",1
+"('cc', 'cct2')",33772
+"('cc', 'cct2')",33772
+"('cc', 'cct1', 'cct2', 'it2', 'kt', 'mi_idx', 'mk', 't')",5
+"('cc', 'cct1', 'cct2', 'it2', 'kt', 'mi_idx', 'mk', 't')",5
+"('cc', 'cct1', 'cct2', 'it2', 'k', 'kt', 'mi_idx', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'it2', 'k', 'kt', 'mi_idx', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'k', 'kt', 'mi_idx', 'mk', 't')",14
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'k', 'kt', 'mi_idx', 'mk', 't')",14
+"('cc', 'cct2')",33772
+"('cc', 'cct1', 'cct2', 'it2', 'kt', 'mi_idx', 'mk', 't')",5
+"('cc', 'cct1', 'cct2', 'it2', 'k', 'kt', 'mi_idx', 'mk', 't')",1
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'k', 'kt', 'mi_idx', 'mk', 't')",14

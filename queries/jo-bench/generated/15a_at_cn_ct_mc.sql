@@ -1,0 +1,1 @@
+SELECT * FROM company_name AS cn, movie_companies AS mc, aka_title AS at, company_type AS ct WHERE cn.country_code = '[us]' AND mc.note LIKE '%(200%)%' AND mc.note LIKE '%(worldwide)%' AND mc.movie_id = at.movie_id AND at.movie_id = mc.movie_id AND cn.id = mc.company_id AND mc.company_id = cn.id AND ct.id = mc.company_type_id AND mc.company_type_id = ct.id;

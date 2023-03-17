@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, movie_info AS mi WHERE mi.info IS NOT NULL AND (mi.info LIKE 'Japan:%2007%' OR mi.info LIKE 'USA:%2008%') AND t.production_year BETWEEN 2007 AND 2008 AND t.title LIKE '%Kung%Fu%Panda%' AND t.id = mi.movie_id AND mi.movie_id = t.id;

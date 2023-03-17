@@ -1,0 +1,1 @@
+SELECT * FROM name AS n, cast_info AS ci, title AS t WHERE n.name_pcode_cf BETWEEN 'A' AND 'F' AND (n.gender = 'm') AND t.production_year BETWEEN 1980 AND 1995 AND ci.person_id = n.id AND n.id = ci.person_id AND t.id = ci.movie_id AND ci.movie_id = t.id;

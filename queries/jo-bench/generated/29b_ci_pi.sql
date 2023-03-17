@@ -1,0 +1,1 @@
+SELECT * FROM person_info AS pi, cast_info AS ci WHERE ci.note IN ('(voice)', '(voice) (uncredited)', '(voice: English version)') AND ci.person_id = pi.person_id AND pi.person_id = ci.person_id;

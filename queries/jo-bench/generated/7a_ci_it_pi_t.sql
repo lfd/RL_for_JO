@@ -1,0 +1,1 @@
+SELECT * FROM info_type AS it, title AS t, cast_info AS ci, person_info AS pi WHERE it.info = 'mini biography' AND pi.note = 'Volker Boehm' AND t.production_year BETWEEN 1980 AND 1995 AND t.id = ci.movie_id AND ci.movie_id = t.id AND it.id = pi.info_type_id AND pi.info_type_id = it.id AND pi.person_id = ci.person_id AND ci.person_id = pi.person_id;

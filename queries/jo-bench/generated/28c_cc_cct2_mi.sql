@@ -1,0 +1,1 @@
+SELECT * FROM comp_cast_type AS cct2, movie_info AS mi, complete_cast AS cc WHERE cct2.kind = 'complete' AND mi.info IN ('Sweden', 'Norway', 'Germany', 'Denmark', 'Swedish', 'Danish', 'Norwegian', 'German', 'USA', 'American') AND mi.movie_id = cc.movie_id AND cc.movie_id = mi.movie_id AND cct2.id = cc.status_id AND cc.status_id = cct2.id;

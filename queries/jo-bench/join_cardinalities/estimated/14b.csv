@@ -1,0 +1,30 @@
+aliases,cardinality
+"('k', 'mk')",67
+"('k', 'mk', 't')",1
+"('k', 'mi', 'mk', 't')",1
+"('it1', 'k', 'mi', 'mk', 't')",1
+"('it1', 'k', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'it2', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('k', 'mk')",67
+"('k', 'mk', 't')",1
+"('k', 'mi', 'mk', 't')",1
+"('it1', 'k', 'mi', 'mk', 't')",1
+"('it1', 'k', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'it2', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('k', 'mk')",67
+"('k', 'mk', 't')",1
+"('k', 'kt', 'mk', 't')",1
+"('k', 'kt', 'mk', 't')",1
+"('k', 'kt', 'mi', 'mk', 't')",1
+"('k', 'kt', 'mi', 'mk', 't')",1
+"('it1', 'k', 'kt', 'mi', 'mk', 't')",1
+"('it1', 'k', 'kt', 'mi', 'mk', 't')",1
+"('it1', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'it2', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('k', 'kt', 'mk', 't')",1
+"('k', 'kt', 'mi', 'mk', 't')",1
+"('it1', 'k', 'kt', 'mi', 'mk', 't')",1
+"('it1', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1

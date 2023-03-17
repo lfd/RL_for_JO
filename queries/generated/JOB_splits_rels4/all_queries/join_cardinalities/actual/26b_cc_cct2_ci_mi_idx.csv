@@ -1,0 +1,9 @@
+aliases,cardinality
+"('cc', 'cct2')",135086
+"('cc', 'cct2', 'mi_idx')",12049
+"('cc', 'cct2', 'ci', 'mi_idx')",600390
+"('ci', 'mi_idx')",1867976
+"('cc', 'ci', 'mi_idx')",600390
+"('cc', 'mi_idx')",12049
+"('cc', 'ci')",5212164
+"('cc', 'cct2', 'ci')",5212164

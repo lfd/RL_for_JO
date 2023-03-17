@@ -1,0 +1,1 @@
+SELECT * FROM complete_cast AS cc, cast_info AS ci, title AS t WHERE t.production_year > 1950 AND t.id = ci.movie_id AND ci.movie_id = t.id AND t.id = cc.movie_id AND cc.movie_id = t.id AND ci.movie_id = cc.movie_id AND cc.movie_id = ci.movie_id;

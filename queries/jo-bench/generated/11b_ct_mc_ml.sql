@@ -1,0 +1,1 @@
+SELECT * FROM company_type AS ct, movie_companies AS mc, movie_link AS ml WHERE ct.kind = 'production companies' AND mc.note IS NULL AND mc.company_type_id = ct.id AND ct.id = mc.company_type_id AND ml.movie_id = mc.movie_id AND mc.movie_id = ml.movie_id;

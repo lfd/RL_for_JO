@@ -1,0 +1,1 @@
+SELECT * FROM cast_info AS ci, movie_companies AS mc WHERE ci.movie_id = mc.movie_id AND mc.movie_id = ci.movie_id;

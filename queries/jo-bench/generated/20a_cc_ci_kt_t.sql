@@ -1,0 +1,1 @@
+SELECT * FROM kind_type AS kt, complete_cast AS cc, cast_info AS ci, title AS t WHERE kt.kind = 'movie' AND t.production_year > 1950 AND kt.id = t.kind_id AND t.kind_id = kt.id AND t.id = ci.movie_id AND ci.movie_id = t.id AND t.id = cc.movie_id AND cc.movie_id = t.id AND ci.movie_id = cc.movie_id AND cc.movie_id = ci.movie_id;

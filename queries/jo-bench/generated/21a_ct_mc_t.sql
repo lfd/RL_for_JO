@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, movie_companies AS mc, company_type AS ct WHERE ct.kind = 'production companies' AND mc.note IS NULL AND t.production_year BETWEEN 1950 AND 2000 AND t.id = mc.movie_id AND mc.movie_id = t.id AND mc.company_type_id = ct.id AND ct.id = mc.company_type_id;

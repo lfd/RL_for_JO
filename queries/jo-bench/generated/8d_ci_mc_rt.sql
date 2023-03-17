@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, role_type AS rt, cast_info AS ci WHERE rt.role = 'costume designer' AND ci.role_id = rt.id AND rt.id = ci.role_id AND ci.movie_id = mc.movie_id AND mc.movie_id = ci.movie_id;

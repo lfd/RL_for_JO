@@ -1,0 +1,1 @@
+SELECT * FROM movie_link AS ml, link_type AS lt WHERE lt.link LIKE '%follow%' AND lt.id = ml.link_type_id AND ml.link_type_id = lt.id;

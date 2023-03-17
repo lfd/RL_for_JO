@@ -1,0 +1,1 @@
+SELECT * FROM info_type AS it1, movie_info AS mi, movie_keyword AS mk, keyword AS k WHERE it1.info = 'release dates' AND mi.note LIKE '%internet%' AND mk.movie_id = mi.movie_id AND mi.movie_id = mk.movie_id AND k.id = mk.keyword_id AND mk.keyword_id = k.id AND it1.id = mi.info_type_id AND mi.info_type_id = it1.id;

@@ -1,0 +1,1 @@
+SELECT * FROM movie_keyword AS mk, keyword AS k WHERE k.keyword = 'sequel' AND mk.keyword_id = k.id AND k.id = mk.keyword_id;

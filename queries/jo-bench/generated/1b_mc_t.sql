@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, title AS t WHERE mc.note NOT LIKE '%(as Metro-Goldwyn-Mayer Pictures)%' AND t.production_year BETWEEN 2005 AND 2010 AND t.id = mc.movie_id AND mc.movie_id = t.id;

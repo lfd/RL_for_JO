@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, company_name AS cn WHERE cn.country_code = '[jp]' AND mc.note LIKE '%(Japan)%' AND mc.note NOT LIKE '%(USA)%' AND mc.company_id = cn.id AND cn.id = mc.company_id;

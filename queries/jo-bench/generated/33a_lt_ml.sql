@@ -1,0 +1,1 @@
+SELECT * FROM link_type AS lt, movie_link AS ml WHERE lt.link IN ('sequel', 'follows', 'followed by') AND lt.id = ml.link_type_id AND ml.link_type_id = lt.id;

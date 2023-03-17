@@ -1,0 +1,1 @@
+SELECT * FROM role_type AS rt, cast_info AS ci, name AS n1 WHERE rt.role = 'writer' AND n1.id = ci.person_id AND ci.person_id = n1.id AND ci.role_id = rt.id AND rt.id = ci.role_id;

@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, company_name AS cn WHERE cn.country_code != '[pl]' AND (cn.name LIKE '%Film%' OR cn.name LIKE '%Warner%') AND mc.note IS NULL AND mc.company_id = cn.id AND cn.id = mc.company_id;

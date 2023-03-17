@@ -1,0 +1,1 @@
+SELECT * FROM movie_info_idx AS mi_idx, movie_info AS mi WHERE mi.info IN ('Drama', 'Horror') AND mi_idx.info > '8.0' AND mi.movie_id = mi_idx.movie_id AND mi_idx.movie_id = mi.movie_id;

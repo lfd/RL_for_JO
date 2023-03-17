@@ -1,0 +1,15 @@
+aliases,cardinality
+"('k', 'mk')",169
+"('k', 'mi_idx', 'mk')",523
+"('it2', 'k', 'mi_idx', 'mk')",5
+"('it2', 'k', 'mi', 'mi_idx', 'mk')",1
+"('ci', 'it2', 'k', 'mi', 'mi_idx', 'mk')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",1
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",1
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",1
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",1
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",1

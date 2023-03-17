@@ -1,0 +1,1 @@
+SELECT * FROM aka_title AS at, movie_keyword AS mk WHERE mk.movie_id = at.movie_id AND at.movie_id = mk.movie_id;

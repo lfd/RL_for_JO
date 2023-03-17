@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, cast_info AS ci, aka_name AS an WHERE ci.note = '(voice)' AND t.production_year BETWEEN 2007 AND 2008 AND t.title LIKE '%Kung%Fu%Panda%' AND t.id = ci.movie_id AND ci.movie_id = t.id AND ci.person_id = an.person_id AND an.person_id = ci.person_id;

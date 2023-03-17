@@ -1,0 +1,804 @@
+aliases,cardinality
+"('k', 'mk')",76714
+"('k', 'mi_idx', 'mk')",191689
+"('it2', 'k', 'mi_idx', 'mk')",63701
+"('cc', 'it2', 'k', 'mi_idx', 'mk')",35346
+"('cc', 'cct1', 'it2', 'k', 'mi_idx', 'mk')",24904
+"('cc', 'cct1', 'cct2', 'it2', 'k', 'mi_idx', 'mk')",12476
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'k', 'mi_idx', 'mk')",8824
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk')",15083
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",11863
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n')",8024
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",8024
+"('ci', 't')",1244716
+"('ci', 'n', 't')",558518
+"('ci', 'mk', 'n', 't')",1436455
+"('ci', 'mi_idx', 'mk', 'n', 't')",3884477
+"('ci', 'mi', 'mi_idx', 'mk', 'n', 't')",3285356
+"('ci', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",87858
+"('ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",29015
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",26153
+"('cc', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",18841
+"('cc', 'cct2', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",9735
+"('ci', 'n')",558518
+"('mk', 't')",4523930
+"('ci', 'mk', 't')",2619220
+"('ci', 'mk')",2619220
+"('ci', 'mk', 'n')",1436455
+"('ci', 'mi_idx', 'n', 't')",501122
+"('mi_idx', 't')",1380035
+"('ci', 'mi_idx', 't')",1000868
+"('ci', 'mi_idx')",1000868
+"('ci', 'mi_idx', 'n')",501122
+"('mi_idx', 'mk', 't')",10424626
+"('ci', 'mi_idx', 'mk', 't')",6806711
+"('mi_idx', 'mk')",10424626
+"('ci', 'mi_idx', 'mk')",6806711
+"('ci', 'mi_idx', 'mk', 'n')",3884477
+"('ci', 'mi', 'mk', 'n', 't')",1106684
+"('ci', 'mi', 'n', 't')",46591
+"('mi', 't')",188971
+"('ci', 'mi', 't')",95066
+"('ci', 'mi')",95066
+"('ci', 'mi', 'n')",46591
+"('mi', 'mk', 't')",2615151
+"('ci', 'mi', 'mk', 't')",1754421
+"('mi', 'mk')",2615151
+"('ci', 'mi', 'mk')",1754421
+"('ci', 'mi', 'mk', 'n')",1106684
+"('ci', 'mi', 'mi_idx', 'n', 't')",88457
+"('mi', 'mi_idx', 't')",315079
+"('ci', 'mi', 'mi_idx', 't')",168225
+"('mi', 'mi_idx')",315079
+"('ci', 'mi', 'mi_idx')",168225
+"('ci', 'mi', 'mi_idx', 'n')",88457
+"('mi', 'mi_idx', 'mk', 't')",7405374
+"('ci', 'mi', 'mi_idx', 'mk', 't')",5130269
+"('mi', 'mi_idx', 'mk')",7405374
+"('ci', 'mi', 'mi_idx', 'mk')",5130269
+"('ci', 'mi', 'mi_idx', 'mk', 'n')",3285356
+"('ci', 'k', 'mi_idx', 'mk', 'n', 't')",68362
+"('ci', 'k', 'mk', 'n', 't')",24462
+"('k', 'mk', 't')",76714
+"('ci', 'k', 'mk', 't')",43178
+"('ci', 'k', 'mk')",43178
+"('ci', 'k', 'mk', 'n')",24462
+"('k', 'mi_idx', 'mk', 't')",191689
+"('ci', 'k', 'mi_idx', 'mk', 't')",117383
+"('ci', 'k', 'mi_idx', 'mk')",117383
+"('ci', 'k', 'mi_idx', 'mk', 'n')",68362
+"('ci', 'k', 'mi', 'mk', 'n', 't')",30117
+"('k', 'mi', 'mk', 't')",72386
+"('ci', 'k', 'mi', 'mk', 't')",48817
+"('k', 'mi', 'mk')",72386
+"('ci', 'k', 'mi', 'mk')",48817
+"('ci', 'k', 'mi', 'mk', 'n')",30117
+"('k', 'mi', 'mi_idx', 'mk', 't')",204379
+"('ci', 'k', 'mi', 'mi_idx', 'mk', 't')",140982
+"('k', 'mi', 'mi_idx', 'mk')",204379
+"('ci', 'k', 'mi', 'mi_idx', 'mk')",140982
+"('ci', 'k', 'mi', 'mi_idx', 'mk', 'n')",87858
+"('ci', 'it2', 'mi', 'mi_idx', 'mk', 'n', 't')",1078899
+"('ci', 'it2', 'mi_idx', 'mk', 'n', 't')",1286350
+"('ci', 'it2', 'mi_idx', 'n', 't')",166987
+"('it2', 'mi_idx', 't')",459925
+"('ci', 'it2', 'mi_idx', 't')",333558
+"('it2', 'mi_idx')",459925
+"('ci', 'it2', 'mi_idx')",333558
+"('ci', 'it2', 'mi_idx', 'n')",166987
+"('it2', 'mi_idx', 'mk', 't')",3461792
+"('ci', 'it2', 'mi_idx', 'mk', 't')",2258844
+"('it2', 'mi_idx', 'mk')",3461792
+"('ci', 'it2', 'mi_idx', 'mk')",2258844
+"('ci', 'it2', 'mi_idx', 'mk', 'n')",1286350
+"('ci', 'it2', 'mi', 'mi_idx', 'n', 't')",29399
+"('it2', 'mi', 'mi_idx', 't')",104892
+"('ci', 'it2', 'mi', 'mi_idx', 't')",55981
+"('it2', 'mi', 'mi_idx')",104892
+"('ci', 'it2', 'mi', 'mi_idx')",55981
+"('ci', 'it2', 'mi', 'mi_idx', 'n')",29399
+"('it2', 'mi', 'mi_idx', 'mk', 't')",2445176
+"('ci', 'it2', 'mi', 'mi_idx', 'mk', 't')",1692521
+"('it2', 'mi', 'mi_idx', 'mk')",2445176
+"('ci', 'it2', 'mi', 'mi_idx', 'mk')",1692521
+"('ci', 'it2', 'mi', 'mi_idx', 'mk', 'n')",1078899
+"('ci', 'it2', 'k', 'mi_idx', 'mk', 'n', 't')",22670
+"('it2', 'k', 'mi_idx', 'mk', 't')",63701
+"('ci', 'it2', 'k', 'mi_idx', 'mk', 't')",38991
+"('ci', 'it2', 'k', 'mi_idx', 'mk')",38991
+"('ci', 'it2', 'k', 'mi_idx', 'mk', 'n')",22670
+"('it2', 'k', 'mi', 'mi_idx', 'mk', 't')",67732
+"('ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",46694
+"('it2', 'k', 'mi', 'mi_idx', 'mk')",67732
+"('ci', 'it2', 'k', 'mi', 'mi_idx', 'mk')",46694
+"('ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n')",29015
+"('ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",78897
+"('ci', 'it1', 'mi', 'mi_idx', 'mk', 'n', 't')",2850661
+"('ci', 'it1', 'mi', 'mk', 'n', 't')",968838
+"('ci', 'it1', 'mi', 'n', 't')",45265
+"('it1', 'mi', 't')",186594
+"('ci', 'it1', 'mi', 't')",93240
+"('it1', 'mi')",186594
+"('ci', 'it1', 'mi')",93240
+"('ci', 'it1', 'mi', 'n')",45265
+"('it1', 'mi', 'mk', 't')",2394761
+"('ci', 'it1', 'mi', 'mk', 't')",1576977
+"('it1', 'mi', 'mk')",2394761
+"('ci', 'it1', 'mi', 'mk')",1576977
+"('ci', 'it1', 'mi', 'mk', 'n')",968838
+"('ci', 'it1', 'mi', 'mi_idx', 'n', 't')",84358
+"('it1', 'mi', 'mi_idx', 't')",307785
+"('ci', 'it1', 'mi', 'mi_idx', 't')",162621
+"('it1', 'mi', 'mi_idx')",307785
+"('ci', 'it1', 'mi', 'mi_idx')",162621
+"('ci', 'it1', 'mi', 'mi_idx', 'n')",84358
+"('it1', 'mi', 'mi_idx', 'mk', 't')",6716284
+"('ci', 'it1', 'mi', 'mi_idx', 'mk', 't')",4575845
+"('it1', 'mi', 'mi_idx', 'mk')",6716284
+"('ci', 'it1', 'mi', 'mi_idx', 'mk')",4575845
+"('ci', 'it1', 'mi', 'mi_idx', 'mk', 'n')",2850661
+"('ci', 'it1', 'k', 'mi', 'mk', 'n', 't')",27255
+"('it1', 'k', 'mi', 'mk', 't')",68040
+"('ci', 'it1', 'k', 'mi', 'mk', 't')",45023
+"('it1', 'k', 'mi', 'mk')",68040
+"('ci', 'it1', 'k', 'mi', 'mk')",45023
+"('ci', 'it1', 'k', 'mi', 'mk', 'n')",27255
+"('it1', 'k', 'mi', 'mi_idx', 'mk', 't')",190874
+"('ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 't')",129195
+"('it1', 'k', 'mi', 'mi_idx', 'mk')",190874
+"('ci', 'it1', 'k', 'mi', 'mi_idx', 'mk')",129195
+"('ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 'n')",78897
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 'n', 't')",941053
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 'n', 't')",28073
+"('it1', 'it2', 'mi', 'mi_idx', 't')",102516
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 't')",54155
+"('it1', 'it2', 'mi', 'mi_idx')",102516
+"('ci', 'it1', 'it2', 'mi', 'mi_idx')",54155
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 'n')",28073
+"('it1', 'it2', 'mi', 'mi_idx', 'mk', 't')",2224786
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 't')",1515077
+"('it1', 'it2', 'mi', 'mi_idx', 'mk')",2224786
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk')",1515077
+"('ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 'n')",941053
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",63386
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",42900
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",63386
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",42900
+"('ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n')",26153
+"('cc', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",22962
+"('cc', 'ci', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",70229
+"('cc', 'ci', 'mi', 'mi_idx', 'mk', 'n', 't')",3009804
+"('cc', 'ci', 'mi_idx', 'mk', 'n', 't')",2760652
+"('cc', 'ci', 'mk', 'n', 't')",920223
+"('cc', 'ci', 'n', 't')",54189
+"('cc', 'ci', 't')",116781
+"('cc', 't')",135086
+"('cc', 'ci')",116781
+"('cc', 'ci', 'n')",54189
+"('cc', 'ci', 'mk', 't')",1516871
+"('cc', 'mk', 't')",2171367
+"('cc', 'mk')",2171367
+"('cc', 'ci', 'mk')",1516871
+"('cc', 'ci', 'mk', 'n')",920223
+"('cc', 'ci', 'mi_idx', 'n', 't')",120315
+"('cc', 'ci', 'mi_idx', 't')",239208
+"('cc', 'mi_idx', 't')",286599
+"('cc', 'mi_idx')",286599
+"('cc', 'ci', 'mi_idx')",239208
+"('cc', 'ci', 'mi_idx', 'n')",120315
+"('cc', 'ci', 'mi_idx', 'mk', 't')",4477615
+"('cc', 'mi_idx', 'mk', 't')",6413155
+"('cc', 'mi_idx', 'mk')",6413155
+"('cc', 'ci', 'mi_idx', 'mk')",4477615
+"('cc', 'ci', 'mi_idx', 'mk', 'n')",2760652
+"('cc', 'ci', 'mi', 'mk', 'n', 't')",978239
+"('cc', 'ci', 'mi', 'n', 't')",14427
+"('cc', 'ci', 'mi', 't')",24884
+"('cc', 'mi', 't')",37151
+"('cc', 'mi')",37151
+"('cc', 'ci', 'mi')",24884
+"('cc', 'ci', 'mi', 'n')",14427
+"('cc', 'ci', 'mi', 'mk', 't')",1431486
+"('cc', 'mi', 'mk', 't')",1936569
+"('cc', 'mi', 'mk')",1936569
+"('cc', 'ci', 'mi', 'mk')",1431486
+"('cc', 'ci', 'mi', 'mk', 'n')",978239
+"('cc', 'ci', 'mi', 'mi_idx', 'n', 't')",42920
+"('cc', 'ci', 'mi', 'mi_idx', 't')",73513
+"('cc', 'mi', 'mi_idx', 't')",109166
+"('cc', 'mi', 'mi_idx')",109166
+"('cc', 'ci', 'mi', 'mi_idx')",73513
+"('cc', 'ci', 'mi', 'mi_idx', 'n')",42920
+"('cc', 'ci', 'mi', 'mi_idx', 'mk', 't')",4367571
+"('cc', 'mi', 'mi_idx', 'mk', 't')",5897111
+"('cc', 'mi', 'mi_idx', 'mk')",5897111
+"('cc', 'ci', 'mi', 'mi_idx', 'mk')",4367571
+"('cc', 'ci', 'mi', 'mi_idx', 'mk', 'n')",3009804
+"('cc', 'ci', 'k', 'mi_idx', 'mk', 'n', 't')",45734
+"('cc', 'ci', 'k', 'mk', 'n', 't')",15168
+"('cc', 'ci', 'k', 'mk', 't')",24919
+"('cc', 'k', 'mk', 't')",36010
+"('cc', 'k', 'mk')",36010
+"('cc', 'ci', 'k', 'mk')",24919
+"('cc', 'ci', 'k', 'mk', 'n')",15168
+"('cc', 'ci', 'k', 'mi_idx', 'mk', 't')",73952
+"('cc', 'k', 'mi_idx', 'mk', 't')",107001
+"('cc', 'k', 'mi_idx', 'mk')",107001
+"('cc', 'ci', 'k', 'mi_idx', 'mk')",73952
+"('cc', 'ci', 'k', 'mi_idx', 'mk', 'n')",45734
+"('cc', 'ci', 'k', 'mi', 'mk', 'n', 't')",23013
+"('cc', 'ci', 'k', 'mi', 'mk', 't')",34532
+"('cc', 'k', 'mi', 'mk', 't')",44212
+"('cc', 'k', 'mi', 'mk')",44212
+"('cc', 'ci', 'k', 'mi', 'mk')",34532
+"('cc', 'ci', 'k', 'mi', 'mk', 'n')",23013
+"('cc', 'ci', 'k', 'mi', 'mi_idx', 'mk', 't')",104721
+"('cc', 'k', 'mi', 'mi_idx', 'mk', 't')",133961
+"('cc', 'k', 'mi', 'mi_idx', 'mk')",133961
+"('cc', 'ci', 'k', 'mi', 'mi_idx', 'mk')",104721
+"('cc', 'ci', 'k', 'mi', 'mi_idx', 'mk', 'n')",70229
+"('cc', 'ci', 'it2', 'mi', 'mi_idx', 'mk', 'n', 't')",976853
+"('cc', 'ci', 'it2', 'mi_idx', 'mk', 'n', 't')",907203
+"('cc', 'ci', 'it2', 'mi_idx', 'n', 't')",40025
+"('cc', 'ci', 'it2', 'mi_idx', 't')",79641
+"('cc', 'it2', 'mi_idx', 't')",95399
+"('cc', 'it2', 'mi_idx')",95399
+"('cc', 'ci', 'it2', 'mi_idx')",79641
+"('cc', 'ci', 'it2', 'mi_idx', 'n')",40025
+"('cc', 'ci', 'it2', 'mi_idx', 'mk', 't')",1477157
+"('cc', 'it2', 'mi_idx', 'mk', 't')",2116729
+"('cc', 'it2', 'mi_idx', 'mk')",2116729
+"('cc', 'ci', 'it2', 'mi_idx', 'mk')",1477157
+"('cc', 'ci', 'it2', 'mi_idx', 'mk', 'n')",907203
+"('cc', 'ci', 'it2', 'mi', 'mi_idx', 'n', 't')",14165
+"('cc', 'ci', 'it2', 'mi', 'mi_idx', 't')",24352
+"('cc', 'it2', 'mi', 'mi_idx', 't')",36164
+"('cc', 'it2', 'mi', 'mi_idx')",36164
+"('cc', 'ci', 'it2', 'mi', 'mi_idx')",24352
+"('cc', 'ci', 'it2', 'mi', 'mi_idx', 'n')",14165
+"('cc', 'ci', 'it2', 'mi', 'mi_idx', 'mk', 't')",1427200
+"('cc', 'it2', 'mi', 'mi_idx', 'mk', 't')",1926444
+"('cc', 'it2', 'mi', 'mi_idx', 'mk')",1926444
+"('cc', 'ci', 'it2', 'mi', 'mi_idx', 'mk')",1427200
+"('cc', 'ci', 'it2', 'mi', 'mi_idx', 'mk', 'n')",976853
+"('cc', 'ci', 'it2', 'k', 'mi_idx', 'mk', 'n', 't')",15057
+"('cc', 'ci', 'it2', 'k', 'mi_idx', 'mk', 't')",24437
+"('cc', 'it2', 'k', 'mi_idx', 'mk', 't')",35346
+"('cc', 'ci', 'it2', 'k', 'mi_idx', 'mk')",24437
+"('cc', 'ci', 'it2', 'k', 'mi_idx', 'mk', 'n')",15057
+"('cc', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",34412
+"('cc', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",43984
+"('cc', 'it2', 'k', 'mi', 'mi_idx', 'mk')",43984
+"('cc', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk')",34412
+"('cc', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n')",22962
+"('cc', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",57220
+"('cc', 'ci', 'it1', 'mi', 'mi_idx', 'mk', 'n', 't')",2356792
+"('cc', 'ci', 'it1', 'mi', 'mk', 'n', 't')",773285
+"('cc', 'ci', 'it1', 'mi', 'n', 't')",12553
+"('cc', 'ci', 'it1', 'mi', 't')",22393
+"('cc', 'it1', 'mi', 't')",33931
+"('cc', 'it1', 'mi')",33931
+"('cc', 'ci', 'it1', 'mi')",22393
+"('cc', 'ci', 'it1', 'mi', 'n')",12553
+"('cc', 'ci', 'it1', 'mi', 'mk', 't')",1174220
+"('cc', 'it1', 'mi', 'mk', 't')",1605279
+"('cc', 'it1', 'mi', 'mk')",1605279
+"('cc', 'ci', 'it1', 'mi', 'mk')",1174220
+"('cc', 'ci', 'it1', 'mi', 'mk', 'n')",773285
+"('cc', 'ci', 'it1', 'mi', 'mi_idx', 'n', 't')",37080
+"('cc', 'ci', 'it1', 'mi', 'mi_idx', 't')",65812
+"('cc', 'it1', 'mi', 'mi_idx', 't')",99212
+"('cc', 'it1', 'mi', 'mi_idx')",99212
+"('cc', 'ci', 'it1', 'mi', 'mi_idx')",65812
+"('cc', 'ci', 'it1', 'mi', 'mi_idx', 'n')",37080
+"('cc', 'ci', 'it1', 'mi', 'mi_idx', 'mk', 't')",3555753
+"('cc', 'it1', 'mi', 'mi_idx', 'mk', 't')",4853398
+"('cc', 'it1', 'mi', 'mi_idx', 'mk')",4853398
+"('cc', 'ci', 'it1', 'mi', 'mi_idx', 'mk')",3555753
+"('cc', 'ci', 'it1', 'mi', 'mi_idx', 'mk', 'n')",2356792
+"('cc', 'ci', 'it1', 'k', 'mi', 'mk', 'n', 't')",18892
+"('cc', 'ci', 'it1', 'k', 'mi', 'mk', 't')",29203
+"('cc', 'it1', 'k', 'mi', 'mk', 't')",37897
+"('cc', 'it1', 'k', 'mi', 'mk')",37897
+"('cc', 'ci', 'it1', 'k', 'mi', 'mk')",29203
+"('cc', 'ci', 'it1', 'k', 'mi', 'mk', 'n')",18892
+"('cc', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 't')",88028
+"('cc', 'it1', 'k', 'mi', 'mi_idx', 'mk', 't')",114197
+"('cc', 'it1', 'k', 'mi', 'mi_idx', 'mk')",114197
+"('cc', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk')",88028
+"('cc', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 'n')",57220
+"('cc', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 'n', 't')",771899
+"('cc', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'n', 't')",12291
+"('cc', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 't')",21861
+"('cc', 'it1', 'it2', 'mi', 'mi_idx', 't')",32944
+"('cc', 'it1', 'it2', 'mi', 'mi_idx')",32944
+"('cc', 'ci', 'it1', 'it2', 'mi', 'mi_idx')",21861
+"('cc', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'n')",12291
+"('cc', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 't')",1169934
+"('cc', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 't')",1595154
+"('cc', 'it1', 'it2', 'mi', 'mi_idx', 'mk')",1595154
+"('cc', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk')",1169934
+"('cc', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 'n')",771899
+"('cc', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",29083
+"('cc', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",37669
+"('cc', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",37669
+"('cc', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",29083
+"('cc', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n')",18841
+"('cc', 'cct2', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",13089
+"('cc', 'cct2', 'ci', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",40485
+"('cc', 'cct2', 'ci', 'mi', 'mi_idx', 'mk', 'n', 't')",1835135
+"('cc', 'cct2', 'ci', 'mi_idx', 'mk', 'n', 't')",1321193
+"('cc', 'cct2', 'ci', 'mk', 'n', 't')",430265
+"('cc', 'cct2', 'ci', 'n', 't')",8414
+"('cc', 'cct2', 'ci', 't')",15537
+"('cc', 'cct2', 't')",24592
+"('cc', 'cct2')",24592
+"('cc', 'cct2', 'ci')",15537
+"('cc', 'cct2', 'ci', 'n')",8414
+"('cc', 'cct2', 'ci', 'mk', 't')",666710
+"('cc', 'cct2', 'mk', 't')",1023805
+"('cc', 'cct2', 'mk')",1023805
+"('cc', 'cct2', 'ci', 'mk')",666710
+"('cc', 'cct2', 'ci', 'mk', 'n')",430265
+"('cc', 'cct2', 'ci', 'mi_idx', 'n', 't')",24943
+"('cc', 'cct2', 'ci', 'mi_idx', 't')",45387
+"('cc', 'cct2', 'mi_idx', 't')",71011
+"('cc', 'cct2', 'mi_idx')",71011
+"('cc', 'cct2', 'ci', 'mi_idx')",45387
+"('cc', 'cct2', 'ci', 'mi_idx', 'n')",24943
+"('cc', 'cct2', 'ci', 'mi_idx', 'mk', 't')",2030704
+"('cc', 'cct2', 'mi_idx', 'mk', 't')",3112513
+"('cc', 'cct2', 'mi_idx', 'mk')",3112513
+"('cc', 'cct2', 'ci', 'mi_idx', 'mk')",2030704
+"('cc', 'cct2', 'ci', 'mi_idx', 'mk', 'n')",1321193
+"('cc', 'cct2', 'ci', 'mi', 'mk', 'n', 't')",589033
+"('cc', 'cct2', 'ci', 'mi', 'n', 't')",6857
+"('cc', 'cct2', 'ci', 'mi', 't')",10895
+"('cc', 'cct2', 'mi', 't')",15868
+"('cc', 'cct2', 'mi')",15868
+"('cc', 'cct2', 'ci', 'mi')",10895
+"('cc', 'cct2', 'ci', 'mi', 'n')",6857
+"('cc', 'cct2', 'ci', 'mi', 'mk', 't')",826996
+"('cc', 'cct2', 'mi', 'mk', 't')",1128600
+"('cc', 'cct2', 'mi', 'mk')",1128600
+"('cc', 'cct2', 'ci', 'mi', 'mk')",826996
+"('cc', 'cct2', 'ci', 'mi', 'mk', 'n')",589033
+"('cc', 'cct2', 'ci', 'mi', 'mi_idx', 'n', 't')",20941
+"('cc', 'cct2', 'ci', 'mi', 'mi_idx', 't')",33031
+"('cc', 'cct2', 'mi', 'mi_idx', 't')",48085
+"('cc', 'cct2', 'mi', 'mi_idx')",48085
+"('cc', 'cct2', 'ci', 'mi', 'mi_idx')",33031
+"('cc', 'cct2', 'ci', 'mi', 'mi_idx', 'n')",20941
+"('cc', 'cct2', 'ci', 'mi', 'mi_idx', 'mk', 't')",2553615
+"('cc', 'cct2', 'mi', 'mi_idx', 'mk', 't')",3485246
+"('cc', 'cct2', 'mi', 'mi_idx', 'mk')",3485246
+"('cc', 'cct2', 'ci', 'mi', 'mi_idx', 'mk')",2553615
+"('cc', 'cct2', 'ci', 'mi', 'mi_idx', 'mk', 'n')",1835135
+"('cc', 'cct2', 'ci', 'k', 'mi_idx', 'mk', 'n', 't')",22003
+"('cc', 'cct2', 'ci', 'k', 'mk', 'n', 't')",7169
+"('cc', 'cct2', 'ci', 'k', 'mk', 't')",11071
+"('cc', 'cct2', 'k', 'mk', 't')",16336
+"('cc', 'cct2', 'k', 'mk')",16336
+"('cc', 'cct2', 'ci', 'k', 'mk')",11071
+"('cc', 'cct2', 'ci', 'k', 'mk', 'n')",7169
+"('cc', 'cct2', 'ci', 'k', 'mi_idx', 'mk', 't')",33580
+"('cc', 'cct2', 'k', 'mi_idx', 'mk', 't')",49655
+"('cc', 'cct2', 'k', 'mi_idx', 'mk')",49655
+"('cc', 'cct2', 'ci', 'k', 'mi_idx', 'mk')",33580
+"('cc', 'cct2', 'ci', 'k', 'mi_idx', 'mk', 'n')",22003
+"('cc', 'cct2', 'ci', 'k', 'mi', 'mk', 'n', 't')",13089
+"('cc', 'cct2', 'ci', 'k', 'mi', 'mk', 't')",18729
+"('cc', 'cct2', 'k', 'mi', 'mk', 't')",23715
+"('cc', 'cct2', 'k', 'mi', 'mk')",23715
+"('cc', 'cct2', 'ci', 'k', 'mi', 'mk')",18729
+"('cc', 'cct2', 'ci', 'k', 'mi', 'mk', 'n')",13089
+"('cc', 'cct2', 'ci', 'k', 'mi', 'mi_idx', 'mk', 't')",57508
+"('cc', 'cct2', 'k', 'mi', 'mi_idx', 'mk', 't')",72872
+"('cc', 'cct2', 'k', 'mi', 'mi_idx', 'mk')",72872
+"('cc', 'cct2', 'ci', 'k', 'mi', 'mi_idx', 'mk')",57508
+"('cc', 'cct2', 'ci', 'k', 'mi', 'mi_idx', 'mk', 'n')",40485
+"('cc', 'cct2', 'ci', 'it2', 'mi', 'mi_idx', 'mk', 'n', 't')",588982
+"('cc', 'cct2', 'ci', 'it2', 'mi_idx', 'mk', 'n', 't')",429756
+"('cc', 'cct2', 'ci', 'it2', 'mi_idx', 'n', 't')",8246
+"('cc', 'cct2', 'ci', 'it2', 'mi_idx', 't')",15048
+"('cc', 'cct2', 'it2', 'mi_idx', 't')",23558
+"('cc', 'cct2', 'it2', 'mi_idx')",23558
+"('cc', 'cct2', 'ci', 'it2', 'mi_idx')",15048
+"('cc', 'cct2', 'ci', 'it2', 'mi_idx', 'n')",8246
+"('cc', 'cct2', 'ci', 'it2', 'mi_idx', 'mk', 't')",664271
+"('cc', 'cct2', 'it2', 'mi_idx', 'mk', 't')",1020203
+"('cc', 'cct2', 'it2', 'mi_idx', 'mk')",1020203
+"('cc', 'cct2', 'ci', 'it2', 'mi_idx', 'mk')",664271
+"('cc', 'cct2', 'ci', 'it2', 'mi_idx', 'mk', 'n')",429756
+"('cc', 'cct2', 'ci', 'it2', 'mi', 'mi_idx', 'n', 't')",6853
+"('cc', 'cct2', 'ci', 'it2', 'mi', 'mi_idx', 't')",10875
+"('cc', 'cct2', 'it2', 'mi', 'mi_idx', 't')",15827
+"('cc', 'cct2', 'it2', 'mi', 'mi_idx')",15827
+"('cc', 'cct2', 'ci', 'it2', 'mi', 'mi_idx')",10875
+"('cc', 'cct2', 'ci', 'it2', 'mi', 'mi_idx', 'n')",6853
+"('cc', 'cct2', 'ci', 'it2', 'mi', 'mi_idx', 'mk', 't')",826822
+"('cc', 'cct2', 'it2', 'mi', 'mi_idx', 'mk', 't')",1127704
+"('cc', 'cct2', 'it2', 'mi', 'mi_idx', 'mk')",1127704
+"('cc', 'cct2', 'ci', 'it2', 'mi', 'mi_idx', 'mk')",826822
+"('cc', 'cct2', 'ci', 'it2', 'mi', 'mi_idx', 'mk', 'n')",588982
+"('cc', 'cct2', 'ci', 'it2', 'k', 'mi_idx', 'mk', 'n', 't')",7165
+"('cc', 'cct2', 'ci', 'it2', 'k', 'mi_idx', 'mk', 't')",11002
+"('cc', 'cct2', 'it2', 'k', 'mi_idx', 'mk', 't')",16283
+"('cc', 'cct2', 'it2', 'k', 'mi_idx', 'mk')",16283
+"('cc', 'cct2', 'ci', 'it2', 'k', 'mi_idx', 'mk')",11002
+"('cc', 'cct2', 'ci', 'it2', 'k', 'mi_idx', 'mk', 'n')",7165
+"('cc', 'cct2', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",18726
+"('cc', 'cct2', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",23704
+"('cc', 'cct2', 'it2', 'k', 'mi', 'mi_idx', 'mk')",23704
+"('cc', 'cct2', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk')",18726
+"('cc', 'cct2', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n')",13089
+"('cc', 'cct2', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",29777
+"('cc', 'cct2', 'ci', 'it1', 'mi', 'mi_idx', 'mk', 'n', 't')",1286121
+"('cc', 'cct2', 'ci', 'it1', 'mi', 'mk', 'n', 't')",418745
+"('cc', 'cct2', 'ci', 'it1', 'mi', 'n', 't')",5353
+"('cc', 'cct2', 'ci', 'it1', 'mi', 't')",8933
+"('cc', 'cct2', 'it1', 'mi', 't')",13281
+"('cc', 'cct2', 'it1', 'mi')",13281
+"('cc', 'cct2', 'ci', 'it1', 'mi')",8933
+"('cc', 'cct2', 'ci', 'it1', 'mi', 'n')",5353
+"('cc', 'cct2', 'ci', 'it1', 'mi', 'mk', 't')",614346
+"('cc', 'cct2', 'it1', 'mi', 'mk', 't')",849719
+"('cc', 'cct2', 'it1', 'mi', 'mk')",849719
+"('cc', 'cct2', 'ci', 'it1', 'mi', 'mk')",614346
+"('cc', 'cct2', 'ci', 'it1', 'mi', 'mk', 'n')",418745
+"('cc', 'cct2', 'ci', 'it1', 'mi', 'mi_idx', 'n', 't')",16211
+"('cc', 'cct2', 'ci', 'it1', 'mi', 'mi_idx', 't')",26917
+"('cc', 'cct2', 'it1', 'mi', 'mi_idx', 't')",40033
+"('cc', 'cct2', 'it1', 'mi', 'mi_idx')",40033
+"('cc', 'cct2', 'ci', 'it1', 'mi', 'mi_idx')",26917
+"('cc', 'cct2', 'ci', 'it1', 'mi', 'mi_idx', 'n')",16211
+"('cc', 'cct2', 'ci', 'it1', 'mi', 'mi_idx', 'mk', 't')",1875645
+"('cc', 'cct2', 'it1', 'mi', 'mi_idx', 'mk', 't')",2599516
+"('cc', 'cct2', 'it1', 'mi', 'mi_idx', 'mk')",2599516
+"('cc', 'cct2', 'ci', 'it1', 'mi', 'mi_idx', 'mk')",1875645
+"('cc', 'cct2', 'ci', 'it1', 'mi', 'mi_idx', 'mk', 'n')",1286121
+"('cc', 'cct2', 'ci', 'it1', 'k', 'mi', 'mk', 'n', 't')",9735
+"('cc', 'cct2', 'ci', 'it1', 'k', 'mi', 'mk', 't')",14412
+"('cc', 'cct2', 'it1', 'k', 'mi', 'mk', 't')",18554
+"('cc', 'cct2', 'it1', 'k', 'mi', 'mk')",18554
+"('cc', 'cct2', 'ci', 'it1', 'k', 'mi', 'mk')",14412
+"('cc', 'cct2', 'ci', 'it1', 'k', 'mi', 'mk', 'n')",9735
+"('cc', 'cct2', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 't')",43851
+"('cc', 'cct2', 'it1', 'k', 'mi', 'mi_idx', 'mk', 't')",56585
+"('cc', 'cct2', 'it1', 'k', 'mi', 'mi_idx', 'mk')",56585
+"('cc', 'cct2', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk')",43851
+"('cc', 'cct2', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 'n')",29777
+"('cc', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 'n', 't')",418694
+"('cc', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'n', 't')",5349
+"('cc', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 't')",8913
+"('cc', 'cct2', 'it1', 'it2', 'mi', 'mi_idx', 't')",13240
+"('cc', 'cct2', 'it1', 'it2', 'mi', 'mi_idx')",13240
+"('cc', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx')",8913
+"('cc', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'n')",5349
+"('cc', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 't')",614172
+"('cc', 'cct2', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 't')",848823
+"('cc', 'cct2', 'it1', 'it2', 'mi', 'mi_idx', 'mk')",848823
+"('cc', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk')",614172
+"('cc', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 'n')",418694
+"('cc', 'cct2', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",14409
+"('cc', 'cct2', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",18543
+"('cc', 'cct2', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",18543
+"('cc', 'cct2', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",14409
+"('cc', 'cct2', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n')",9735
+"('cc', 'cct1', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",14123
+"('cc', 'cct1', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",16827
+"('cc', 'cct1', 'ci', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",51232
+"('cc', 'cct1', 'ci', 'mi', 'mi_idx', 'mk', 'n', 't')",2154591
+"('cc', 'cct1', 'ci', 'mi_idx', 'mk', 'n', 't')",1886932
+"('cc', 'cct1', 'ci', 'mk', 'n', 't')",628488
+"('cc', 'cct1', 'ci', 'n', 't')",33547
+"('cc', 'cct1', 'ci', 't')",70648
+"('cc', 'cct1', 't')",85941
+"('cc', 'cct1')",85941
+"('cc', 'cct1', 'ci')",70648
+"('cc', 'cct1', 'ci', 'n')",33547
+"('cc', 'cct1', 'ci', 'mk', 't')",1027219
+"('cc', 'cct1', 'mk', 't')",1436647
+"('cc', 'cct1', 'mk')",1436647
+"('cc', 'cct1', 'ci', 'mk')",1027219
+"('cc', 'cct1', 'ci', 'mk', 'n')",628488
+"('cc', 'cct1', 'ci', 'mi_idx', 'n', 't')",78433
+"('cc', 'cct1', 'ci', 'mi_idx', 't')",152988
+"('cc', 'cct1', 'mi_idx', 't')",184902
+"('cc', 'cct1', 'mi_idx')",184902
+"('cc', 'cct1', 'ci', 'mi_idx')",152988
+"('cc', 'cct1', 'ci', 'mi_idx', 'n')",78433
+"('cc', 'cct1', 'ci', 'mi_idx', 'mk', 't')",3041316
+"('cc', 'cct1', 'mi_idx', 'mk', 't')",4244002
+"('cc', 'cct1', 'mi_idx', 'mk')",4244002
+"('cc', 'cct1', 'ci', 'mi_idx', 'mk')",3041316
+"('cc', 'cct1', 'ci', 'mi_idx', 'mk', 'n')",1886932
+"('cc', 'cct1', 'ci', 'mi', 'mk', 'n', 't')",704669
+"('cc', 'cct1', 'ci', 'mi', 'n', 't')",10492
+"('cc', 'cct1', 'ci', 'mi', 't')",18119
+"('cc', 'cct1', 'mi', 't')",26357
+"('cc', 'cct1', 'mi')",26357
+"('cc', 'cct1', 'ci', 'mi')",18119
+"('cc', 'cct1', 'ci', 'mi', 'n')",10492
+"('cc', 'cct1', 'ci', 'mi', 'mk', 't')",1035704
+"('cc', 'cct1', 'mi', 'mk', 't')",1340934
+"('cc', 'cct1', 'mi', 'mk')",1340934
+"('cc', 'cct1', 'ci', 'mi', 'mk')",1035704
+"('cc', 'cct1', 'ci', 'mi', 'mk', 'n')",704669
+"('cc', 'cct1', 'ci', 'mi', 'mi_idx', 'n', 't')",31216
+"('cc', 'cct1', 'ci', 'mi', 'mi_idx', 't')",53540
+"('cc', 'cct1', 'mi', 'mi_idx', 't')",77364
+"('cc', 'cct1', 'mi', 'mi_idx')",77364
+"('cc', 'cct1', 'ci', 'mi', 'mi_idx')",53540
+"('cc', 'cct1', 'ci', 'mi', 'mi_idx', 'n')",31216
+"('cc', 'cct1', 'ci', 'mi', 'mi_idx', 'mk', 't')",3143871
+"('cc', 'cct1', 'mi', 'mi_idx', 'mk', 't')",4063201
+"('cc', 'cct1', 'mi', 'mi_idx', 'mk')",4063201
+"('cc', 'cct1', 'ci', 'mi', 'mi_idx', 'mk')",3143871
+"('cc', 'cct1', 'ci', 'mi', 'mi_idx', 'mk', 'n')",2154591
+"('cc', 'cct1', 'ci', 'k', 'mi_idx', 'mk', 'n', 't')",32975
+"('cc', 'cct1', 'ci', 'k', 'mk', 'n', 't')",10952
+"('cc', 'cct1', 'ci', 'k', 'mk', 't')",17946
+"('cc', 'cct1', 'k', 'mk', 't')",25331
+"('cc', 'cct1', 'k', 'mk')",25331
+"('cc', 'cct1', 'ci', 'k', 'mk')",17946
+"('cc', 'cct1', 'ci', 'k', 'mk', 'n')",10952
+"('cc', 'cct1', 'ci', 'k', 'mi_idx', 'mk', 't')",53336
+"('cc', 'cct1', 'k', 'mi_idx', 'mk', 't')",75254
+"('cc', 'cct1', 'k', 'mi_idx', 'mk')",75254
+"('cc', 'cct1', 'ci', 'k', 'mi_idx', 'mk')",53336
+"('cc', 'cct1', 'ci', 'k', 'mi_idx', 'mk', 'n')",32975
+"('cc', 'cct1', 'ci', 'k', 'mi', 'mk', 'n', 't')",16860
+"('cc', 'cct1', 'ci', 'k', 'mi', 'mk', 't')",25471
+"('cc', 'cct1', 'k', 'mi', 'mk', 't')",31776
+"('cc', 'cct1', 'k', 'mi', 'mk')",31776
+"('cc', 'cct1', 'ci', 'k', 'mi', 'mk')",25471
+"('cc', 'cct1', 'ci', 'k', 'mi', 'mk', 'n')",16860
+"('cc', 'cct1', 'ci', 'k', 'mi', 'mi_idx', 'mk', 't')",77001
+"('cc', 'cct1', 'k', 'mi', 'mi_idx', 'mk', 't')",95972
+"('cc', 'cct1', 'k', 'mi', 'mi_idx', 'mk')",95972
+"('cc', 'cct1', 'ci', 'k', 'mi', 'mi_idx', 'mk')",77001
+"('cc', 'cct1', 'ci', 'k', 'mi', 'mi_idx', 'mk', 'n')",51232
+"('cc', 'cct1', 'ci', 'it2', 'mi', 'mi_idx', 'mk', 'n', 't')",703591
+"('cc', 'cct1', 'ci', 'it2', 'mi_idx', 'mk', 'n', 't')",621789
+"('cc', 'cct1', 'ci', 'it2', 'mi_idx', 'n', 't')",26100
+"('cc', 'cct1', 'ci', 'it2', 'mi_idx', 't')",50943
+"('cc', 'cct1', 'it2', 'mi_idx', 't')",61559
+"('cc', 'cct1', 'it2', 'mi_idx')",61559
+"('cc', 'cct1', 'ci', 'it2', 'mi_idx')",50943
+"('cc', 'cct1', 'ci', 'it2', 'mi_idx', 'n')",26100
+"('cc', 'cct1', 'ci', 'it2', 'mi_idx', 'mk', 't')",1005294
+"('cc', 'cct1', 'it2', 'mi_idx', 'mk', 't')",1402832
+"('cc', 'cct1', 'it2', 'mi_idx', 'mk')",1402832
+"('cc', 'cct1', 'ci', 'it2', 'mi_idx', 'mk')",1005294
+"('cc', 'cct1', 'ci', 'it2', 'mi_idx', 'mk', 'n')",621789
+"('cc', 'cct1', 'ci', 'it2', 'mi', 'mi_idx', 'n', 't')",10328
+"('cc', 'cct1', 'ci', 'it2', 'mi', 'mi_idx', 't')",17764
+"('cc', 'cct1', 'it2', 'mi', 'mi_idx', 't')",25665
+"('cc', 'cct1', 'it2', 'mi', 'mi_idx')",25665
+"('cc', 'cct1', 'ci', 'it2', 'mi', 'mi_idx')",17764
+"('cc', 'cct1', 'ci', 'it2', 'mi', 'mi_idx', 'n')",10328
+"('cc', 'cct1', 'ci', 'it2', 'mi', 'mi_idx', 'mk', 't')",1032230
+"('cc', 'cct1', 'it2', 'mi', 'mi_idx', 'mk', 't')",1332603
+"('cc', 'cct1', 'it2', 'mi', 'mi_idx', 'mk')",1332603
+"('cc', 'cct1', 'ci', 'it2', 'mi', 'mi_idx', 'mk')",1032230
+"('cc', 'cct1', 'ci', 'it2', 'mi', 'mi_idx', 'mk', 'n')",703591
+"('cc', 'cct1', 'ci', 'it2', 'k', 'mi_idx', 'mk', 'n', 't')",10888
+"('cc', 'cct1', 'ci', 'it2', 'k', 'mi_idx', 'mk', 't')",17661
+"('cc', 'cct1', 'it2', 'k', 'mi_idx', 'mk', 't')",24904
+"('cc', 'cct1', 'ci', 'it2', 'k', 'mi_idx', 'mk')",17661
+"('cc', 'cct1', 'ci', 'it2', 'k', 'mi_idx', 'mk', 'n')",10888
+"('cc', 'cct1', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",25393
+"('cc', 'cct1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",31619
+"('cc', 'cct1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",31619
+"('cc', 'cct1', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk')",25393
+"('cc', 'cct1', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n')",16827
+"('cc', 'cct1', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",42761
+"('cc', 'cct1', 'ci', 'it1', 'mi', 'mi_idx', 'mk', 'n', 't')",1739179
+"('cc', 'cct1', 'ci', 'it1', 'mi', 'mk', 'n', 't')",573096
+"('cc', 'cct1', 'ci', 'it1', 'mi', 'n', 't')",9241
+"('cc', 'cct1', 'ci', 'it1', 'mi', 't')",16422
+"('cc', 'cct1', 'it1', 'mi', 't')",24196
+"('cc', 'cct1', 'it1', 'mi')",24196
+"('cc', 'cct1', 'ci', 'it1', 'mi')",16422
+"('cc', 'cct1', 'ci', 'it1', 'mi', 'n')",9241
+"('cc', 'cct1', 'ci', 'it1', 'mi', 'mk', 't')",867464
+"('cc', 'cct1', 'it1', 'mi', 'mk', 't')",1131022
+"('cc', 'cct1', 'it1', 'mi', 'mk')",1131022
+"('cc', 'cct1', 'ci', 'it1', 'mi', 'mk')",867464
+"('cc', 'cct1', 'ci', 'it1', 'mi', 'mk', 'n')",573096
+"('cc', 'cct1', 'ci', 'it1', 'mi', 'mi_idx', 'n', 't')",27346
+"('cc', 'cct1', 'ci', 'it1', 'mi', 'mi_idx', 't')",48327
+"('cc', 'cct1', 'it1', 'mi', 'mi_idx', 't')",70724
+"('cc', 'cct1', 'it1', 'mi', 'mi_idx')",70724
+"('cc', 'cct1', 'ci', 'it1', 'mi', 'mi_idx')",48327
+"('cc', 'cct1', 'ci', 'it1', 'mi', 'mi_idx', 'n')",27346
+"('cc', 'cct1', 'ci', 'it1', 'mi', 'mi_idx', 'mk', 't')",2617523
+"('cc', 'cct1', 'it1', 'mi', 'mi_idx', 'mk', 't')",3406616
+"('cc', 'cct1', 'it1', 'mi', 'mi_idx', 'mk')",3406616
+"('cc', 'cct1', 'ci', 'it1', 'mi', 'mi_idx', 'mk')",2617523
+"('cc', 'cct1', 'ci', 'it1', 'mi', 'mi_idx', 'mk', 'n')",1739179
+"('cc', 'cct1', 'ci', 'it1', 'k', 'mi', 'mk', 'n', 't')",14156
+"('cc', 'cct1', 'ci', 'it1', 'k', 'mi', 'mk', 't')",21907
+"('cc', 'cct1', 'it1', 'k', 'mi', 'mk', 't')",27679
+"('cc', 'cct1', 'it1', 'k', 'mi', 'mk')",27679
+"('cc', 'cct1', 'ci', 'it1', 'k', 'mi', 'mk')",21907
+"('cc', 'cct1', 'ci', 'it1', 'k', 'mi', 'mk', 'n')",14156
+"('cc', 'cct1', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 't')",65920
+"('cc', 'cct1', 'it1', 'k', 'mi', 'mi_idx', 'mk', 't')",83238
+"('cc', 'cct1', 'it1', 'k', 'mi', 'mi_idx', 'mk')",83238
+"('cc', 'cct1', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk')",65920
+"('cc', 'cct1', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 'n')",42761
+"('cc', 'cct1', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 'n', 't')",572018
+"('cc', 'cct1', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'n', 't')",9077
+"('cc', 'cct1', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 't')",16067
+"('cc', 'cct1', 'it1', 'it2', 'mi', 'mi_idx', 't')",23504
+"('cc', 'cct1', 'it1', 'it2', 'mi', 'mi_idx')",23504
+"('cc', 'cct1', 'ci', 'it1', 'it2', 'mi', 'mi_idx')",16067
+"('cc', 'cct1', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'n')",9077
+"('cc', 'cct1', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 't')",863990
+"('cc', 'cct1', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 't')",1122691
+"('cc', 'cct1', 'it1', 'it2', 'mi', 'mi_idx', 'mk')",1122691
+"('cc', 'cct1', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk')",863990
+"('cc', 'cct1', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 'n')",572018
+"('cc', 'cct1', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",21829
+"('cc', 'cct1', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",27522
+"('cc', 'cct1', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",27522
+"('cc', 'cct1', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",21829
+"('cc', 'cct1', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n')",14123
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",10485
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",32134
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 'mi_idx', 'mk', 'n', 't')",1420627
+"('cc', 'cct1', 'cct2', 'ci', 'mi_idx', 'mk', 'n', 't')",1016099
+"('cc', 'cct1', 'cct2', 'ci', 'mk', 'n', 't')",332948
+"('cc', 'cct1', 'cct2', 'ci', 'n', 't')",6384
+"('cc', 'cct1', 'cct2', 'ci', 't')",11627
+"('cc', 'cct1', 'cct2', 't')",17879
+"('cc', 'cct1', 'cct2')",17879
+"('cc', 'cct1', 'cct2', 'ci')",11627
+"('cc', 'cct1', 'cct2', 'ci', 'n')",6384
+"('cc', 'cct1', 'cct2', 'ci', 'mk', 't')",509931
+"('cc', 'cct1', 'cct2', 'mk', 't')",742266
+"('cc', 'cct1', 'cct2', 'mk')",742266
+"('cc', 'cct1', 'cct2', 'ci', 'mk')",509931
+"('cc', 'cct1', 'cct2', 'ci', 'mk', 'n')",332948
+"('cc', 'cct1', 'cct2', 'ci', 'mi_idx', 'n', 't')",18831
+"('cc', 'cct1', 'cct2', 'ci', 'mi_idx', 't')",33760
+"('cc', 'cct1', 'cct2', 'mi_idx', 't')",51249
+"('cc', 'cct1', 'cct2', 'mi_idx')",51249
+"('cc', 'cct1', 'cct2', 'ci', 'mi_idx')",33760
+"('cc', 'cct1', 'cct2', 'ci', 'mi_idx', 'n')",18831
+"('cc', 'cct1', 'cct2', 'ci', 'mi_idx', 'mk', 't')",1545361
+"('cc', 'cct1', 'cct2', 'mi_idx', 'mk', 't')",2248688
+"('cc', 'cct1', 'cct2', 'mi_idx', 'mk')",2248688
+"('cc', 'cct1', 'cct2', 'ci', 'mi_idx', 'mk')",1545361
+"('cc', 'cct1', 'cct2', 'ci', 'mi_idx', 'mk', 'n')",1016099
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 'mk', 'n', 't')",460902
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 'n', 't')",5517
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 't')",8766
+"('cc', 'cct1', 'cct2', 'mi', 't')",12230
+"('cc', 'cct1', 'cct2', 'mi')",12230
+"('cc', 'cct1', 'cct2', 'ci', 'mi')",8766
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 'n')",5517
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 'mk', 't')",649505
+"('cc', 'cct1', 'cct2', 'mi', 'mk', 't')",838041
+"('cc', 'cct1', 'cct2', 'mi', 'mk')",838041
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 'mk')",649505
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 'mk', 'n')",460902
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 'mi_idx', 'n', 't')",16757
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 'mi_idx', 't')",26472
+"('cc', 'cct1', 'cct2', 'mi', 'mi_idx', 't')",36920
+"('cc', 'cct1', 'cct2', 'mi', 'mi_idx')",36920
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 'mi_idx')",26472
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 'mi_idx', 'n')",16757
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 'mi_idx', 'mk', 't')",1988758
+"('cc', 'cct1', 'cct2', 'mi', 'mi_idx', 'mk', 't')",2569864
+"('cc', 'cct1', 'cct2', 'mi', 'mi_idx', 'mk')",2569864
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 'mi_idx', 'mk')",1988758
+"('cc', 'cct1', 'cct2', 'ci', 'mi', 'mi_idx', 'mk', 'n')",1420627
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mi_idx', 'mk', 'n', 't')",17610
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mk', 'n', 't')",5781
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mk', 't')",8880
+"('cc', 'cct1', 'cct2', 'k', 'mk', 't')",12521
+"('cc', 'cct1', 'cct2', 'k', 'mk')",12521
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mk')",8880
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mk', 'n')",5781
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mi_idx', 'mk', 't')",26786
+"('cc', 'cct1', 'cct2', 'k', 'mi_idx', 'mk', 't')",37903
+"('cc', 'cct1', 'cct2', 'k', 'mi_idx', 'mk')",37903
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mi_idx', 'mk')",26786
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mi_idx', 'mk', 'n')",17610
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mi', 'mk', 'n', 't')",10485
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mi', 'mk', 't')",15086
+"('cc', 'cct1', 'cct2', 'k', 'mi', 'mk', 't')",18344
+"('cc', 'cct1', 'cct2', 'k', 'mi', 'mk')",18344
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mi', 'mk')",15086
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mi', 'mk', 'n')",10485
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mi', 'mi_idx', 'mk', 't')",45984
+"('cc', 'cct1', 'cct2', 'k', 'mi', 'mi_idx', 'mk', 't')",56003
+"('cc', 'cct1', 'cct2', 'k', 'mi', 'mi_idx', 'mk')",56003
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mi', 'mi_idx', 'mk')",45984
+"('cc', 'cct1', 'cct2', 'ci', 'k', 'mi', 'mi_idx', 'mk', 'n')",32134
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi', 'mi_idx', 'mk', 'n', 't')",460900
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi_idx', 'mk', 'n', 't')",332648
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi_idx', 'n', 't')",6239
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi_idx', 't')",11208
+"('cc', 'cct1', 'cct2', 'it2', 'mi_idx', 't')",17018
+"('cc', 'cct1', 'cct2', 'it2', 'mi_idx')",17018
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi_idx')",11208
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi_idx', 'n')",6239
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi_idx', 'mk', 't')",507942
+"('cc', 'cct1', 'cct2', 'it2', 'mi_idx', 'mk', 't')",739378
+"('cc', 'cct1', 'cct2', 'it2', 'mi_idx', 'mk')",739378
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi_idx', 'mk')",507942
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi_idx', 'mk', 'n')",332648
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi', 'mi_idx', 'n', 't')",5516
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi', 'mi_idx', 't')",8750
+"('cc', 'cct1', 'cct2', 'it2', 'mi', 'mi_idx', 't')",12194
+"('cc', 'cct1', 'cct2', 'it2', 'mi', 'mi_idx')",12194
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi', 'mi_idx')",8750
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi', 'mi_idx', 'n')",5516
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi', 'mi_idx', 'mk', 't')",649380
+"('cc', 'cct1', 'cct2', 'it2', 'mi', 'mi_idx', 'mk', 't')",837246
+"('cc', 'cct1', 'cct2', 'it2', 'mi', 'mi_idx', 'mk')",837246
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi', 'mi_idx', 'mk')",649380
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'mi', 'mi_idx', 'mk', 'n')",460900
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'k', 'mi_idx', 'mk', 'n', 't')",5777
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'k', 'mi_idx', 'mk', 't')",8824
+"('cc', 'cct1', 'cct2', 'it2', 'k', 'mi_idx', 'mk', 't')",12476
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'k', 'mi_idx', 'mk', 'n')",5777
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",15083
+"('cc', 'cct1', 'cct2', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",18333
+"('cc', 'cct1', 'cct2', 'it2', 'k', 'mi', 'mi_idx', 'mk')",18333
+"('cc', 'cct1', 'cct2', 'ci', 'it2', 'k', 'mi', 'mi_idx', 'mk', 'n')",10485
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 'n', 't')",24392
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 'mi_idx', 'mk', 'n', 't')",1032869
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 'mk', 'n', 't')",338547
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 'n', 't')",4386
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 't')",7263
+"('cc', 'cct1', 'cct2', 'it1', 'mi', 't')",10327
+"('cc', 'cct1', 'cct2', 'it1', 'mi')",10327
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi')",7263
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 'n')",4386
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 'mk', 't')",493531
+"('cc', 'cct1', 'cct2', 'it1', 'mi', 'mk', 't')",644223
+"('cc', 'cct1', 'cct2', 'it1', 'mi', 'mk')",644223
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 'mk')",493531
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 'mk', 'n')",338547
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 'mi_idx', 'n', 't')",13247
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 'mi_idx', 't')",21841
+"('cc', 'cct1', 'cct2', 'it1', 'mi', 'mi_idx', 't')",31054
+"('cc', 'cct1', 'cct2', 'it1', 'mi', 'mi_idx')",31054
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 'mi_idx')",21841
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 'mi_idx', 'n')",13247
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 'mi_idx', 'mk', 't')",1499208
+"('cc', 'cct1', 'cct2', 'it1', 'mi', 'mi_idx', 'mk', 't')",1961561
+"('cc', 'cct1', 'cct2', 'it1', 'mi', 'mi_idx', 'mk')",1961561
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 'mi_idx', 'mk')",1499208
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'mi', 'mi_idx', 'mk', 'n')",1032869
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'k', 'mi', 'mk', 'n', 't')",8024
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'k', 'mi', 'mk', 't')",11866
+"('cc', 'cct1', 'cct2', 'it1', 'k', 'mi', 'mk', 't')",14666
+"('cc', 'cct1', 'cct2', 'it1', 'k', 'mi', 'mk')",14666
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'k', 'mi', 'mk')",11866
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'k', 'mi', 'mk', 'n')",8024
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 't')",35935
+"('cc', 'cct1', 'cct2', 'it1', 'k', 'mi', 'mi_idx', 'mk', 't')",44526
+"('cc', 'cct1', 'cct2', 'it1', 'k', 'mi', 'mi_idx', 'mk')",44526
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk')",35935
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'k', 'mi', 'mi_idx', 'mk', 'n')",24392
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 'n', 't')",338545
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'n', 't')",4385
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 't')",7247
+"('cc', 'cct1', 'cct2', 'it1', 'it2', 'mi', 'mi_idx', 't')",10291
+"('cc', 'cct1', 'cct2', 'it1', 'it2', 'mi', 'mi_idx')",10291
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx')",7247
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'n')",4385
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 't')",493406
+"('cc', 'cct1', 'cct2', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 't')",643428
+"('cc', 'cct1', 'cct2', 'it1', 'it2', 'mi', 'mi_idx', 'mk')",643428
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk')",493406
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'it2', 'mi', 'mi_idx', 'mk', 'n')",338545
+"('cc', 'cct1', 'cct2', 'ci', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",11863
+"('cc', 'cct1', 'cct2', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",14655
+"('cc', 'cct1', 'cct2', 'it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",14655

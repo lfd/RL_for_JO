@@ -1,0 +1,1 @@
+SELECT * FROM link_type AS lt, movie_link AS ml, cast_info AS ci WHERE lt.link IN ('references', 'referenced in', 'features', 'featured in') AND lt.id = ml.link_type_id AND ml.link_type_id = lt.id AND ci.movie_id = ml.linked_movie_id AND ml.linked_movie_id = ci.movie_id;

@@ -1,0 +1,1 @@
+SELECT * FROM aka_name AS an, cast_info AS ci, title AS t WHERE an.name LIKE '%a%' AND t.production_year BETWEEN 1980 AND 1995 AND t.id = ci.movie_id AND ci.movie_id = t.id AND an.person_id = ci.person_id AND ci.person_id = an.person_id;

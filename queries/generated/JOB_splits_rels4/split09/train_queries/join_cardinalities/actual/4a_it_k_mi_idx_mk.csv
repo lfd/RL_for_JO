@@ -1,0 +1,7 @@
+aliases,cardinality
+"('k', 'mk')",12951
+"('k', 'mi_idx', 'mk')",8463
+"('it', 'k', 'mi_idx', 'mk')",5820
+"('mi_idx', 'mk')",3974322
+"('it', 'mi_idx', 'mk')",2881657
+"('it', 'mi_idx')",352990

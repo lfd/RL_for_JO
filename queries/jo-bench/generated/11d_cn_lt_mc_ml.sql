@@ -1,0 +1,1 @@
+SELECT * FROM movie_link AS ml, company_name AS cn, movie_companies AS mc, link_type AS lt WHERE cn.country_code != '[pl]' AND mc.note IS NOT NULL AND lt.id = ml.link_type_id AND ml.link_type_id = lt.id AND mc.company_id = cn.id AND cn.id = mc.company_id AND ml.movie_id = mc.movie_id AND mc.movie_id = ml.movie_id;

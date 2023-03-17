@@ -1,0 +1,1 @@
+SELECT * FROM name AS n, cast_info AS ci, movie_companies AS mc WHERE ci.note IN ('(writer)', '(head writer)', '(written by)', '(story)', '(story editor)') AND n.gender = 'm' AND ci.movie_id = mc.movie_id AND mc.movie_id = ci.movie_id AND n.id = ci.person_id AND ci.person_id = n.id;

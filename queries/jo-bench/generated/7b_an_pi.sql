@@ -1,0 +1,1 @@
+SELECT * FROM aka_name AS an, person_info AS pi WHERE an.name LIKE '%a%' AND pi.note = 'Volker Boehm' AND pi.person_id = an.person_id AND an.person_id = pi.person_id;

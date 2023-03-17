@@ -1,0 +1,19 @@
+aliases,cardinality
+"('chn', 'ci')",1
+"('chn', 'ci')",1
+"('chn', 'ci')",1
+"('chn', 'ci', 'mi')",1
+"('chn', 'ci', 'mi')",1
+"('chn', 'ci', 'mi')",1
+"('chn', 'ci', 'mc', 'mi')",3
+"('chn', 'ci', 'mc', 'mi')",3
+"('chn', 'ci', 'mc', 'mi')",3
+"('chn', 'ci')",1
+"('chn', 'ci', 'mi')",1
+"('chn', 'ci', 'mc', 'mi')",3
+"('chn', 'ci')",1
+"('chn', 'ci', 'mi')",1
+"('chn', 'ci', 'mc', 'mi')",3
+"('chn', 'ci')",1
+"('chn', 'ci', 'mi')",1
+"('chn', 'ci', 'mc', 'mi')",3

@@ -1,0 +1,1 @@
+SELECT * FROM keyword AS k, movie_keyword AS mk, title AS t, complete_cast AS cc WHERE k.keyword IN ('nerd', 'loner', 'alienation', 'dignity') AND t.production_year > 2000 AND t.id = mk.movie_id AND mk.movie_id = t.id AND t.id = cc.movie_id AND cc.movie_id = t.id AND mk.movie_id = cc.movie_id AND cc.movie_id = mk.movie_id AND k.id = mk.keyword_id AND mk.keyword_id = k.id;

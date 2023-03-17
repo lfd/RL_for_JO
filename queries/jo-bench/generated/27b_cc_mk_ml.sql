@@ -1,0 +1,1 @@
+SELECT * FROM movie_keyword AS mk, movie_link AS ml, complete_cast AS cc WHERE ml.movie_id = mk.movie_id AND mk.movie_id = ml.movie_id AND ml.movie_id = cc.movie_id AND cc.movie_id = ml.movie_id AND mk.movie_id = cc.movie_id AND cc.movie_id = mk.movie_id;

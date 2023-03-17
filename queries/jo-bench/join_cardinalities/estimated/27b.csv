@@ -1,0 +1,46 @@
+aliases,cardinality
+"('lt', 'ml')",1666
+"('cc', 'lt', 'ml')",2654
+"('cc', 'cct2', 'lt', 'ml')",664
+"('cc', 'cct1', 'cct2', 'lt', 'ml')",332
+"('cc', 'cct1', 'cct2', 'lt', 'mc', 'ml')",864
+"('cc', 'cct1', 'cct2', 'ct', 'lt', 'mc', 'ml')",216
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'lt', 'mc', 'ml')",41
+"('lt', 'ml')",1666
+"('cc', 'lt', 'ml')",2654
+"('cc', 'cct2', 'lt', 'ml')",664
+"('cc', 'cct1', 'cct2', 'lt', 'ml')",332
+"('cc', 'cct1', 'cct2', 'lt', 'mc', 'ml')",864
+"('cc', 'cct1', 'cct2', 'ct', 'lt', 'mc', 'ml')",216
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'lt', 'mc', 'ml', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'lt', 'mc', 'ml')",41
+"('lt', 'ml')",1666
+"('cc', 'lt', 'ml')",2654
+"('cc', 'cct2', 'lt', 'ml')",664
+"('cc', 'cct1', 'cct2', 'lt', 'ml')",332
+"('cc', 'cct1', 'cct2', 'lt', 'mc', 'ml')",864
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'lt', 'mc', 'ml', 't')",1
+"('cc', 'cct1', 'cct2', 'ct', 'lt', 'mc', 'ml')",216
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'lt', 'mc', 'ml')",41
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'lt', 'mc', 'mi', 'ml', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'lt', 'mc', 'ml', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'lt', 'mc', 'mi', 'ml', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'lt', 'mc', 'mi', 'ml', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'lt', 'mc', 'mi', 'mk', 'ml', 't')",46
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'lt', 'mc', 'mi', 'mk', 'ml', 't')",46
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'lt', 'mc', 'mi', 'mk', 'ml', 't')",46
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'k', 'lt', 'mc', 'mi', 'mk', 'ml', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'k', 'lt', 'mc', 'mi', 'mk', 'ml', 't')",1
+"('cc', 'cct1', 'cct2', 'cn', 'ct', 'k', 'lt', 'mc', 'mi', 'mk', 'ml', 't')",1
+"('cc', 'cct1', 'lt', 'ml')",1327
+"('cc', 'cct1', 'cct2', 'lt', 'ml', 't')",6
+"('cc', 'cct1', 'cct2', 'lt', 'mc', 'ml', 't')",16
+"('cc', 'cct1', 'cct2', 'ct', 'lt', 'mc', 'ml', 't')",4
+"('cc', 'cct1', 'lt', 'ml')",1327
+"('cc', 'cct1', 'cct2', 'lt', 'ml', 't')",6
+"('cc', 'cct1', 'cct2', 'lt', 'mc', 'ml', 't')",16
+"('cc', 'cct1', 'cct2', 'ct', 'lt', 'mc', 'ml', 't')",4
+"('cc', 'cct1', 'lt', 'ml')",1327
+"('cc', 'cct1', 'cct2', 'lt', 'ml', 't')",6
+"('cc', 'cct1', 'cct2', 'lt', 'mc', 'ml', 't')",16
+"('cc', 'cct1', 'cct2', 'ct', 'lt', 'mc', 'ml', 't')",4

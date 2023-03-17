@@ -1,0 +1,1 @@
+SELECT * FROM movie_keyword AS mk, movie_companies AS mc, title AS t, keyword AS k WHERE t.production_year > 2000 AND t.id = mk.movie_id AND mk.movie_id = t.id AND t.id = mc.movie_id AND mc.movie_id = t.id AND mk.movie_id = mc.movie_id AND mc.movie_id = mk.movie_id AND k.id = mk.keyword_id AND mk.keyword_id = k.id;

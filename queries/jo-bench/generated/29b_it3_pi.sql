@@ -1,0 +1,1 @@
+SELECT * FROM person_info AS pi, info_type AS it3 WHERE it3.info = 'height' AND it3.id = pi.info_type_id AND pi.info_type_id = it3.id;

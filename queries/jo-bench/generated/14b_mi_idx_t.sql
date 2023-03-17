@@ -1,0 +1,1 @@
+SELECT * FROM movie_info_idx AS mi_idx, title AS t WHERE mi_idx.info > '6.0' AND t.production_year > 2010 AND (t.title LIKE '%murder%' OR t.title LIKE '%Murder%' OR t.title LIKE '%Mord%') AND t.id = mi_idx.movie_id AND mi_idx.movie_id = t.id;

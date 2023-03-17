@@ -1,0 +1,1 @@
+SELECT * FROM movie_info AS mi, movie_keyword AS mk, title AS t WHERE mi.info IN ('Germany', 'German') AND t.production_year BETWEEN 2000 AND 2010 AND t.id = mk.movie_id AND mk.movie_id = t.id AND mi.movie_id = t.id AND t.id = mi.movie_id AND mk.movie_id = mi.movie_id AND mi.movie_id = mk.movie_id;

@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, cast_info AS ci, aka_name AS an WHERE ci.note = '(voice: English version)' AND t.production_year BETWEEN 2006 AND 2007 AND (t.title LIKE 'One Piece%' OR t.title LIKE 'Dragon Ball Z%') AND ci.movie_id = t.id AND t.id = ci.movie_id AND an.person_id = ci.person_id AND ci.person_id = an.person_id;

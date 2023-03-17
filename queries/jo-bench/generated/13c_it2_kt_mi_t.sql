@@ -1,0 +1,1 @@
+SELECT * FROM info_type AS it2, kind_type AS kt, movie_info AS mi, title AS t WHERE it2.info = 'release dates' AND kt.kind = 'movie' AND t.title != '' AND (t.title LIKE 'Champion%' OR t.title LIKE 'Loser%') AND mi.movie_id = t.id AND t.id = mi.movie_id AND it2.id = mi.info_type_id AND mi.info_type_id = it2.id AND kt.id = t.kind_id AND t.kind_id = kt.id;

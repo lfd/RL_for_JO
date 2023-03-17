@@ -1,0 +1,4 @@
+aliases,cardinality
+"('cc', 'cct2')",33772
+"('cc', 'cct2', 'mc')",87480
+"('cc', 'cct2', 'ct', 'mc')",21870

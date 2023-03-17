@@ -1,0 +1,15 @@
+aliases,cardinality
+"('it2', 'mi_idx')",121572
+"('it2', 'mi', 'mi_idx')",23157
+"('it2', 'mc', 'mi', 'mi_idx')",149609
+"('cn', 'it2', 'mc', 'mi', 'mi_idx')",50200
+"('cn', 'mc')",1153798
+"('mc', 'mi')",883000
+"('mc', 'mi_idx')",587717
+"('mi', 'mi_idx')",45031
+"('cn', 'mc', 'mi')",338129
+"('cn', 'mc', 'mi_idx')",275750
+"('it2', 'mc', 'mi_idx')",383016
+"('mc', 'mi', 'mi_idx')",250203
+"('cn', 'it2', 'mc', 'mi_idx')",188040
+"('cn', 'mc', 'mi', 'mi_idx')",86501

@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, title AS t, company_type AS ct WHERE ct.kind = 'production companies' AND mc.note LIKE '%(theatrical)%' AND mc.note LIKE '%(France)%' AND t.production_year > 2005 AND t.id = mc.movie_id AND mc.movie_id = t.id AND ct.id = mc.company_type_id AND mc.company_type_id = ct.id;

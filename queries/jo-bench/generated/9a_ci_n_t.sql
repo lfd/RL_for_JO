@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, cast_info AS ci, name AS n WHERE ci.note IN ('(voice)', '(voice: Japanese version)', '(voice) (uncredited)', '(voice: English version)') AND n.gender = 'f' AND n.name LIKE '%Ang%' AND t.production_year BETWEEN 2005 AND 2015 AND ci.movie_id = t.id AND t.id = ci.movie_id AND n.id = ci.person_id AND ci.person_id = n.id;

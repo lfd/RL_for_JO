@@ -1,0 +1,1 @@
+SELECT * FROM movie_link AS ml, movie_info AS mi WHERE mi.info IN ('Sweden', 'Norway', 'Germany', 'Denmark', 'Swedish', 'Denish', 'Norwegian', 'German', 'English') AND ml.movie_id = mi.movie_id AND mi.movie_id = ml.movie_id;

@@ -1,0 +1,4 @@
+aliases,cardinality
+"('cn', 'mc')",110633
+"('ci', 'cn', 'mc')",97955
+"('an', 'ci', 'cn', 'mc')",231544

@@ -1,0 +1,1 @@
+SELECT * FROM movie_keyword AS mk, keyword AS k, title AS t, movie_info_idx AS mi_idx WHERE k.keyword IN ('murder', 'blood', 'gore', 'death', 'female-nudity') AND t.id = mi_idx.movie_id AND mi_idx.movie_id = t.id AND t.id = mk.movie_id AND mk.movie_id = t.id AND mi_idx.movie_id = mk.movie_id AND mk.movie_id = mi_idx.movie_id AND k.id = mk.keyword_id AND mk.keyword_id = k.id;

@@ -1,0 +1,1 @@
+SELECT * FROM info_type AS it2, complete_cast AS cc, movie_info_idx AS mi_idx, title AS t WHERE it2.info = 'rating' AND t.production_year > 2000 AND t.id = cc.movie_id AND cc.movie_id = t.id AND t.id = mi_idx.movie_id AND mi_idx.movie_id = t.id AND cc.movie_id = mi_idx.movie_id AND mi_idx.movie_id = cc.movie_id AND it2.id = mi_idx.info_type_id AND mi_idx.info_type_id = it2.id;

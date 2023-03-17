@@ -1,0 +1,1 @@
+SELECT * FROM link_type AS lt, keyword AS k, movie_keyword AS mk, movie_link AS ml WHERE k.keyword = 'sequel' AND lt.link LIKE '%follow%' AND lt.id = ml.link_type_id AND ml.link_type_id = lt.id AND mk.keyword_id = k.id AND k.id = mk.keyword_id AND ml.movie_id = mk.movie_id AND mk.movie_id = ml.movie_id;

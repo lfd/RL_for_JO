@@ -1,0 +1,1 @@
+SELECT * FROM cast_info AS ci, name AS n1, aka_name AS an1 WHERE ci.note = '(voice: English version)' AND n1.name LIKE '%Yo%' AND n1.name NOT LIKE '%Yu%' AND an1.person_id = n1.id AND n1.id = an1.person_id AND n1.id = ci.person_id AND ci.person_id = n1.id AND an1.person_id = ci.person_id AND ci.person_id = an1.person_id;

@@ -1,0 +1,1 @@
+SELECT * FROM kind_type AS kt, comp_cast_type AS cct1, complete_cast AS cc, title AS t WHERE cct1.kind = 'complete+verified' AND kt.kind IN ('movie') AND t.production_year > 2000 AND kt.id = t.kind_id AND t.kind_id = kt.id AND t.id = cc.movie_id AND cc.movie_id = t.id AND cct1.id = cc.status_id AND cc.status_id = cct1.id;

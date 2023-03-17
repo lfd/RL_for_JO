@@ -1,0 +1,1 @@
+SELECT * FROM name AS n, cast_info AS ci WHERE ci.note IN ('(writer)', '(head writer)', '(written by)', '(story)', '(story editor)') AND n.gender IS NOT NULL AND n.gender = 'f' AND n.id = ci.person_id AND ci.person_id = n.id;

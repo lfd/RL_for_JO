@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, movie_info AS mi WHERE mi.info IN ('Sweden', 'Norway', 'Germany', 'Denmark', 'Swedish', 'Denish', 'Norwegian', 'German', 'English') AND t.production_year BETWEEN 1950 AND 2010 AND mi.movie_id = t.id AND t.id = mi.movie_id;

@@ -1,0 +1,1 @@
+SELECT * FROM person_info AS pi, name AS n WHERE n.name_pcode_cf BETWEEN 'A' AND 'F' AND (n.gender = 'm') AND pi.note = 'Volker Boehm' AND n.id = pi.person_id AND pi.person_id = n.id;

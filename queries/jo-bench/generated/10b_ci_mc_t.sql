@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, cast_info AS ci, movie_companies AS mc WHERE ci.note LIKE '%(producer)%' AND t.production_year > 2010 AND t.id = mc.movie_id AND mc.movie_id = t.id AND t.id = ci.movie_id AND ci.movie_id = t.id AND ci.movie_id = mc.movie_id AND mc.movie_id = ci.movie_id;

@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, title AS t WHERE mc.note IS NULL AND t.production_year = 1998 AND t.title LIKE '%Money%' AND t.id = mc.movie_id AND mc.movie_id = t.id;

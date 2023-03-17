@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, movie_keyword AS mk, keyword AS k WHERE k.keyword IN ('murder', 'murder-in-title', 'blood', 'violence') AND t.production_year > 2005 AND t.id = mk.movie_id AND mk.movie_id = t.id AND k.id = mk.keyword_id AND mk.keyword_id = k.id;

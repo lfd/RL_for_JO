@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, movie_info AS mi WHERE mi.info IN ('Bulgaria') AND t.production_year > 2010 AND t.id = mi.movie_id AND mi.movie_id = t.id;

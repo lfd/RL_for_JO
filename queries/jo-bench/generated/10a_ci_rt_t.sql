@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, cast_info AS ci, role_type AS rt WHERE ci.note LIKE '%(voice)%' AND ci.note LIKE '%(uncredited)%' AND rt.role = 'actor' AND t.production_year > 2005 AND t.id = ci.movie_id AND ci.movie_id = t.id AND rt.id = ci.role_id AND ci.role_id = rt.id;

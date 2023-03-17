@@ -1,0 +1,5 @@
+aliases,cardinality
+"('at', 'mc')",10607
+"('at', 'mc', 't')",5815
+"('at', 'mc', 'mi', 't')",1
+"('at', 'mc', 'mi')",3

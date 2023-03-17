@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc1, company_name AS cn1, title AS t2, movie_link AS ml WHERE cn1.country_code = '[us]' AND t2.production_year BETWEEN 2005 AND 2008 AND t2.id = ml.linked_movie_id AND ml.linked_movie_id = t2.id AND cn1.id = mc1.company_id AND mc1.company_id = cn1.id AND ml.movie_id = mc1.movie_id AND mc1.movie_id = ml.movie_id;

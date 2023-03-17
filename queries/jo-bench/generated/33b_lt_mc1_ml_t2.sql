@@ -1,0 +1,1 @@
+SELECT * FROM movie_link AS ml, link_type AS lt, title AS t2, movie_companies AS mc1 WHERE lt.link LIKE '%follow%' AND t2.production_year = 2007 AND lt.id = ml.link_type_id AND ml.link_type_id = lt.id AND t2.id = ml.linked_movie_id AND ml.linked_movie_id = t2.id AND ml.movie_id = mc1.movie_id AND mc1.movie_id = ml.movie_id;

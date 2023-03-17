@@ -1,0 +1,1 @@
+SELECT * FROM complete_cast AS cc, comp_cast_type AS cct1, movie_companies AS mc WHERE cct1.kind IN ('cast', 'crew') AND mc.note IS NULL AND cct1.id = cc.subject_id AND cc.subject_id = cct1.id AND mc.movie_id = cc.movie_id AND cc.movie_id = mc.movie_id;

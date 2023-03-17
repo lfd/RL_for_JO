@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, title AS t WHERE t.episode_nr >= 5 AND t.episode_nr < 100 AND t.id = mc.movie_id AND mc.movie_id = t.id;

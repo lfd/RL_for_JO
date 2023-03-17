@@ -1,0 +1,1 @@
+SELECT * FROM cast_info AS ci, movie_companies AS mc WHERE ci.note = '(voice)' AND mc.note LIKE '%(200%)%' AND (mc.note LIKE '%(USA)%' OR mc.note LIKE '%(worldwide)%') AND mc.movie_id = ci.movie_id AND ci.movie_id = mc.movie_id;

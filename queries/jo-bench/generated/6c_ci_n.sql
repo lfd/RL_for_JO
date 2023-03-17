@@ -1,0 +1,1 @@
+SELECT * FROM name AS n, cast_info AS ci WHERE n.name LIKE '%Downey%Robert%' AND n.id = ci.person_id AND ci.person_id = n.id;

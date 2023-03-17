@@ -1,0 +1,1 @@
+SELECT * FROM kind_type AS kt, title AS t WHERE kt.kind IN ('movie', 'episode') AND t.production_year > 2008 AND kt.id = t.kind_id AND t.kind_id = kt.id;

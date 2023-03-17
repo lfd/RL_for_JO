@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, aka_title AS at WHERE t.production_year BETWEEN 2005 AND 2010 AND t.id = at.movie_id AND at.movie_id = t.id;

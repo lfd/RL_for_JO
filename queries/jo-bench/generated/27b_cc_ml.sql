@@ -1,0 +1,1 @@
+SELECT * FROM movie_link AS ml, complete_cast AS cc WHERE ml.movie_id = cc.movie_id AND cc.movie_id = ml.movie_id;

@@ -1,0 +1,1 @@
+SELECT * FROM aka_name AS an, cast_info AS ci WHERE ci.note = '(voice)' AND ci.person_id = an.person_id AND an.person_id = ci.person_id;

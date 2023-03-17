@@ -1,0 +1,4 @@
+aliases,cardinality
+"('mc', 'ml')",81351
+"('ct', 'mc', 'ml')",61013
+"('ct', 'lt', 'mc', 'ml')",61013

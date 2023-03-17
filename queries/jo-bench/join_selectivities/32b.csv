@@ -1,0 +1,16 @@
+table_left,alias_left,attr_left,table_right,alias_right,attr_right,selectivity
+movie_keyword,mk,keyword_id,keyword,k,id,7.453230975627935e-06
+movie_keyword,mk,keyword_id,keyword,k,id,7.453230975627935e-06
+title,t1,id,movie_keyword,mk,movie_id,3.955208059764776e-07
+title,t1,id,movie_keyword,mk,movie_id,3.955208059764776e-07
+movie_link,ml,movie_id,title,t1,id,3.955208059764776e-07
+movie_link,ml,movie_id,title,t1,id,3.955208059764776e-07
+movie_link,ml,linked_movie_id,title,t2,id,3.955208059764776e-07
+movie_link,ml,linked_movie_id,title,t2,id,3.955208059764776e-07
+link_type,lt,id,movie_link,ml,link_type_id,0.05555555555555555
+link_type,lt,id,movie_link,ml,link_type_id,0.05555555555555555
+movie_keyword,mk,keyword_id,keyword,k,id,7.453230975627935e-06
+title,t1,id,movie_keyword,mk,movie_id,3.955208059764776e-07
+movie_link,ml,movie_id,title,t1,id,3.955208059764776e-07
+movie_link,ml,linked_movie_id,title,t2,id,3.955208059764776e-07
+link_type,lt,id,movie_link,ml,link_type_id,0.05555555555555555

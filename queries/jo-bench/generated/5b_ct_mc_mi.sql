@@ -1,0 +1,1 @@
+SELECT * FROM movie_info AS mi, movie_companies AS mc, company_type AS ct WHERE ct.kind = 'production companies' AND mc.note LIKE '%(VHS)%' AND mc.note LIKE '%(USA)%' AND mc.note LIKE '%(1994)%' AND mi.info IN ('USA', 'America') AND mc.movie_id = mi.movie_id AND mi.movie_id = mc.movie_id AND ct.id = mc.company_type_id AND mc.company_type_id = ct.id;

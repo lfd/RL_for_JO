@@ -1,0 +1,1 @@
+SELECT * FROM company_name AS cn, title AS t, movie_companies AS mc WHERE cn.name LIKE 'Lionsgate%' AND mc.note LIKE '%(Blu-ray)%' AND t.production_year > 2000 AND (t.title LIKE '%Freddy%' OR t.title LIKE '%Jason%' OR t.title LIKE 'Saw%') AND t.id = mc.movie_id AND mc.movie_id = t.id AND cn.id = mc.company_id AND mc.company_id = cn.id;

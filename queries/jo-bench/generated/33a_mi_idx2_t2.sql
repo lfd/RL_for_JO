@@ -1,0 +1,1 @@
+SELECT * FROM title AS t2, movie_info_idx AS mi_idx2 WHERE mi_idx2.info < '3.0' AND t2.production_year BETWEEN 2005 AND 2008 AND t2.id = mi_idx2.movie_id AND mi_idx2.movie_id = t2.id;

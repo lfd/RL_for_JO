@@ -1,0 +1,1 @@
+SELECT * FROM movie_info_idx AS mi_idx, movie_keyword AS mk, movie_info AS mi WHERE mi.info = 'Horror' AND mi.movie_id = mi_idx.movie_id AND mi_idx.movie_id = mi.movie_id AND mi.movie_id = mk.movie_id AND mk.movie_id = mi.movie_id AND mi_idx.movie_id = mk.movie_id AND mk.movie_id = mi_idx.movie_id;

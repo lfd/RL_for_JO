@@ -1,0 +1,1 @@
+SELECT * FROM company_name AS cn, movie_companies AS mc, cast_info AS ci, role_type AS rt WHERE ci.note LIKE '%(voice)%' AND ci.note LIKE '%(uncredited)%' AND cn.country_code = '[ru]' AND rt.role = 'actor' AND ci.movie_id = mc.movie_id AND mc.movie_id = ci.movie_id AND rt.id = ci.role_id AND ci.role_id = rt.id AND cn.id = mc.company_id AND mc.company_id = cn.id;

@@ -1,0 +1,1 @@
+SELECT * FROM movie_companies AS mc, cast_info AS ci, name AS n1 WHERE ci.note = '(voice: English version)' AND mc.note LIKE '%(Japan)%' AND mc.note NOT LIKE '%(USA)%' AND n1.name LIKE '%Yo%' AND n1.name NOT LIKE '%Yu%' AND n1.id = ci.person_id AND ci.person_id = n1.id AND ci.movie_id = mc.movie_id AND mc.movie_id = ci.movie_id;

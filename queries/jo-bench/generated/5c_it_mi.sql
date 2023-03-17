@@ -1,0 +1,1 @@
+SELECT * FROM info_type AS it, movie_info AS mi WHERE mi.info IN ('Sweden', 'Norway', 'Germany', 'Denmark', 'Swedish', 'Denish', 'Norwegian', 'German', 'USA', 'American') AND it.id = mi.info_type_id AND mi.info_type_id = it.id;

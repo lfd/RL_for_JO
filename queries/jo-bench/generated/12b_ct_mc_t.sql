@@ -1,0 +1,1 @@
+SELECT * FROM title AS t, movie_companies AS mc, company_type AS ct WHERE ct.kind IS NOT NULL AND (ct.kind = 'production companies' OR ct.kind = 'distributors') AND t.production_year > 2000 AND (t.title LIKE 'Birdemic%' OR t.title LIKE '%Movie%') AND t.id = mc.movie_id AND mc.movie_id = t.id AND ct.id = mc.company_type_id AND mc.company_type_id = ct.id;

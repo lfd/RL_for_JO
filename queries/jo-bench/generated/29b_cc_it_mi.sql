@@ -1,0 +1,1 @@
+SELECT * FROM info_type AS it, movie_info AS mi, complete_cast AS cc WHERE it.info = 'release dates' AND mi.info LIKE 'USA:%200%' AND mi.movie_id = cc.movie_id AND cc.movie_id = mi.movie_id AND it.id = mi.info_type_id AND mi.info_type_id = it.id;

@@ -1,0 +1,10 @@
+aliases,cardinality
+"('mc', 'mi')",5
+"('it1', 'mc', 'mi')",1
+"('mc', 'mi')",5
+"('it1', 'mc', 'mi', 'mk')",26
+"('it1', 'mc', 'mi')",1
+"('it1', 'mc', 'mi', 'mk')",26
+"('mc', 'mi')",5
+"('it1', 'mc', 'mi')",1
+"('it1', 'mc', 'mi', 'mk')",26

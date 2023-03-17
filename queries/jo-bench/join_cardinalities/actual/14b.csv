@@ -1,0 +1,77 @@
+aliases,cardinality
+"('k', 'mk')",19528
+"('k', 'mk', 't')",15
+"('k', 'mi', 'mk', 't')",8
+"('it1', 'k', 'mi', 'mk', 't')",8
+"('it1', 'k', 'mi', 'mi_idx', 'mk', 't')",3
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk', 't')",2
+"('it1', 'it2', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('mk', 't')",595
+"('mi_idx', 'mk', 't')",301
+"('mi', 'mi_idx', 'mk', 't')",268
+"('kt', 'mi', 'mi_idx', 'mk', 't')",4
+"('k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('it2', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('mi_idx', 't')",71
+"('mi_idx', 'mk')",2928183
+"('mi', 'mk', 't')",347
+"('mi', 't')",148
+"('mi', 'mk')",4060930
+"('mi', 'mi_idx', 't')",35
+"('mi', 'mi_idx')",201516
+"('mi', 'mi_idx', 'mk')",3077536
+"('kt', 'mi_idx', 'mk', 't')",4
+"('kt', 'mk', 't')",190
+"('kt', 't')",105
+"('kt', 'mi_idx', 't')",9
+"('kt', 'mi', 'mk', 't')",121
+"('kt', 'mi', 't')",68
+"('kt', 'mi', 'mi_idx', 't')",5
+"('k', 'mi', 'mi_idx', 'mk', 't')",3
+"('k', 'mi_idx', 'mk', 't')",3
+"('k', 'mi_idx', 'mk')",12131
+"('k', 'mi', 'mk')",17501
+"('k', 'mi', 'mi_idx', 'mk')",12471
+"('k', 'kt', 'mi_idx', 'mk', 't')",1
+"('k', 'kt', 'mk', 't')",10
+"('k', 'kt', 'mi', 'mk', 't')",6
+"('it2', 'kt', 'mi', 'mi_idx', 'mk', 't')",4
+"('it2', 'mi', 'mi_idx', 'mk', 't')",196
+"('it2', 'mi_idx', 'mk', 't')",224
+"('it2', 'mi_idx', 't')",49
+"('it2', 'mi_idx')",259848
+"('it2', 'mi_idx', 'mk')",2152385
+"('it2', 'mi', 'mi_idx', 't')",24
+"('it2', 'mi', 'mi_idx')",137854
+"('it2', 'mi', 'mi_idx', 'mk')",2284274
+"('it2', 'kt', 'mi_idx', 'mk', 't')",4
+"('it2', 'kt', 'mi_idx', 't')",4
+"('it2', 'kt', 'mi', 'mi_idx', 't')",2
+"('it2', 'k', 'mi', 'mi_idx', 'mk', 't')",2
+"('it2', 'k', 'mi_idx', 'mk', 't')",2
+"('it2', 'k', 'mi_idx', 'mk')",8561
+"('it2', 'k', 'mi', 'mi_idx', 'mk')",8852
+"('it2', 'k', 'kt', 'mi_idx', 'mk', 't')",1
+"('it1', 'k', 'kt', 'mi', 'mi_idx', 'mk', 't')",1
+"('it1', 'kt', 'mi', 'mi_idx', 'mk', 't')",4
+"('it1', 'mi', 'mi_idx', 'mk', 't')",268
+"('it1', 'mi', 'mk', 't')",344
+"('it1', 'mi', 't')",123
+"('it1', 'mi')",614251
+"('it1', 'mi', 'mk')",2892323
+"('it1', 'mi', 'mi_idx', 't')",29
+"('it1', 'mi', 'mi_idx')",170480
+"('it1', 'mi', 'mi_idx', 'mk')",1945012
+"('it1', 'kt', 'mi', 'mk', 't')",121
+"('it1', 'kt', 'mi', 't')",66
+"('it1', 'kt', 'mi', 'mi_idx', 't')",5
+"('it1', 'k', 'mi', 'mk')",12774
+"('it1', 'k', 'mi', 'mi_idx', 'mk')",8027
+"('it1', 'k', 'kt', 'mi', 'mk', 't')",6
+"('it1', 'it2', 'kt', 'mi', 'mi_idx', 'mk', 't')",4
+"('it1', 'it2', 'mi', 'mi_idx', 'mk', 't')",196
+"('it1', 'it2', 'mi', 'mi_idx', 't')",19
+"('it1', 'it2', 'mi', 'mi_idx')",116588
+"('it1', 'it2', 'mi', 'mi_idx', 'mk')",1406687
+"('it1', 'it2', 'kt', 'mi', 'mi_idx', 't')",2
+"('it1', 'it2', 'k', 'mi', 'mi_idx', 'mk')",5497
