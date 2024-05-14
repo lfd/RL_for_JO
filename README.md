@@ -11,6 +11,7 @@ This repository provides the implementation and artifacts accompanying the follo
     note   = {under review},
 }
 ```
+A preprint is available on [arXiv](https://arxiv.org/abs/2405.07770).
 
 ## Setup
 
